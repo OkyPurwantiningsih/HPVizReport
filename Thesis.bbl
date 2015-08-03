@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{Commowick_MICCAI_2007}
+Olivier Commowick and Gr{\'e}goire Malandain.
+\newblock Efficient selection of the most similar image in a database for
+  critical structures segmentation.
+\newblock In {\em Proceedings of the 10th Int. Conf. on Medical Image Computing
+  and Computer-Assisted Intervention - MICCAI 2007, Part II}, volume 4792 of
+  {\em LNCS}, pages 203--210. Springer Verlag, 2007.
+
+\bibitem{Guimond_CVIU_2000}
+A.~Guimond, J.~Meunier, and J.-P. Thirion.
+\newblock Average brain models: A convergence study.
+\newblock {\em Computer Vision and Image Understanding}, 77(2):192--210, 2000.
+
+\bibitem{Oakes_RStat_1999}
+David Oakes.
+\newblock Direct calculation of the information matrix via the {EM} algorithm.
+\newblock {\em J. R. Statistical Society}, 61(2):479--482, 1999.
+
+\end{thebibliography}

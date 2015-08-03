@@ -1,0 +1,85 @@
+\documentclass[a4paper,11pt,twoside]{ThesisStyle}
+
+\include{formatAndDefs}
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\include{TitlePage}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\begin{vcenterpage}
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+
+\noindent{\large\textbf{Abstract:}}
+The main objective of this Master thesis is to ...
+\\
+To achieve this goal, we use ...
+\\
+
+All this research work has been implemented in ...
+\\
+{\large\textbf{Keywords:}}
+Keyword1, 2, ...
+\\
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+\end{vcenterpage}
+
+\dominitoc
+
+\pagenumbering{roman}
+\cleardoublepage
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGMENTS
+%----------------------------------------------------------------------------------------
+
+\section*{Acknowledgments}
+
+Last thing to do :-)
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS, LIST OF FIGURES, LIST OF TABLES
+%----------------------------------------------------------------------------------------
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+
+\mainmatter
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2}
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4}
+\include{Chapters/Chapter5}
+%----------------------------------------------------------------------------------------
+%	APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix
+
+\include{Appendices/Appendix1}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliography{Thesis}
+\bibliographystyle{plain}
+
+
+%\printnomenclature
+
+%\cleardoublepage
+
+
+\end{document}

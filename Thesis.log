@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.18)  11 JUN 2015 15:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.3)  3 AUG 2015 23:02
 entering extended mode
 **Thesis.tex
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.tex"
+
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -14,8 +16,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\ThesisStyle.
-cls"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\ThesisStyle.cls"
 Document Class: ThesisStyle 2004/02/16 v1.4f Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk11.clo"
 File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
@@ -35,8 +37,9 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \@input{formatAndDefs.aux}
 
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\formatAndDef
-s.tex" ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\formatAndDefs.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
@@ -159,13 +162,13 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\minitoc.sty"
-Package: minitoc 2008/07/16 v60 Package minitoc (JPFD)
+Package: minitoc 2015/07/13 v61 Package minitoc
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\mtcmess.sty"
 Package: mtcmess 2006/03/14
 )
 Package minitoc Info: I0001
-(minitoc)             *** minitoc package, version 60 ***.
+(minitoc)             *** minitoc package, version 61 ***.
 \tf@mtc=\write3
 \mtcindent=\skip46
 \mtcskipamount=\skip47
@@ -181,8 +184,8 @@ Package minitoc Info: I0003
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
 
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.mtc0"
-)
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.mtc0")
 Package minitoc Info: I0012
 (minitoc)             Long extensions (Unix-like) will be used.
 Package minitoc Info: I0031
@@ -195,8 +198,9 @@ Package minitoc Info: I0031
 \ptcindent=\skip48
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
-(minitoc)              on input line 4910.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\english.mld"
+(minitoc)              on input line 4909.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\english.mld"
 File: english.mld 2006/01/13
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\english.mld"
@@ -419,8 +423,8 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \everycr=\toks26
 \minrowclearance=\skip64
 )
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\algorithm.st
-y"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\algorithm.sty"
 Package: algorithm 
 
 Document Style `algorithm' - floating environment
@@ -435,8 +439,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@algorithm=\toks29
 \c@algorithm=\count120
 )
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\algorithmic.
-sty"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\algorithmic.sty"
 Package: algorithmic 
 
 Document Style `algorithmic' - environment
@@ -460,8 +464,8 @@ LaTeX Info: Redefining \addtolength on input line 77.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen132
 )
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\slashbox.sty
-"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\slashbox.sty"
 slashbox style by K.Yasuoka, May 1993.
 \@slashboxa=\box33
 \@slashboxb=\box34
@@ -472,22 +476,23 @@ slashbox style by K.Yasuoka, May 1993.
 \@slashsepr=\dimen134
 )
 \c@definition=\count128
-) ("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.aux
-"
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\TitlePage.au
-x")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter1.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter2.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter3.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter4.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter5.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Appendices/A
-ppendix1.aux"))
+)
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.aux"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\TitlePage.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter1.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter2.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter3.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter4.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter5.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Appendices/Appendix1.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -592,15 +597,17 @@ LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
 
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.out")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.out")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.out")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.out")
 \@outlinefile=\write5
 
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\TitlePage.te
-x" <images/logocs.jpeg, id=75, 315.1775pt x 161.60374pt>
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\TitlePage.tex"
+<images/logocs.jpeg, id=79, 315.1775pt x 161.60374pt>
 File: images/logocs.jpeg Graphic file (type jpg)
-
-<use images/logocs.jpeg>
+ <use images/logocs.jpeg>
 Package pdftex.def Info: images/logocs.jpeg used on input line 6.
 (pdftex.def)             Requested size: 472.76509pt x 242.40501pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
@@ -613,7 +620,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/it4bi_logo.jpg, id=76, 81.2131pt x 58.00937pt>
+<images/it4bi_logo.jpg, id=80, 81.2131pt x 58.00937pt>
 File: images/it4bi_logo.jpg Graphic file (type jpg)
 
 <use images/it4bi_logo.jpg>
@@ -635,10 +642,10 @@ Overfull \hbox (40.79272pt too wide) in paragraph at lines 40--46
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/IT4BI Courses - Semest
-er 4/_Thesis Report/Master Thesis - Oky/images/logocs.jpeg> <D:/IT4BI Courses -
- Semester 4/_Thesis Report/Master Thesis - Oky/images/it4bi_logo.jpg>]
-[2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Advanse-/Documen
+ts/Thesis/all documents for thesis/_Thesis Report/Master Thesis - Oky/images/lo
+gocs.jpeg> <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis
+ Report/Master Thesis - Oky/images/it4bi_logo.jpg>] [2
 
 ])
 Underfull \hbox (badness 10000) in paragraph at lines 19--24
@@ -668,23 +675,26 @@ Package minitoc Info: I0033
 ] [3] [4
 
 ]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.toc")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.toc")
 \tf@toc=\write6
-[5] [6
+ [5] [6
 
 ]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.lof")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.lof")
 \tf@lof=\write7
-[7] [8
+ [7] [8
 
 ]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.lot")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.lot")
 \tf@lot=\write8
-[9] [10
+ [9] [10
 
 ]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter1.tex"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter1.tex"
 Chapter 1.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
@@ -695,55 +705,57 @@ l.59 \include{Chapters/Chapter1}
 
 
 ]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter2.tex"pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.2}) has been already used, duplicate ignored
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter2.tex"pdfTeX warning (ext4): destination with
+ the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Background, Approach, and Related Work} [2
+            {Visualization Requirements and Related Works} [2
 
 
 
 ]
 Chapter 2.
-) [3]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter3.tex" [4
+) [3] [4]
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter3.tex"
+Chapter 3.
+) [5
 
 
 
 ]
-Chapter 3.
-) [5]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter4.tex" [6
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter4.tex" [6
 
 
 
 ]
 Chapter 4.
 ) [7]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter5.tex" [8
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter5.tex" [8
 
 
 
 ]
 Chapter 5.
 ) [9]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Appendices/A
-ppendix1.tex" [10
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Appendices/Appendix1.tex" [10
 
 
 
 ]
 Appendix A.
 ) [11]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.bbl"
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.brf")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.bbl"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.brf")
 \tf@brf=\write9
-[12
+ [12
 
 
 ])
@@ -770,56 +782,58 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
 [13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Thesis.aux"
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\TitlePage.au
-x")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter1.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter2.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter3.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter4.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Chapters/Cha
-pter5.aux")
-("D:\IT4BI Courses - Semester 4\_Thesis Report\Master Thesis - Oky\Appendices/A
-ppendix1.aux"))
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Thesis.aux"
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\TitlePage.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter1.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter2.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter3.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter4.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter5.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Appendices/Appendix1.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A8C9AD9488CEC84C33D9BF22897B33DF;1091.
+(rerunfilecheck)             Checksum: 031F801AFC3A73FD9B0A19D442001965;1242.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 65275EF5082266C5E43A17678145DDD8;168.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 9240 strings out of 493921
- 134726 string characters out of 3144882
- 236192 words of memory out of 3000000
- 12046 multiletter control sequences out of 15000+200000
+ 9244 strings out of 493921
+ 137142 string characters out of 3144868
+ 236191 words of memory out of 3000000
+ 12047 multiletter control sequences out of 15000+200000
  23522 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,11n,45p,276b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-ti1095.pk> <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\eccc1440.pk> <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecbx1440.pk> <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\oky\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\oky\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\oky\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\ok
-y\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\
-Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.
-pk> <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ccc1728.pk> <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm1728.pk> <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecbi1440.pk> <C:\Users\oky\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecbx2488.pk>
-Output written on Thesis.pdf (25 pages, 192108 bytes).
+ <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecti1095.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\eccc1440.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Advanse-\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Advanse-\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\A
+dvanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\eccc1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecti1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Advanse-\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk> <C:\Users\Ad
+vanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
+ <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbi1440.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecbx2488.pk>
+Output written on Thesis.pdf (25 pages, 199710 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

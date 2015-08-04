@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.3)  3 AUG 2015 23:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.3)  4 AUG 2015 22:51
 entering extended mode
 **Thesis.tex
 
@@ -492,6 +492,10 @@ ster Thesis - Oky\Chapters/Chapter4.aux")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Chapters/Chapter5.aux")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter6.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter7.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Appendices/Appendix1.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -605,9 +609,10 @@ ster Thesis - Oky\Thesis.out")
 
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\TitlePage.tex"
-<images/logocs.jpeg, id=79, 315.1775pt x 161.60374pt>
+<images/logocs.jpeg, id=131, 315.1775pt x 161.60374pt>
 File: images/logocs.jpeg Graphic file (type jpg)
- <use images/logocs.jpeg>
+
+<use images/logocs.jpeg>
 Package pdftex.def Info: images/logocs.jpeg used on input line 6.
 (pdftex.def)             Requested size: 472.76509pt x 242.40501pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
@@ -620,7 +625,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/it4bi_logo.jpg, id=80, 81.2131pt x 58.00937pt>
+<images/it4bi_logo.jpg, id=132, 81.2131pt x 58.00937pt>
 File: images/it4bi_logo.jpg Graphic file (type jpg)
 
 <use images/it4bi_logo.jpg>
@@ -668,6 +673,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing Thesis.mtc6.
 Package minitoc Info: I0033
 (minitoc)             Writing Thesis.mtc7.
+Package minitoc Info: I0033
+(minitoc)             Writing Thesis.mtc8.
+Package minitoc Info: I0033
+(minitoc)             Writing Thesis.mtc9.
 [1
 
 ] [2
@@ -711,21 +720,21 @@ ster Thesis - Oky\Chapters/Chapter2.tex"pdfTeX warning (ext4): destination with
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Visualization Requirements and Related Works} [2
+            {Domain Problem Characterization} [2
 
 
 
 ]
 Chapter 2.
-) [3] [4]
+) [3]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Chapters/Chapter3.tex"
-Chapter 3.
-) [5
+ster Thesis - Oky\Chapters/Chapter3.tex" [4
 
 
 
 ]
+Chapter 3.
+) [5]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Chapters/Chapter4.tex" [6
 
@@ -743,19 +752,35 @@ ster Thesis - Oky\Chapters/Chapter5.tex" [8
 Chapter 5.
 ) [9]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Appendices/Appendix1.tex" [10
+ster Thesis - Oky\Chapters/Chapter6.tex" [10
+
+
+
+]
+Chapter 6.
+) [11]
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter7.tex" [12
+
+
+
+]
+Chapter 7.
+) [13]
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Appendices/Appendix1.tex" [14
 
 
 
 ]
 Appendix A.
-) [11]
+) [15]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.bbl"
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.brf")
 \tf@brf=\write9
- [12
+ [16
 
 
 ])
@@ -778,9 +803,9 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Thesis.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.aux"
@@ -797,20 +822,24 @@ ster Thesis - Oky\Chapters/Chapter4.aux")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Chapters/Chapter5.aux")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter6.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
+ster Thesis - Oky\Chapters/Chapter7.aux")
+("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Appendices/Appendix1.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 031F801AFC3A73FD9B0A19D442001965;1242.
+(rerunfilecheck)             Checksum: 835D28A0550522C02A6B0A57B6014518;2032.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 65275EF5082266C5E43A17678145DDD8;168.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
+(rerunfilecheck)             Checksum: 84C5E42CF87D17D25E2849A17EE93D3E;168.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 9244 strings out of 493921
- 137142 string characters out of 3144868
- 236191 words of memory out of 3000000
- 12047 multiletter control sequences out of 15000+200000
+ 9294 strings out of 493921
+ 138880 string characters out of 3144868
+ 240169 words of memory out of 3000000
+ 12062 multiletter control sequences out of 15000+200000
  23522 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,11n,45p,276b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -831,9 +860,9 @@ vanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
  <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecbi1440.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
 pen\ec\dpi600\ecbx2488.pk>
-Output written on Thesis.pdf (25 pages, 199710 bytes).
+Output written on Thesis.pdf (29 pages, 215386 bytes).
 PDF statistics:
- 688 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 784 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 

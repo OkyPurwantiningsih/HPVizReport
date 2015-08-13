@@ -1,12 +1,9 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Thesis Outline}{1}{section.1.2}
+\contentsline {section}{\numberline {1.2}Thesis Outline}{2}{section.1.2}
 \contentsline {chapter}{\numberline {2}Domain Problem Characterization}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Hammer and Planks}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Current Game Result Visualization}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}Requirement Analysis}{3}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Target User Questions}{3}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Visualization Requirements}{3}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.1}Target User Questions}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Visualization Requirements}{3}{section.2.2}
 \contentsline {chapter}{\numberline {3}Related Works}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Serious Game in Healthcare}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Visualization of serious game result}{5}{section.3.2}

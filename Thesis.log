@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.3)  15 AUG 2015 12:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.3)  16 AUG 2015 00:25
 entering extended mode
 **Thesis.tex
 
@@ -35,13 +35,58 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@tempdima=\dimen106
+\caption@indent=\dimen107
+\caption@parindent=\dimen108
+\caption@hangindent=\dimen109
+)
+\c@ContinuedFloat=\count88
+)
+\c@KVtest=\count89
+\sf@farskip=\skip43
+\sf@captopadj=\dimen110
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count90
+\c@subfigure@save=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@subtable@save=\count94
+\c@lotdepth=\count95
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip48
+\enit@outerparindent=\dimen111
+\enit@toks=\toks15
+\enit@inbox=\box26
+\enitdp@description=\count96
+)
 \@input{formatAndDefs.aux}
 
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\formatAndDefs.tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip43
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -49,51 +94,51 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks14
-\ex@=\dimen103
+\@emptytoks=\toks16
+\ex@=\dimen112
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen104
+\pmbraise@=\dimen113
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count88
+\inf@bad=\count97
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count89
-\leftroot@=\count90
+\uproot@=\count98
+\leftroot@=\count99
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count91
-\DOTSCASE@=\count92
+\classnum@=\count100
+\DOTSCASE@=\count101
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen105
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen114
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
 \dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
-\tag@help=\toks15
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
-\andhelp@=\toks16
-\eqnshift@=\dimen106
-\alignsep@=\dimen107
-\tagshift@=\dimen108
-\tagwidth@=\dimen109
-\totwidth@=\dimen110
-\lineht@=\dimen111
-\@envbody=\toks17
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks18
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks17
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks18
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -109,8 +154,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
@@ -125,10 +170,6 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks21
-)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
@@ -140,18 +181,18 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count100
-\Gm@cntv=\count101
-\c@Gm@tempcnt=\count102
-\Gm@bindingoffset=\dimen112
-\Gm@wd@mp=\dimen113
-\Gm@odd@mp=\dimen114
-\Gm@even@mp=\dimen115
-\Gm@layoutwidth=\dimen116
-\Gm@layoutheight=\dimen117
-\Gm@layouthoffset=\dimen118
-\Gm@layoutvoffset=\dimen119
-\Gm@dimlist=\toks22
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
+\Gm@dimlist=\toks23
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
@@ -170,17 +211,17 @@ Package: mtcmess 2006/03/14
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 61 ***.
 \tf@mtc=\write3
-\mtcindent=\skip46
-\mtcskipamount=\skip47
+\mtcindent=\skip52
+\mtcskipamount=\skip53
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks23
-\mtc@strutbox=\box28
-\mtc@hstrutbox=\box29
+\mtc@toks=\toks24
+\mtc@strutbox=\box29
+\mtc@hstrutbox=\box30
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
 
@@ -191,11 +232,11 @@ Package minitoc Info: I0012
 Package minitoc Info: I0031
 (minitoc)             ==> this version is configured for UNIX-like 
 (minitoc)                 (long extensions) file names.
-\c@mtc=\count103
-\c@minitocdepth=\count104
-\c@ptc=\count105
-\c@parttocdepth=\count106
-\ptcindent=\skip48
+\c@mtc=\count112
+\c@minitocdepth=\count113
+\c@ptc=\count114
+\c@parttocdepth=\count115
+\ptcindent=\skip54
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4909.
@@ -211,9 +252,9 @@ Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen120
-\nom@tempdim=\dimen121
-\nomitemsep=\skip49
+\nomlabelwidth=\dimen129
+\nom@tempdim=\dimen130
+\nomitemsep=\skip55
 )
 \@nomenclaturefile=\write4
 
@@ -241,10 +282,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count107
+\Gread@gobject=\count116
 ))
-\Gin@req@height=\dimen122
-\Gin@req@width=\dimen123
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -298,14 +339,14 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen124
-\Hy@linkcounter=\count108
-\Hy@pagecounter=\count109
+\@linkdim=\dimen133
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count110
+\Hy@SavedSpaceFactor=\count119
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -329,17 +370,17 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count111
+\c@Hy@tempcnt=\count120
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen125
-\Fld@menulength=\count112
-\Field@Width=\dimen126
-\Fld@charsize=\dimen127
+\XeTeXLinkMargin=\dimen134
+\Fld@menulength=\count121
+\Field@Width=\dimen135
+\Fld@charsize=\dimen136
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -349,18 +390,18 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count113
-\c@Item=\count114
-\c@Hfootnote=\count115
+\Hy@abspage=\count122
+\c@Item=\count123
+\c@Hfootnote=\count124
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count116
-\c@bookmark@seq@number=\count117
-\Hy@SectionHShift=\skip50
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
+\Hy@SectionHShift=\skip56
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
@@ -392,36 +433,36 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count118
-\rotFPtop=\skip51
-\rotFPbot=\skip52
-\rot@float@box=\box30
-\rot@mess@toks=\toks24
+\c@r@tfl@t=\count127
+\rotFPtop=\skip57
+\rotFPbot=\skip58
+\rot@float@box=\box31
+\rot@mess@toks=\toks25
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-\fancy@headwidth=\skip53
-\f@ncyO@elh=\skip54
-\f@ncyO@erh=\skip55
-\f@ncyO@olh=\skip56
-\f@ncyO@orh=\skip57
-\f@ncyO@elf=\skip58
-\f@ncyO@erf=\skip59
-\f@ncyO@olf=\skip60
-\f@ncyO@orf=\skip61
+\fancy@headwidth=\skip59
+\f@ncyO@elh=\skip60
+\f@ncyO@erh=\skip61
+\f@ncyO@olh=\skip62
+\f@ncyO@orh=\skip63
+\f@ncyO@elf=\skip64
+\f@ncyO@erf=\skip65
+\f@ncyO@olf=\skip66
+\f@ncyO@orf=\skip67
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen128
-\extrarowheight=\dimen129
-\NC@list=\toks25
-\extratabsurround=\skip62
-\backup@length=\skip63
+\col@sep=\dimen137
+\extrarowheight=\dimen138
+\NC@list=\toks26
+\extratabsurround=\skip68
+\backup@length=\skip69
 )
-\everycr=\toks26
-\minrowclearance=\skip64
+\everycr=\toks27
+\minrowclearance=\skip70
 )
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\algorithm.sty"
@@ -430,14 +471,14 @@ Package: algorithm
 Document Style `algorithm' - floating environment
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count119
-\float@exts=\toks27
-\float@box=\box31
-\@float@everytoks=\toks28
-\@floatcapt=\box32
+\c@float@type=\count128
+\float@exts=\toks28
+\float@box=\box32
+\@float@everytoks=\toks29
+\@floatcapt=\box33
 )
-\@float@every@algorithm=\toks29
-\c@algorithm=\count120
+\@float@every@algorithm=\toks30
+\c@algorithm=\count129
 )
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\algorithmic.sty"
@@ -446,36 +487,36 @@ Package: algorithmic
 Document Style `algorithmic' - environment
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count121
-\calc@Bcount=\count122
-\calc@Adimen=\dimen130
-\calc@Bdimen=\dimen131
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
+\calc@Acount=\count130
+\calc@Bcount=\count131
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count123
-\calc@Cskip=\skip67
+\calc@Ccount=\count132
+\calc@Cskip=\skip73
 )
-\c@ALC@line=\count124
-\c@ALC@rem=\count125
-\ALC@tlm=\skip68
+\c@ALC@line=\count133
+\c@ALC@rem=\count134
+\ALC@tlm=\skip74
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen132
+\bigstrutjot=\dimen141
 )
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\slashbox.sty"
 slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box33
-\@slashboxb=\box34
-\@slashboxc=\box35
-\@slashboxwd=\count126
-\@slashboxht=\count127
-\@slashsepl=\dimen133
-\@slashsepr=\dimen134
+\@slashboxa=\box34
+\@slashboxb=\box35
+\@slashboxc=\box36
+\@slashboxwd=\count135
+\@slashboxht=\count136
+\@slashsepl=\dimen142
+\@slashsepr=\dimen143
 )
-\c@definition=\count128
+\c@definition=\count137
 )
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.aux"
@@ -488,11 +529,7 @@ LaTeX Warning: Label `overflow' multiply defined.
 
 )
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Chapters/Chapter2.aux"
-
-LaTeX Warning: Label `overflow' multiply defined.
-
-)
+ster Thesis - Oky\Chapters/Chapter2.aux")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Chapters/Chapter3.aux")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
@@ -505,20 +542,26 @@ ster Thesis - Oky\Chapters/Chapter6.aux")
 ster Thesis - Oky\Chapters/Chapter7.aux")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Appendices/Appendix1.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -554,6 +597,12 @@ LaTeX Font Info:    ... okay on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@minilofdepth=\count138
+\c@minilotdepth=\count139
+\c@partlofdepth=\count140
+\c@partlotdepth=\count141
+\c@sectlofdepth=\count142
+\c@sectlotdepth=\count143
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -583,31 +632,31 @@ Package minitoc(hints) Warning: W0023
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen135
-\scratchbox=\box36
-\nofMPsegments=\count130
-\nofMParguments=\count131
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen136
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count144
+\scratchdimen=\dimen144
+\scratchbox=\box37
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen145
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks32
 )
-\AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring ON on input line 5.
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring ON on input line 7.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count135
+\c@section@level=\count150
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
 
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.out")
@@ -661,12 +710,12 @@ gocs.jpeg> <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis
  Report/Master Thesis - Oky/images/it4bi_logo.jpg>] [2
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 19--24
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
 
  []
 
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM Thesis.toc on input line 34.
+(minitoc)             PREPARING MINITOCS FROM Thesis.toc on input line 36.
 Package minitoc Info: I0033
 (minitoc)             Writing Thesis.mtc1.
 Package minitoc Info: I0033
@@ -721,14 +770,14 @@ l.13
       [1
 
 
-] <images/hp_game.png, id=246, 1084.05pt x 677.53125pt>
+] <images/hp_game.png, id=247, 1084.05pt x 677.53125pt>
 File: images/hp_game.png Graphic file (type png)
 
 <use images/hp_game.png>
 Package pdftex.def Info: images/hp_game.png used on input line 16.
 (pdftex.def)             Requested size: 312.9803pt x 195.61061pt.
 
-<images/munzner_model.png, id=248, 368.1253pt x 108.405pt>
+<images/munzner_model.png, id=249, 368.1253pt x 108.405pt>
 File: images/munzner_model.png Graphic file (type png)
 
 <use images/munzner_model.png>
@@ -739,22 +788,10 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.32 
-      [2pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.1.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.32 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.32 
-      <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repo
-rt/Master Thesis - Oky/images/hp_game.png> <C:/Users/Advanse-/Documents/Thesis/
-all documents for thesis/_Thesis Report/Master Thesis - Oky/images/munzner_mode
-l.png>]) [3]
+      [2 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis R
+eport/Master Thesis - Oky/images/hp_game.png> <C:/Users/Advanse-/Documents/Thes
+is/all documents for thesis/_Thesis Report/Master Thesis - Oky/images/munzner_m
+odel.png>]) [3]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Chapters/Chapter2.tex" [4
 
@@ -762,61 +799,72 @@ ster Thesis - Oky\Chapters/Chapter2.tex" [4
 
 ]
 Chapter 2.
-[5]) [6]
+<images/cedric_bodytilt.jpg, id=262, 230.8625pt x 307.1475pt>
+File: images/cedric_bodytilt.jpg Graphic file (type jpg)
+
+<use images/cedric_bodytilt.jpg>
+Package pdftex.def Info: images/cedric_bodytilt.jpg used on input line 28.
+(pdftex.def)             Requested size: 156.49014pt x 208.20139pt.
+File: images/cedric_bodytilt.jpg Graphic file (type jpg)
+ <use images/cedric_bodytilt.jpg>
+Package pdftex.def Info: images/cedric_bodytilt.jpg used on input line 30.
+(pdftex.def)             Requested size: 156.49014pt x 208.20139pt.
+ [5] [6 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Re
+port/Master Thesis - Oky/images/cedric_bodytilt.jpg>]) [7]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Chapters/Chapter3.tex"
-Chapter 3.
-) [7
+ster Thesis - Oky\Chapters/Chapter3.tex" [8
 
 
 
 ]
+Chapter 3.
+) [9]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Chapters/Chapter4.tex" [8
+ster Thesis - Oky\Chapters/Chapter4.tex" [10
 
 
 
 ]
 Chapter 4.
-) [9]
+) [11]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Chapters/Chapter5.tex" [10
+ster Thesis - Oky\Chapters/Chapter5.tex" [12
 
 
 
 ]
 Chapter 5.
-) [11]
+) [13]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Chapters/Chapter6.tex" [12
+ster Thesis - Oky\Chapters/Chapter6.tex" [14
 
 
 
 ]
 Chapter 6.
-) [13]
+) [15]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Chapters/Chapter7.tex" [14
+ster Thesis - Oky\Chapters/Chapter7.tex" [16
 
 
 
 ]
 Chapter 7.
-) [15]
+) [17]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Appendices/Appendix1.tex" [16
+ster Thesis - Oky\Appendices/Appendix1.tex" [18
 
 
 
 ]
 Appendix A.
-) [17]
+) [19]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.bbl"
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.brf")
 \tf@brf=\write9
- [18
+ [20
 
 
 ])
@@ -839,9 +887,9 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Thesis.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
-[19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+[21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.aux"
@@ -863,54 +911,50 @@ ster Thesis - Oky\Chapters/Chapter6.aux")
 ster Thesis - Oky\Chapters/Chapter7.aux")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Appendices/Appendix1.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FA9284D0948BCDD259B33F341731D7F1;1943.
+(rerunfilecheck)             Checksum: 80915264D4E1799F286B01645D7E6A9F;1943.
+Package rerunfilecheck Info: File `Thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: 00CB3854C720C4384F4874B8EA1F8F07;344.
 
-
-Package rerunfilecheck Warning: File `Thesis.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `Thesis.brf':
-(rerunfilecheck)             Before: 00CB3854C720C4384F4874B8EA1F8F07;344
-(rerunfilecheck)             After:  C868E6FEEFA31FD20D7A414ABFB4090D;344.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 9330 strings out of 493921
- 139285 string characters out of 3144868
- 240293 words of memory out of 3000000
- 12084 multiletter control sequences out of 15000+200000
- 23522 words of font info for 62 fonts, out of 3000000 for 9000
+ 10813 strings out of 493921
+ 165509 string characters out of 3144868
+ 267532 words of memory out of 3000000
+ 13530 multiletter control sequences out of 15000+200000
+ 24287 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,12n,45p,1247b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.2.1} has been referenced but does not exis
-t, replaced by a fixed one
-
+ 44i,11n,49p,1247b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecti1095.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecrm0900.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\Advanse-\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Advanse-\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\A
+dvanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecbx1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\eccc1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Advanse-\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Ad
+vanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk>
  <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecti1095.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\eccc1440.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Advanse-\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Adv
-anse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> 
-<C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-eccc1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecti1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Advanse-\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk> <C:\Users\Adva
-nse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <
-C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-cbi1440.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecbx2488.pk>
-Output written on Thesis.pdf (31 pages, 1197654 bytes).
+\ecrm1728.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecbi1440.pk> <C:\Users\Advanse-\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecbx2488.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr8.pfb>
+Output written on Thesis.pdf (33 pages, 1274078 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 897 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
 \chapter{Domain Problem Characterization}
 \label{chap:back}
 
-In order to clearly understand the problems faced by the healthcare professional in interpreting the gameplay into a meaningful therapy routine, first an understanding of how the game is played is needed. Based on this understanding, then it will be possible to find out what kind of information can be gathered by defining questions usually asked by the users. In the end, visualization requirement elicitation will be done by translating each question into list of tasks. This chapter will discuss each one of these steps in details.
+In order to clearly understand the problems faced by the healthcare professional in interpreting the gameplay into a meaningful therapy routine, first it is important to have an understanding of how the game is played. Based on this understanding, then it will be possible to find out what kind of information needed by defining questions usually asked by the users. In the end, visualization requirement elicitation will be done by translating each question into list of tasks. This chapter discusses each one of these steps in details.
 
 \section{Hammer and Planks Game Dynamics}
 
@@ -15,7 +15,7 @@ Played with Kinect, it is possible to play Hammer and Planks in three different 
   Player lifts one of his/her arm in front of the body and bend the elbow. Moving the elbow up and down will navigate the boat up and down the screen.
 \end{enumerate}
 
-For both the BodyTilt and HandPoint there are three direction available: (i) Horizontal: the screen scroll from top to bottom and player navigate the ship from left to right (ii) Vertical: the screen scroll from right to left and player navigate the ship from top to bottom of the screen(iii) Both: the screen scroll from top to bottom and player navigate the ship from left to right. He/she can also move the boat faster or slower by bending the upper body (BodyTilt) or arm (HandPoint) forward or backward . For ShoulderCGE there is only vertical direction. In this thesis, I only interested in games played using BodyTilt and HandPoint movement for both direction since it provides the information on how fast/slow the boat can move.
+For both the BodyTilt and HandPoint there are three direction available: (i) Horizontal: the screen scrolls from top to bottom and player navigates the ship from left to right (ii) Vertical: the screen scrolls from right to left and player navigates the ship from top to bottom of the screen(iii) Both: the screen scrolls from top to bottom and player navigates the ship from left to right. He/she can also move the boat faster or slower by bending the upper body (BodyTilt) or arm (HandPoint) forward or backward . For ShoulderCGE there is only vertical direction. In this thesis, I only interested in games played using BodyTilt and HandPoint movement for both direction since it provides the information on how fast/slow the boat is moving.
 
 %\begin{figure}
 %\centering
@@ -23,24 +23,52 @@ For both the BodyTilt and HandPoint there are three direction available: (i) Hor
 %\caption{BodyTilt \label{overflow}}
 %\end{figure}
 
-For each session, the healthcare professionals mention that therapist can define different level of the game by setting
-explain about objects in the game
+\begin{figure}%
+    \centering
+    \subfloat[BodyTilt]{{\includegraphics[width=5.5cm]{cedric_bodytilt.jpg} }}%
+    \qquad
+    \subfloat[HandPoint]{{\includegraphics[width=5.5cm]{cedric_bodytilt.jpg} }}%
+    \caption{Hammer and Planks movement type}%
+    \label{fig:example}%
+\end{figure}
+
+
+Before each session, the healthcare professionals will set the number of objects (enemies, bonuses, obstacles), activity duration and repetition, as well as area in which the objects can appear. Therefore he can adjust the difficulty of the game for different session.
+
 
 \section{Target User Questions}
 
 A traditional Hemiplegic therapy routine usually involved the therapist ordering a patient to perform several movement repetitively \cite{rahman}. By the end of the session, the therapist will analyse how the patient has performed based on the quality of movement as well as how the patient has progressed compared to the previous session. Based on this analysis, the therapist will then configure a new routine to further the patient's progress, if needed.
 
-However, by using a game to facilitate the therapy, it is difficult to monitor how often the patient has moved his/her arm and to which direction. 
+However, by using a game to facilitate the therapy, it is difficult to monitor how often the patient has moved his/her arm, to which direction and to which objects this movement is associated. Based on this reason, I identified 5 types of questions usually inquired:
 
-
-It's difficult to evaluate what have been done and how often the movement have been done.
-
-what kind of information usually needed by therapist ???
-do motivation well. really convince that this task is very useful for the therapist.
-list question asked by user here
+\newcommand{\subscript}[2]{$#1 _ #2$}	
+\begin{enumerate}[label=(\subscript{Q}{\arabic*})]
+\item For a given session, to which direction (right/left) the player moved more? \label{q1}
+\item For a given session, how does the player perform based on the number of objects collected, avoided, or killed with respect to the area of the movement?\label{q2}
+\item For a given session, how does the player perform based on the number of objects collected, avoided, or killed with respect to the area of movement and the speed in which the game is played?\label{q3}
+\item For a given patient, has he/she has improved in the game overtime?\label{q4}
+\item For a given patient, has he/she has improved in a certain area overtime?\label{q5}
+\end{enumerate}
 
 \section{Visualization Requirements}
-define tasks for the application
-after looking at high level question of user, define requirement for the tools (define task).
-ex: - visualize a number of positive events on an area (high level tasks)
-		- for a given section we want to see the evolution and we want to see the sections where the evolution is the same (high level task)
+
+The gameplay of each game session is logged in a json file which contains information of the player, game setting, and every events (i.e. enemy killed, bonus collected, etc.) happened in the game. Based on the question defined in the previous section, the tasks can be grouped into: task related to a session for a particular player (Task 1) and task related to the summary of a player which concerns all sessions played by the player (Task 2). The following are the tasks defined for each task group:
+\newcommand{\task}[2]{$#1 #2$}
+\begin{enumerate}[label=\textbf{(\task{T1.}{\arabic*})}]
+\item visualize and compare the number of events of an event type at a given x area \ref{q1}\ref{q2}.
+\item compare the number of events for different event type at a given x area  \ref{q1}\ref{q2}.
+\item visualize and compare the number of events of an event type and its screen speed at a given x area \ref{q1}\ref{q2}\ref{q3}.
+\item compare the number of events for different event type and its screen speed at a given x area \ref{q1}\ref{q2}\ref{q3}.
+\item select and visualize the number of events for a certain event type at a given x area \ref{q1}\ref{q2}.
+\item select and visualize the number of events and its screen speed for a certain event type at a given x area \ref{q1}\ref{q2}\ref{q3}.
+\end{enumerate}
+
+\newcommand{\test}[2]{$#1 #2$}
+\begin{enumerate}[label=\textbf{(\test{T2.}{\arabic*})}]
+\item visualize and compare the number of events among each session for one patient \ref{q4}\ref{q5}.
+\item compare and navigate the number of events in a certain x area among each session for one patient \ref{q4}\ref{q5}.
+\item select and visualize the number of events of a certain event type in a certain x area among each session for one patient \ref{q4}\ref{q5}.
+\item visualize and compare the distribution of certain number of events over x area among each session for one patient \ref{q4}\ref{q5}.
+item select and visualize the distribution of certain number of events over x area for a certain event type among each session for one patient \ref{q4}\ref{q5}.
+\end{enumerate}

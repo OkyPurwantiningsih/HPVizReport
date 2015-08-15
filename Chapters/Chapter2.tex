@@ -1,11 +1,46 @@
 \chapter{Domain Problem Characterization}
 \label{chap:back}
 
+In order to clearly understand the problems faced by the healthcare professional in interpreting the gameplay into a meaningful therapy routine, first an understanding of how the game is played is needed. Based on this understanding, then it will be possible to find out what kind of information can be gathered by defining questions usually asked by the users. In the end, visualization requirement elicitation will be done by translating each question into list of tasks. This chapter will discuss each one of these steps in details.
+
+\section{Hammer and Planks Game Dynamics}
+
+Played with Kinect, it is possible to play Hammer and Planks in three different ways:
+\begin{enumerate}
+  \item BodyTilt
+  Player puts both arm in his/her hips and move the the upper body (from the waist up) to the right, left, forward or backward to navigate the boat. 
+  \item HandPoint
+  Player lifts one of his/her arm in front of the body and bend the elbow with the palm facing forward. Navigating the boat can be done by moving the arm to the right, left, forward, or backward.
+  \item ShoulderCGE
+  Player lifts one of his/her arm in front of the body and bend the elbow. Moving the elbow up and down will navigate the boat up and down the screen.
+\end{enumerate}
+
+For both the BodyTilt and HandPoint there are three direction available: (i) Horizontal: the screen scroll from top to bottom and player navigate the ship from left to right (ii) Vertical: the screen scroll from right to left and player navigate the ship from top to bottom of the screen(iii) Both: the screen scroll from top to bottom and player navigate the ship from left to right. He/she can also move the boat faster or slower by bending the upper body (BodyTilt) or arm (HandPoint) forward or backward . For ShoulderCGE there is only vertical direction. In this thesis, I only interested in games played using BodyTilt and HandPoint movement for both direction since it provides the information on how fast/slow the boat can move.
+
+%\begin{figure}
+%\centering
+%\includegraphics[width=110mm]{mia_bodytilt.png}
+%\caption{BodyTilt \label{overflow}}
+%\end{figure}
+
+For each session, the healthcare professionals mention that therapist can define different level of the game by setting
+explain about objects in the game
+
 \section{Target User Questions}
+
+A traditional Hemiplegic therapy routine usually involved the therapist ordering a patient to perform several movement repetitively \cite{rahman}. By the end of the session, the therapist will analyse how the patient has performed based on the quality of movement as well as how the patient has progressed compared to the previous session. Based on this analysis, the therapist will then configure a new routine to further the patient's progress, if needed.
+
+However, by using a game to facilitate the therapy, it is difficult to monitor how often the patient has moved his/her arm and to which direction. 
+
+
+It's difficult to evaluate what have been done and how often the movement have been done.
+
+what kind of information usually needed by therapist ???
 do motivation well. really convince that this task is very useful for the therapist.
 list question asked by user here
-ex: - visualize a number of positive events on an area (high level tasks)
-		- for a given section we want to see the evolution and we want to see the sections where the evolution is the same (high level task)
+
 \section{Visualization Requirements}
 define tasks for the application
 after looking at high level question of user, define requirement for the tools (define task).
+ex: - visualize a number of positive events on an area (high level tasks)
+		- for a given section we want to see the evolution and we want to see the sections where the evolution is the same (high level task)

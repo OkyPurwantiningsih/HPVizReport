@@ -1,9 +1,34 @@
 \begin{thebibliography}{1}
 
+\bibitem{brezinka}
+V.~Brezinka.
+\newblock Treasure hunt - a serious game to support psychotherapeutic treatment
+  of children.
+\newblock {\em Studies in Health Technology and Informatics}, 136:71--76, 2008.
+
 \bibitem{diloreto}
 Ines Di~Loreto, Benoit Lange, Antoine Seilles, William Dyce, and Sebastien
   Andary.
 \newblock Game design for all: The example of hammer and planks.
 \newblock {\em Serious Games Development and Applications}, 8101:70--75, 2013.
+
+\bibitem{green}
+D.~Green and P.~Wilson.
+\newblock Use of virtual reality in rehabilitation of movement in children with
+  hemiplegia - a multiple case study evaluation.
+\newblock {\em Disability and Rehabilitation}, 34:593--604, 2012.
+
+\bibitem{Munzner:2009:NMV:1638611.1639181}
+Tamara Munzner.
+\newblock A nested model for visualization design and validation.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  15(6):921--928, November 2009.
+
+\bibitem{rahman}
+Abdur Rahman.
+\newblock Multisensor serious game-based therapy environment for hemiplegic
+  patients.
+\newblock {\em International Journal of Distributed Sensor Networks}, 2015:12,
+  2015.
 
 \end{thebibliography}

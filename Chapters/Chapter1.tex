@@ -1,7 +1,7 @@
 \chapter{Introduction}
 \label{chap:intro}
 
-The advancement of gaming device technology such as Kinect, Wii Balance Board, Wii Remote, PlayStation Move, etc. has enabled players to control and interact with the game console through body movement. In healthcare, such technology are used in serious game which can help the users (doctors, patients, researchers, etc.)  perform health related activity such as patients' rehabilitation, training, relaxation, etc. One example of such game is Hammer and Planks which was designed to train the equilibrium of patient with balance disorders (specifically for hemiplegic people)\cite{diloreto}. A person with hemiplegic is paralized on one side of the body. Therefore, the gameplay is designed so that the player has to move their body to right, left, front and back in order to train their affected side of the body. To support the purpose of rehabilitation, the healthcare professionals need to analyse the movement to  make a correct diagnostic of patients' progress and to adjust the difficulty level for the next rehabilitation session. In this thesis, I discuss the design of an interface to help healthcare professional to understand the data generated from the game.
+The advancement of gaming device technology such as Kinect, Wii Balance Board, Wii Remote, PlayStation Move, etc. has enabled players to control and interact with the game console through body movement. In healthcare, such technology are used in serious game which can help the users (doctors, patients, researchers, etc.)  perform health related activity such as patients' rehabilitation and training\cite{rahman,brezinka,green}. One example of such game is Hammer and Planks which was designed to train the equilibrium of patient with balance disorders (specifically for hemiplegic people)\cite{diloreto}. A person with hemiplegic is paralized on one side of the body. Therefore, the gameplay is designed so that the player has to move their body to right, left, front and back in order to train their affected side of the body. To support the purpose of rehabilitation, the healthcare professionals need to analyse the movement to  make a correct diagnostic of patients' progress and to adjust the difficulty level for the next rehabilitation session. In this thesis, I discuss the design of an interface to help healthcare professional to understand the data generated from the game.
 
 \section{Motivation}
 
@@ -18,7 +18,18 @@ The purpose of this thesis is to address the problem mentioned by proposing four
 \end{figure}
 
 
+\section{Methodology}
+
+To ensure that the visualization to be designed would satisfied the information needed by healthcare professionals, I followed the Nested Process Model proposed by Tamara Munzner \cite{Munzner:2009:NMV:1638611.1639181}. The model is divided into 4 levels: Domain Problem Characterization, Data/Operation Abstraction Design, Encoding/Interaction Technique Design, and Algorithm Design. These levels are nested; the output of a higher level will be the input for the lower level as shown in the figure above.
+
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{munzner_model.png}
+\caption{Munzner's Visualization Design Model with four nested layers \label{overflow}}
+\end{figure}
+
+In domain problem characterization level, I discuss what kind of information needed by health professional from the visualization. The output of this level would be a list of tasks that need to be solved by the visualization application. I then identifies the data structure which can support these tasks in the Data/Operation Abstraction Design level. In the third level, a good visualization and interaction technique which can support the tasks will be defined. For this thesis, I leave out the algorithm design level since there is no new algorithm proposed.
 
 \section{Thesis Outline}
 
-The remainder of this thesis is organized as follows. Chapter 2 discuss the domain problem characterization. Chapter 3 explores related work. The data abstraction is presented in Chapter 4. The Visual Mapping and Interactive Functionality of the proposed visualization are discuss in details in Chapter 5. Chapter 6 provides some case studies used to evaluate the approach and finally, chapter 7 concludes the thesis.
+The remainder of this thesis is organized as follows. Chapter 2 discuss the domain problem characterization. Chapter 3 explores related work. The data abstraction is presented in Chapter 4. The Visual Mapping and Interactive Functionality of the proposed visualization are discussed in details in Chapter 5. Chapter 6 provides some case studies used to evaluate the approach and finally, chapter 7 concludes the thesis.

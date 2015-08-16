@@ -7,25 +7,24 @@
 \contentsline {section}{\numberline {2.2}Target User Questions}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Visualization Requirements}{6}{section.2.3}
 \contentsline {chapter}{\numberline {3}Related Works}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Serious Game in Healthcare}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Visualization of serious game result}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Visualization of Time Series Data}{9}{section.3.3}
-\contentsline {section}{\numberline {3.4}Visualization of Movement Data}{9}{section.3.4}
-\contentsline {section}{\numberline {3.5}Stream Graph}{9}{section.3.5}
-\contentsline {section}{\numberline {3.6}Data Visualization Tool}{9}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}D3.js}{9}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Three.js}{9}{subsection.3.6.2}
-\contentsline {chapter}{\numberline {4}Data Abstraction}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Game Events Structure}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Clustering Algorithm}{11}{section.4.2}
-\contentsline {chapter}{\numberline {5}Visual Mappings And Interactive Functionality}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Theme River}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Heat Map}{13}{section.5.2}
-\contentsline {section}{\numberline {5.3}Summary Theme River}{13}{section.5.3}
-\contentsline {chapter}{\numberline {6}Case Studies}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}Normal Player}{15}{section.6.1}
-\contentsline {section}{\numberline {6.2}Patient}{15}{section.6.2}
-\contentsline {chapter}{\numberline {7}Conclusion}{17}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Example}{19}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Example section}{19}{section.A.1}
-\contentsline {chapter}{Bibliography}{21}{appendix*.9}
+\contentsline {section}{\numberline {3.1}Visualization of Serious Game Result}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Visualization of Time Series Data}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Visualization of Movement Data}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Stream Graph}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}Data Visualization Tool}{11}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}D3.js}{11}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Three.js}{11}{subsection.3.5.2}
+\contentsline {chapter}{\numberline {4}Data Abstraction}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Game Events Structure}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Clustering Algorithm}{13}{section.4.2}
+\contentsline {chapter}{\numberline {5}Visual Mappings And Interactive Functionality}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Theme River}{15}{section.5.1}
+\contentsline {section}{\numberline {5.2}Heat Map}{15}{section.5.2}
+\contentsline {section}{\numberline {5.3}Summary Theme River}{15}{section.5.3}
+\contentsline {chapter}{\numberline {6}Case Studies}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}Normal Player}{17}{section.6.1}
+\contentsline {section}{\numberline {6.2}Patient}{17}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{19}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix Example}{21}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Example section}{21}{section.A.1}
+\contentsline {chapter}{Bibliography}{23}{appendix*.11}

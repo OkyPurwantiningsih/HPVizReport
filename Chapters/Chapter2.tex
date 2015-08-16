@@ -1,5 +1,5 @@
 \chapter{Domain Problem Characterization}
-\label{chap:back}
+\label{chap:problem}
 
 In order to clearly understand the problems faced by the healthcare professional in interpreting the gameplay into a meaningful therapy routine, first it is important to have an understanding of how the game is played. Based on this understanding, then it will be possible to find out what kind of information needed by defining questions usually asked by the users. In the end, visualization requirement elicitation will be done by translating each question into list of tasks. This chapter discusses each one of these steps in details.
 
@@ -10,7 +10,7 @@ Played with Kinect, it is possible to play Hammer and Planks in three different 
   \item BodyTilt
   Player puts both arm in his/her hips and move the the upper body (from the waist up) to the right, left, forward or backward to navigate the boat. 
   \item HandPoint
-  Player lifts one of his/her arm in front of the body and bend the elbow with the palm facing forward. Navigating the boat can be done by moving the arm to the right, left, forward, or backward.
+  Player lifts one of his/her forearm in front of the body with the palm facing forward. Navigating the boat can be done by moving the forearm to the right, left, forward, or backward.
   \item ShoulderCGE
   Player lifts one of his/her arm in front of the body and bend the elbow. Moving the elbow up and down will navigate the boat up and down the screen.
 \end{enumerate}
@@ -53,7 +53,7 @@ However, by using a game to facilitate the therapy, it is difficult to monitor h
 
 \section{Visualization Requirements}
 
-The gameplay of each game session is logged in a json file which contains information of the player, game setting, and every events (i.e. enemy killed, bonus collected, etc.) happened in the game. Based on the question defined in the previous section, the tasks can be grouped into: task related to a session for a particular player (Task 1) and task related to the summary of a player which concerns all sessions played by the player (Task 2). The following are the tasks defined for each task group:
+The gameplay of each game session is logged in a json file which contains information of the player, game setting, and every events (i.e. enemy killed, bonus collected, etc.) happened in the game. Based on these information and the question defined in the previous section, the tasks can be grouped into: task related to a session for a particular player (Task 1) and task related to the summary of a player which concerns all sessions (Task 2). The following are the tasks defined for each task group:
 \newcommand{\task}[2]{$#1 #2$}
 \begin{enumerate}[label=\textbf{(\task{T1.}{\arabic*})}]
 \item visualize and compare the number of events of an event type at a given x area \ref{q1}\ref{q2}.
@@ -66,9 +66,11 @@ The gameplay of each game session is logged in a json file which contains inform
 
 \newcommand{\test}[2]{$#1 #2$}
 \begin{enumerate}[label=\textbf{(\test{T2.}{\arabic*})}]
-\item visualize and compare the number of events among each session for one patient \ref{q4}\ref{q5}.
-\item compare and navigate the number of events in a certain x area among each session for one patient \ref{q4}\ref{q5}.
+\item visualize and compare the number of events of an event type among each session for one patient \ref{q4}\ref{q5}.
+\item compare and navigate the number of events among different event type in a certain x area among each session for one patient \ref{q4}\ref{q5}.
 \item select and visualize the number of events of a certain event type in a certain x area among each session for one patient \ref{q4}\ref{q5}.
-\item visualize and compare the distribution of certain number of events over x area among each session for one patient \ref{q4}\ref{q5}.
-item select and visualize the distribution of certain number of events over x area for a certain event type among each session for one patient \ref{q4}\ref{q5}.
+\item visualize and compare the distribution of certain number of events of an event type over x area among each session for one patient \ref{q4}\ref{q5}.
+\item compare and navigate the distribution of certain number of events among different event type over x area among each session for one patient \ref{q4}\ref{q5}.
+\item select and visualize the distribution of certain number of events over x area for a certain event type among each session for one patient \ref{q4}\ref{q5}.
+\item extract and visualize similar pattern of number of events over a certain x area and sessions for one patient \ref{q4}\ref{q5}.
 \end{enumerate}

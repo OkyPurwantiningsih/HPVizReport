@@ -15,25 +15,53 @@ In his paper, \cite{rahman} presents a rehabilitation framework for hemiplegic p
 \caption{Visualization used in \cite{rahman} depicting the degree of forearm movement overtime}
 \end{figure}
 
-In \cite{green}, a virtual reality rehabilitation system for children with hemiplegia was developed using TUI\footnote{\url{https://en.wikipedia.org/wiki/Tangible_user_interface}}. The game itself is displayed on LCD and the player interact with the game by placing the TUI on top of moving targets shown on the LCD. In this system, performances are measured by speed, accuracy and trajectory(mean movement efficiency). However, unlike \cite{rahman}, this system doesn't provide an interface in which therapist can analyse the gameplay.
-
-Similar to Hammer and Planks, \cite{rahman2} introduced a framework which uses Kinect attached to Second Life\footnote{\url{http://secondlife.com/}} serious game environment. The mission of the game is to follow a set of movement that have been configured beforehand by the therapist. During the game, the movement of each body joint  is recorded and saved in Session Recorder. Afterwards, a Kinematic Analytic component will process this data and visualize the quality of improvement metrics of each body joint movement. Each metric is visualized with a dotted line chart overtime as shown below.
-
 \begin{figure}
 \centering
-\includegraphics[width=110mm]{rahman2_elbowangle.png}
+\includegraphics[width=150mm]{rahman2_elbowangle.png}
 \caption{Visualization used in \cite{rahman2} depicting the speed of movement (m/s) of forearm overtime}
 \end{figure}
 
-discuss how the result of serious game are usually presented (couldn't find any specific paper discussing about this, but there are some paper about serious game which has some visualization to analyze the result of the game)
-Discuss about state of the art game visualization
+In \cite{green}, a virtual reality rehabilitation system for children with hemiplegia was developed using TUI\footnote{\url{https://en.wikipedia.org/wiki/Tangible_user_interface}}. The game itself is displayed on LCD and the player interact with the game by placing the TUI on top of moving targets shown on the LCD. In this system, performances are measured by speed, accuracy and trajectory(mean movement efficiency). However, unlike \cite{rahman}, this system doesn't provide an interface in which therapist can analyse the gameplay.
+
+Similar to Hammer and Planks, \cite{rahman2} introduced a framework which uses Kinect attached to Second Life\footnote{\url{http://secondlife.com/}} serious game environment. The mission of the game is to follow a set of movement that have been configured beforehand by the therapist. During the game, the movement of each body joint  is recorded and saved in Session Recorder. Afterwards, a Kinematic Analytic component will process this data and visualize the quality of improvement metrics of each body joint movement. Each metric is visualized with a dotted line chart over time as shown below. Even though it's possible to  see which line curve indicate an elbow flexion or extension, the therapist needs to count the number of the curve manually. This is not very efficient when the session is longer and there are more curve to count.
 
 \section{Visualization of Time Series Data}
-discuss visualization paradigm usually use to visualize time series data
+
+Since one of the requirement of the interface is to have the information of movement evolution over time, it is interesting to review how a time series data is usually visualize. \cite{aigner} discuss at length about the techniques of time series data visualization. This section, reviews some of these interesting techniques.
+
+Considering that the recorded gameplay data contains spatial information (location of an event happened on the screen), some of the reviewed techniques are concerning visualizing spatio-temporal data. \textbf{Flow Map} depicts movements of object over time. Object movements are usually represented by directed trajectories over spatial space(i.e: map) with different color, width, angle of trajectories represent additional information. In order to overcome overlapping trajectories for huge amount of data, usually aggregation techniques (clustering, self organizing map, etc.) are introduced to group similar data point. Figure 3.3 shows an example of flow map depicting photographers movement between cities in Germany \cite{adrienko}. In this case, the aggregation considers three parameters: initial location, destination location, and time period in which the movement happened. Trajectories width indicate the number of photographers who move between the cities. Another visualization technique worth to mention is \textbf{Spatio-Temporal Event Visualization} which uses the space-time cube concept. In this concept, the x and y axis usually represent two spatial dimension while the third axis represent temporal dimension. The events are then represented as graphical objects which are mapped to the space-time cube location. Different events attribute can be represented in different size, colors, shape, or texture. Figure 3.4 shows space-time cube which depict convective clouds \cite{turdukulov}, human health \cite{tominski} and earthquake events \cite{gatalsky} from left to right. As we can see, the  spatial dimension of the left chart is area in pixel while the middle and right chart is a map. The events on the chart are represented with sphere objects with different color and different sizes. Even though space-time cube can portrays the spatio-temporal data, it has some downside. When there are too many events, occlusion is inevitable. It should be coupled with an appropriate interaction technique to allow users see the data from different perspective.
+
+\begin{figure}
+\centering
+\includegraphics[width=90mm]{aigner_flowmap.jpg}
+\caption{Flow Map}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=150mm]{aigner_spatiotemporaleventviz.png}
+\caption{Spatio-Temporal Event Visualization}
+\end{figure}
+
+One example of time-series visualization technique which doesn't concern spatial data is Theme River. First introduced in \cite{havre}, Theme River is used to visualize thematic changes over time of document collection. Each theme is represented as different colors which flows from left to right with different width over different time point. The width depicts theme strength over temporal axis. The purpose of this technique was to easily understand the evolution of theme strength over time. Figure 3.5 shows an example of Theme River representation of 1990 Associated Press newswire data. It can be seen on the chart that the theme baghdad, saddam, iraq, and kuwait are gaining strength  around the time Iraq invaded Kuwait on August 2, 1990. By following the flow of a certain color (theme) we can easily see the changes in theme strength and associate it with the events that affects the changes. Theme River should be supported with interaction techniques which allow user to rearrange river positioning over horizontal axis. 
+
+Consequently, the Theme River technique is chosen due to its ability to show evolution of a certain data variable over time. Further details on the implementation can be found on Chapter 4.
+
+\begin{figure}
+\centering
+\includegraphics[width=150mm]{havre_themeriver.png}
+\caption{Theme River}
+\end{figure}
+
+
 \section{Visualization of Movement Data}
-discuss paper about movement data visualization, ex: MotionExplorer, Andrienko's paper and book
-\section{Stream Graph}
-discuss examples of stream graph implementation, how it is used and for which kind of data
+
+There has been numerous method and application developed to analyse movement data. In 
+
+-- Andrienko's paper and book: related to movement data in general
+-- MotionExplorer: related to body movement data
+
+
 
 \section{Data Visualization Tool}
 \subsection{D3.js}

@@ -56,9 +56,29 @@ Consequently, the Theme River technique is chosen due to its ability to show evo
 
 \section{Visualization of Movement Data}
 
-There has been numerous method and application developed to analyse movement data. In 
+Movement data usually represents an object which moves over a certain space \cite{adrienko_book}: data of moving car, birds migration, etc. It's usually recorded as series of location (latitude/longitude, x/y coordinates, etc.) and time. On the other hand, body movement data are recorded as vector representation of human pose \cite{bernard2013} over time. On this section, I first review visualization for movement data in general and then discuss visualization for body movement focusing on visualization for skeleton animation\footnote{\url{https://en.wikipedia.org/wiki/Skeletal_animation)}} data.
 
--- Andrienko's paper and book: related to movement data in general
+There has been numerous method and application developed to analyse movement data. \cite{adrienko} gives an overview on these methods and applications. Movement data for discrete entities are usually represented as linear symbol over a map or space time cube. However, this technique has problem with occlusions for huge amount of data. Therefore, it's usually accompanied with other graph such as time graph. Other solution to this problem is to use clustering on the trajectories. Apart from minimizing the number of trajectories presented on the view at the same time, clustering also help user to find interesting pattern of the movement. Figure 3.6 \cite{adrienko_book} gives an example of trajectories of a single car from gps data over several days. The trajectories are divided by stop duration at least 3 hours and clustered by route similarity represented in different colors. Therefore, it is possible to know which route are often or less taken by car owner.
+
+\begin{figure}
+\centering
+\includegraphics[width=150mm]{adrienko_clustered.png}
+\caption{Theme River}
+\end{figure}
+
+Patterns can also be found by introducing aggregation and generalisation technique on spatial or temporal properties of the movement. For example, the movement data can be aggregated spatially into a discrete grid and for each grid, the number of movement (total or average) happened within the grid can be represented with color or objects in different size. Figure 3.7 \cite{adrienko_book} shows the presence of cars in Milan in certain geographical area (generated with Voronoi tessellation \cite{okabe}) during certain time period. The number of cars in the area is represented with a circle in different size which indicate intensity of traffic. As we can see, there are more traffic between 05-06h (left) compared to 22-23h (right). This is understandable since most people leave work around 5  to 6 pm and are already home at 22-23 pm.
+
+\begin{figure}
+\centering
+\includegraphics[width=150mm]{adrienko_milan.png}
+\caption{Theme River}
+\end{figure}
+
+Recognizing and understanding human movement has many benefits in different application domain: arts\cite{heryadi,raptis}, sports\cite{bernard2013}, healthcare\cite{patsadu}, etc. There are numerous research has been done concerning human movement analysis as discussed in  \cite{gavrila} which surveyed different methodologies and approaches. Most of the methodologies discussed focus on identifying a certain type of movement. On the other hand, to my knowledge, there hasn't been many research which focus on human body movement visualization in which user can explore and analyse a certain data set. \cite{chmelik} propose bla bla bla..
+
+
+-- the reason to study movement of human body
+
 -- MotionExplorer: related to body movement data
 
 

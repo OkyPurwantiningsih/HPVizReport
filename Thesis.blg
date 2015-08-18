@@ -10,3 +10,8 @@ A level-1 auxiliary file: Chapters/Chapter7.aux
 A level-1 auxiliary file: Appendices/Appendix1.aux
 The style file: plain.bst
 Database file #1: Thesis.bib
+Repeated entry---line 182 of file Thesis.bib
+ : @article{adrienko
+ :                  ,
+I'm skipping whatever remains of this entry
+(There was 1 error message)

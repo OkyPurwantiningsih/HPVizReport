@@ -5,16 +5,36 @@ Wolfgang Aigner, Silvia Miksch, Heidrun Schumann, and Christian Tominski.
 \newblock {\em Visualization of Time-Oriented Data}.
 \newblock Human-Computer Interaction Series. Springer, 2011.
 
+\bibitem{adrienko_book}
+Gennady~L. Andrienko, Natalia~V. Andrienko, Peter Bak, Daniel~A. Keim, and
+  Stefan Wrobel.
+\newblock {\em Visual Analytics of Movement.}
+\newblock Springer, 2013.
+
 \bibitem{adrienko}
 Natalia~V. Andrienko and Gennady~L. Andrienko.
 \newblock Spatial generalization and aggregation of massive movement data.
 \newblock {\em IEEE Trans. Vis. Comput. Graph.}, 17(2):205--219, 2011.
+
+\bibitem{bernard2013}
+J{\"u}rgen Bernard, Nils Wilhelm, Bj{\"o}rn Kr{\"u}ger, Thorsten May, Tobias
+  Schreck, and J{\"o}rn Kohlhammer.
+\newblock Motionexplorer: Exploratory search in human motion capture data based
+  on hierarchical aggregation.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics (Proc.
+  VAST)}, December 2013.
 
 \bibitem{brezinka}
 V.~Brezinka.
 \newblock Treasure hunt - a serious game to support psychotherapeutic treatment
   of children.
 \newblock {\em Studies in Health Technology and Informatics}, 136:71--76, 2008.
+
+\bibitem{chmelik}
+Jiri Chmelik and Jiri Sochor.
+\newblock Body motion visualization in virtual environment.
+\newblock In {\em Proceedings of the 30TH CONFERENCE ON GEOMETRY AND GRAPHICS},
+  pages 119--124, Prague, 2010. MATFYZPRESS.
 
 \bibitem{diloreto}
 Ines Di~Loreto, Benoit Lange, Antoine Seilles, William Dyce, and Sebastien
@@ -29,6 +49,11 @@ Peter Gatalsky, Natalia Andrienko, and Gennady Andrienko.
   International Conference}, IV '04, pages 145--152, Washington, DC, USA, 2004.
   IEEE Computer Society.
 
+\bibitem{gavrila}
+D.M Gavrila.
+\newblock The visual analysis of human movement.
+\newblock {\em Comput. Vis. Image Underst.}, 73(1):82--98, January 1999.
+
 \bibitem{green}
 D.~Green and P.~Wilson.
 \newblock Use of virtual reality in rehabilitation of movement in children with
@@ -42,11 +67,30 @@ Susan Havre, Beth Hetzler, and Lucy Nowell.
   Vizualization 2000}, INFOVIS '00, pages 115--, Washington, DC, USA, 2000.
   IEEE Computer Society.
 
+\bibitem{heryadi}
+Yaya Heryadi, M.~Ivan Fanany, and A.M. Arymurthy.
+\newblock Grammar of dance gesture from bali traditional dance.
+\newblock {\em International Journal of Computer Science Issues}, 9:144--149,
+  2012.
+
 \bibitem{Munzner:2009:NMV:1638611.1639181}
 Tamara Munzner.
 \newblock A nested model for visualization design and validation.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   15(6):921--928, November 2009.
+
+\bibitem{okabe}
+Atsuyuki Okabe, Barry Boots, Kokichi Sugihara, and Sung~Nok Chiu.
+\newblock {\em Spatial Tessellations: Concepts and Applications of {V}oronoi
+  Diagrams}.
+\newblock Series in Probability and Statistics. John Wiley and Sons, Inc., 2nd
+  ed. edition, 2000.
+
+\bibitem{patsadu}
+O.~Patsadu, C.~Nukoolkit, and B.~Watanapa.
+\newblock Human gesture recognition using kinect camera.
+\newblock In {\em Computer Science and Software Engineering (JCSSE), 2012
+  International Joint Conference on}, pages 28--32, May 2012.
 
 \bibitem{rahman}
 Abdur Rahman.
@@ -60,6 +104,13 @@ Md.Abdur Rahman.
 \newblock Multimedia environment toward analyzing and visualizing live
   kinematic data for children with hemiplegia.
 \newblock {\em Multimedia Tools and Applications}, 74(15):5463--5487, 2015.
+
+\bibitem{raptis}
+Michalis Raptis, Darko Kirovski, and Hugues Hoppe.
+\newblock Real-time classification of dance gestures from skeleton animation.
+\newblock In {\em Proceedings of the 2011 ACM SIGGRAPH/Eurographics Symposium
+  on Computer Animation}, SCA '11, pages 147--156, New York, NY, USA, 2011.
+  ACM.
 
 \bibitem{tominski}
 Christian Tominski, Petra Schulze-Wollgast, and Heidrun Schumann.

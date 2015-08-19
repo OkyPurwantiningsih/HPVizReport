@@ -10,20 +10,18 @@
 \contentsline {section}{\numberline {3.1}Visualization of Serious Game Result}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Visualization of Time Series Data}{11}{section.3.2}
 \contentsline {section}{\numberline {3.3}Visualization of Movement Data}{13}{section.3.3}
-\contentsline {section}{\numberline {3.4}Data Visualization Tool}{15}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}D3.js}{15}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Three.js}{16}{subsection.3.4.2}
-\contentsline {chapter}{\numberline {4}Data Abstraction}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Game Events Structure}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Clustering Algorithm}{17}{section.4.2}
-\contentsline {chapter}{\numberline {5}Visual Mappings And Interactive Functionality}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Theme River}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Heat Map}{19}{section.5.2}
-\contentsline {section}{\numberline {5.3}Summary Theme River}{19}{section.5.3}
-\contentsline {chapter}{\numberline {6}Case Studies}{21}{chapter.6}
-\contentsline {section}{\numberline {6.1}Normal Player}{21}{section.6.1}
-\contentsline {section}{\numberline {6.2}Patient}{21}{section.6.2}
-\contentsline {chapter}{\numberline {7}Conclusion}{23}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Example}{25}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Example section}{25}{section.A.1}
-\contentsline {chapter}{Bibliography}{27}{appendix*.16}
+\contentsline {section}{\numberline {3.4}Data Visualization Tool}{17}{section.3.4}
+\contentsline {chapter}{\numberline {4}Data Abstraction}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Game Events Structure}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}Clustering Algorithm}{19}{section.4.2}
+\contentsline {chapter}{\numberline {5}Visual Mappings And Interactive Functionality}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Theme River}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}Heat Map}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Summary Theme River}{21}{section.5.3}
+\contentsline {chapter}{\numberline {6}Case Studies}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Normal Player}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}Patient}{23}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{25}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix Example}{27}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Example section}{27}{section.A.1}
+\contentsline {chapter}{Bibliography}{29}{appendix*.21}

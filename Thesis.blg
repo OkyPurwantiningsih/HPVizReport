@@ -14,4 +14,7 @@ Repeated entry---line 182 of file Thesis.bib
  : @article{adrienko
  :                  ,
 I'm skipping whatever remains of this entry
-(There was 1 error message)
+A bad cross reference---entry "yuko"
+refers to entry "conf/icat/2007", which doesn't exist
+Warning--I didn't find a database entry for "conf/icat/2007"
+(There were 2 error messages)

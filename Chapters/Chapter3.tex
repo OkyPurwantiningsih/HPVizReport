@@ -74,19 +74,54 @@ Patterns can also be found by introducing aggregation and generalisation techniq
 \caption{Theme River}
 \end{figure}
 
-Recognizing and understanding human movement has many benefits in different application domain: arts\cite{heryadi,raptis}, sports\cite{bernard2013}, healthcare\cite{patsadu}, etc. There are numerous research has been done concerning human movement analysis as discussed in  \cite{gavrila} which surveyed different methodologies and approaches. Most of the methodologies discussed focus on identifying a certain type of movement. On the other hand, to my knowledge, there hasn't been many research which focus on human body movement visualization in which user can explore and analyse a certain data set. \cite{chmelik} propose bla bla bla..
+Recognizing and understanding human movement has many benefits in different application domain: arts\cite{heryadi,raptis}, sports\cite{bernard2013}, healthcare\cite{patsadu}, etc. There are numerous research has been done concerning human movement analysis as discussed in  \cite{gavrila} which surveyed different methodologies and approaches. Most of the methodologies discussed focus on identifying a certain type of movement. On the other hand, to my knowledge, there hasn't been many research which focus on human body movement visualization in which user can explore and analyse a certain data set. 
 
+\cite{chmelik} proposes a system to track and visualize body movement on a virtual environment in real time. In this system, body parts  which desired to be tracked are attached an optical system with twelve infrared cameras. Once user move the tracked body parts, a "motion trail" will be shown in the virtual environment in which then user can manipulate its representation by changing the color, shape, smoothness, etc. These interaction also conducted directly in the virtual environment. Figure 3.8 \cite{chmelik} below shows the motion trail produced in the virtual environment while a user move the tracking device in his hand. On the right is the interface where user can interact with the visualization.
 
--- the reason to study movement of human body
+Another approach to visualize body movement is by using color belt \cite{yuko}. In this approach, movement data collected from motion capture system with 11 sensors attached in body joints (Figure 3.9 left) are grouped into 4 limbs movement: Right Arm, Left Arm, Right Leg, Left Leg. Each of the limb representation is arranged in vertical axis sequentially forming a belt. The horizontal axis represents time (from left to right) and the sections represent sets of movement. Limb motions are shown as gradation of red-green colors in this belt by extracting the position and angle of associated body joints data (Figure 3.9 middle). Positive angle is represented with red color, while negative angle is represented with green color. Figure 3.9 (right) shows a color belt and how it is related to the body movement done by a gymnast. The color belt shows the first to fourth movement set. As can be seen in the picture, the gymnast move her leg on the second exercise and the second section on the color belt depicts the movement for right leg and left leg.
 
--- MotionExplorer: related to body movement data
+\begin{figure}
+\centering
+\includegraphics[width=150mm]{chmelik_trail.png}
+\caption{Motion Trail}
+\end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[width=150mm]{yuko_belt.png}
+\caption{Motion Trail}
+\end{figure}
 
+MotionExplorer\cite{bernard2013} introduced human motion exploratory search using hierarchical aggregation. This approach are directed towards the need to explore huge quantity of motion data and be able to identify interesting sequence of movements. Implemented on database which contains various motions in multiple repetitions, first each human pose data is clustered using k-means algorithm. A pose cluster comprises of a large numbers of similar human pose and is represented as a circular glyph with human stick-figure pose as the centroid and set of pose in the cluster as deviating, transparent figures. The cycle around cluster glyph are colored based on color legend and shows similarity among clusters. MotionExplorer provides 4 views (figure 3.10): (i) \textit{Pose hierarchy explorer} (top left) allows user to explore all available pose cluster in the data sets hierarchically. The pose cluster hierarchy is shown as a dendogram and calculated with a divisive clustering algorithm. The aggregation level is adjustable. (ii) \textit{Motion explorer} (top right) shows sequences between pose clusters at current aggregation level. Human poses are represented as nodes while edges represent motion sequences. Two nodes are connected if there is at least one motion sequence which connects both pose clusters. (iii) \textit{Motion search} interface (bottom right) allows user to input query for a specific motion sequence by inputting start pose and end pose. An interactive search result is provided where user can explore each style variations. The interface is divided into 4 parts: start pose field, search result field, end pose field and pose bundle animation. A user can make search query by choosing/dragging a pose cluster to the start and end pose field. The resulting motion sequences are then shown in the search result field on the granularity of a single human pose. (iv) \textit{Pose color mapping} (box on bottom left) is a color legend related to each pose cluster. The color grid is built using SOM algorithm trained with all feature vectors in a vector quantization scheme. By clicking one of the clusters in the color legend, the aggregation level will be adjusted to the granularity level of the selected pose cluster. Each visualization window is linked. When user changes the aggregation level in the pose hierarchy explorer, the motion explorer is automatically adjusted to the new aggregation level. When user clicks on one of the clusters in the color legend, the system automatically adjust the aggregation level to the same granularity of the selected cluster. If a cluster in one of the view is selected, then the same cluster pose is also highlighted in every view. 
+
+\begin{figure}
+\centering
+\includegraphics[width=150mm]{bernard_motionexplorer.png}
+\caption{MotionExplorer interface}
+\end{figure}
 
 \section{Data Visualization Tool}
-\subsection{D3.js}
-general explanation of d3js and some example of how it is used to visualize time series and movement data.
 
-\subsection{Three.js}
-general explanation of three.js and some example.
+The popularity of data visualization has been supported with the development of a lot of data visualization tool. To support the development of the interface in this thesis, the survey is focused on tools which allows creation of different visualization technique without restriction of a ready made template or certain chart type. 
+
+One of the tools surveyed is D3\cite{bostock}. \textbf{D3} or Data-Driven Documents is a javascript library which allows user to create desired visualization either the standard one (bar, line, scatter plot, etc.) or the customized one (limited only by one's creativity) in 2D. Built by incorporating HTML5, CSS, and SVG standards, D3 enables user to load data in various format(.json,.csv,.txt, etc.)\footnote{\url{https://github.com/mbostock/d3/wiki/API-Reference}} and present it as a chart. The various functionality offered by D3 and its detailed API documentation has encourage a lot of people to explore it. This resulted in numerous amount of D3 demo online which can be a good reference source for new user\footnote{\url{http://techslides.com/over-2000-d3-js-examples-and-demos}}.
+
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{d3js.png}
+\caption{Some of visualizations developed with D3.js}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{threejs.png}
+\caption{3D visualization of world population developed in Three.js}
+\end{figure}
+
+Another interesting visualization tool reviewed is Three.js. Similar to D3, Three.js is a javascript library. However, Three.js is aimed to provide support for 3D visualizationwith minimal complexity\footnote{\url{https://github.com/mrdoob/three.js/blob/master/README.md}}. The features\footnote{\url{https://github.com/mrdoob/three.js/wiki/Features}} offered by Three.js allows user to develop 3D visualization on WebGL supported web browser without having to install any third party application. Shown in Figure 3.12 visualization of world population on a globe. User can turn the globe around to explore certain area of the world.
+
+Considering the visualization requirement identified in the previous chapter as well as the features offered by D3, consequently D3 is chosen as the tool for interface development.
+
+
+
 

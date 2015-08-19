@@ -24,6 +24,12 @@ J{\"u}rgen Bernard, Nils Wilhelm, Bj{\"o}rn Kr{\"u}ger, Thorsten May, Tobias
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics (Proc.
   VAST)}, December 2013.
 
+\bibitem{bostock}
+Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer.
+\newblock D3 data-driven documents.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  17(12):2301--2309, December 2011.
+
 \bibitem{brezinka}
 V.~Brezinka.
 \newblock Treasure hunt - a serious game to support psychotherapeutic treatment
@@ -111,6 +117,11 @@ Michalis Raptis, Darko Kirovski, and Hugues Hoppe.
 \newblock In {\em Proceedings of the 2011 ACM SIGGRAPH/Eurographics Symposium
   on Computer Animation}, SCA '11, pages 147--156, New York, NY, USA, 2011.
   ACM.
+
+\bibitem{yuko}
+Yuko Tashiro and Tsuyoshi Saitoh.
+\newblock A study on motion visualization system using motion capture data.
+\newblock In {\em ICAT}, pages 314--315. IEEE Computer Society, 2007.
 
 \bibitem{tominski}
 Christian Tominski, Petra Schulze-Wollgast, and Heidrun Schumann.

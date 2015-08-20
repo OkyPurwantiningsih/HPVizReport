@@ -1,9 +1,43 @@
 \chapter{Data Abstraction}
-The data we explore...
-Our targeted data type is .. collected over... Typically, they containe...
-Discuss about the input (log file) of the application.
+
+In this chapter I discuss the design of data structure and clustering technique used to support the visual requirement. First, an overview of the input data generated from the game will be explained. Then a description on how this data is extracted to be the input of the visualization interface will be given. Finally, a clustering algorithm selected to be used in the visualization will be discussed.
 
 \section{Game Events Structure}
-take raw data and then define high level structure we use to deal with enemies, obstacles, obstacles. For each event, we assign a value () => to characterize the event
+\subsection{Event Category}
+The goal of Hammer and Planks game is to kill all of the enemies while avoiding any attack from the enemies and obstacles\cite{diloreto}. Along the way, player can also catch bonuses to increase their score. Based on these, I identify three different objects within the game: Enemy, Bonus, and Obstacle. For each of these object, there are certain events associated. Each event which happened during the gameplay is recorded in the log file with the following information: event type, timestamp, object id, and location. In total, there are 8 event types:
+\newcommand{\events}[2]{$#1 _ #2$}	
+\begin{enumerate}[label=({\arabic*})]
+\item Catch: when a bonus is catched
+\item Miss: when a bonus is missed or player's attack on enemy is missed
+\item Dodge: when an obstacle is avoided
+\item Collision: when the player's boat collide with an enemy or obstacle
+\item Kill: when an enemy is destroyed by player's boat
+\item Hit: when the player's attack hit an enemy
+\item Hurt: when the enemy's attack hit player's boat
+\item Miss: when the enemy's attack missed player's boat
+\end{enumerate}
+
+Based on the level of impact of each event to the user's boat, we characterize the event by assign it with Positive, Neutral, or Negative as shown in the following table:
+
+\begin{center}
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    Events & Bonus & Obstacle & Enemy \\ \hline
+    Positive & catch & - & kill,hit\\ \hline
+    Neutral & miss & miss & dodge\\ \hline
+    Negative & - & collision & hurt, collision\\
+    \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Game World Coordinates}
+Each object and event in the game are assigned with 3D location coordinates. An \textit{x} axis of this coordinate indicate horizontal axis of the screen. However, \textit{y} axis indicate vertical axis in the game world which means -\textit{y} is a location under the sea and +\textit{y} is above the sea. \textit{z} axis indicate vertical axis of the screen. The visualization uses the x axis to represent body movement over horizontal axis and z axis to calculate screen speed as explain in the following sub section.
+
+\subsection{Screen Speed}
+In the game, a big number of positive events indicate a good player's performance. However, it is important to consider whether the events happened when the player's boat move fast or slowly \ref{t14}\ref{t16}. Getting all the bonuses while moving fast requires precise hand/body movement which indicates improvement in rehabilitation process. Boat speed while navigating the sea is basically the speed in which the screen scroll($\upsilon_{scr}$). This is calculated by identifying the location(apparition z coordinate $\theta_{apr}$) and time (apparition time $\textit{t}_{apr}$) of an object when it first appear on the screen, and location(event z coordinate $\theta_{evt}$) and time(event time $\textit{t}_{evt}$) when an event happened on that object.
+
+$$ \upsilon_{scr} = \frac{\theta_{evt}-\theta_{apr}}{\textit{t}_{evt}-\textit{t}_{apr}} $$
+
 \section{Clustering Algorithm}
+
 clustering model is also in this part to see what common evolution of section of the game

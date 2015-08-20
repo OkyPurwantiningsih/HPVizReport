@@ -13,15 +13,18 @@
 \BOOKMARK [1][]{section.3.4}{Data Visualization Tool}{chapter.3}% 13
 \BOOKMARK [0][]{chapter.4}{Data Abstraction}{}% 14
 \BOOKMARK [1][]{section.4.1}{Game Events Structure}{chapter.4}% 15
-\BOOKMARK [1][]{section.4.2}{Clustering Algorithm}{chapter.4}% 16
-\BOOKMARK [0][]{chapter.5}{Visual Mappings And Interactive Functionality}{}% 17
-\BOOKMARK [1][]{section.5.1}{Theme River}{chapter.5}% 18
-\BOOKMARK [1][]{section.5.2}{Heat Map}{chapter.5}% 19
-\BOOKMARK [1][]{section.5.3}{Summary Theme River}{chapter.5}% 20
-\BOOKMARK [0][]{chapter.6}{Case Studies}{}% 21
-\BOOKMARK [1][]{section.6.1}{Normal Player}{chapter.6}% 22
-\BOOKMARK [1][]{section.6.2}{Patient}{chapter.6}% 23
-\BOOKMARK [0][]{chapter.7}{Conclusion}{}% 24
-\BOOKMARK [0][]{appendix.A}{Appendix Example}{}% 25
-\BOOKMARK [1][]{section.A.1}{Appendix Example section}{appendix.A}% 26
-\BOOKMARK [0][]{appendix*.21}{Bibliography}{}% 27
+\BOOKMARK [2][]{subsection.4.1.1}{Event Category}{section.4.1}% 16
+\BOOKMARK [2][]{subsection.4.1.2}{Game World Coordinates}{section.4.1}% 17
+\BOOKMARK [2][]{subsection.4.1.3}{Screen Speed}{section.4.1}% 18
+\BOOKMARK [1][]{section.4.2}{Clustering Algorithm}{chapter.4}% 19
+\BOOKMARK [0][]{chapter.5}{Visual Mappings And Interactive Functionality}{}% 20
+\BOOKMARK [1][]{section.5.1}{Theme River}{chapter.5}% 21
+\BOOKMARK [1][]{section.5.2}{Heat Map}{chapter.5}% 22
+\BOOKMARK [1][]{section.5.3}{Summary Theme River}{chapter.5}% 23
+\BOOKMARK [0][]{chapter.6}{Case Studies}{}% 24
+\BOOKMARK [1][]{section.6.1}{Normal Player}{chapter.6}% 25
+\BOOKMARK [1][]{section.6.2}{Patient}{chapter.6}% 26
+\BOOKMARK [0][]{chapter.7}{Conclusion}{}% 27
+\BOOKMARK [0][]{appendix.A}{Appendix Example}{}% 28
+\BOOKMARK [1][]{section.A.1}{Appendix Example section}{appendix.A}% 29
+\BOOKMARK [0][]{appendix*.21}{Bibliography}{}% 30

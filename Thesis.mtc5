@@ -1,3 +1,8 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Theme River}{\reset@font\mtcSfont 23}{section.5.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Heat Map}{\reset@font\mtcSfont 23}{section.5.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Summary Theme River}{\reset@font\mtcSfont 23}{section.5.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Early version of the Visualization}{\reset@font\mtcSfont 23}{section.5.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Session Visualization}{\reset@font\mtcSfont 24}{section.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.1}Stacked Graph}{\reset@font\mtcSSfont 24}{subsection.5.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.2.2}Heat Map}{\reset@font\mtcSSfont 25}{subsection.5.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Summary Visualization}{\reset@font\mtcSfont 26}{section.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.1}Visualization by x-area}{\reset@font\mtcSSfont 26}{subsection.5.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.2}Visualization by number of events}{\reset@font\mtcSSfont 26}{subsection.5.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}General Interface}{\reset@font\mtcSfont 26}{section.5.4}}

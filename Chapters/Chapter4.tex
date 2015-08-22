@@ -40,4 +40,21 @@ $$ \upsilon_{scr} = \frac{\theta_{evt}-\theta_{apr}}{\textit{t}_{evt}-\textit{t}
 
 \section{Clustering Algorithm}
 
-clustering model is also in this part to see what common evolution of section of the game
+In understanding the common evolution of the gameplay among different sessions over x-area, it is interesting to see what the common evolution of different section of x-area\ref{t27}. The idea is to aggregate similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. To achieve this, a clustering algorithm based on hierarchical clustering is introduced:
+\begin{algorithm}
+  \caption{Hierarchical Clustering}\label{alg:Clustering}
+  \begin{algorithmic}[1]
+  \STATE Divide the x-area into slices the size of 1 x-axis unit.
+  \STATE Define the profile for each section. Let a section be Slice $\textit{S}_i$, number of session be $n_{ses}$ and number of section be $n_{sec}$. An $\textit{S}_i$ is an ordered set of triplet $\textit{t}_i$. Each triplet represents dataset of a certain game session of a particular Slice. The triplet consists of the number of negative, neutral and positive events.
+$$\textit{t}_i = (n_{neg}, n_{net}, n_{pos})$$
+$$\textit{S}_i = \{\textit{t}_i(1), \textit{t}_i(2), ..., \textit{t}_i(n_{ses})\}, 1\le i\le n_{sec}$$
+  \STATE Normalize each slice by dividing each triplet component with max triplet value \textit{max} of $\textit{S}_i$.
+$$ \textit{N}(\textit{S}_i) = \{(\frac{n_{neg}}{\textit{max}}, \frac{n_{net}}{\textit{max}}, \frac{n_{pos}}{\textit{max}}),...,(\frac{n_{neg}}{\textit{max}}, \frac{n_{net}}{\textit{max}}, \frac{n_{pos}}{\textit{max}})\}$$
+  \STATE Calculate the distance between slice $\textit{S}_i$ and $\textit{S}_{i+1}$ using Euclidean Distance.
+$$ d(\textit{S}_i,\textit{S}_{i+1}) = \displaystyle\sum_{j=1}^{n_{ses}} ED(\textit{t}_i (j), \textit{t}_{i+1} (j))$$
+  \STATE Following the Hierarchical Clustering algorithm\cite{maimon}, merge two consecutive slices if it satisfies the distance threshold specified beforehand. Calculate the distance of the merged slices with the next slice and merge them if the distance is still below the threshold. Repeat the process until there is no distance which satisfies the threshold.
+
+
+  \end{algorithmic}
+\end{algorithm} 
+

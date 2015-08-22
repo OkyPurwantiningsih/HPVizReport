@@ -17,14 +17,14 @@
 \contentsline {subsection}{\numberline {4.1.2}Game World Coordinates}{20}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Screen Speed}{20}{subsection.4.1.3}
 \contentsline {section}{\numberline {4.2}Clustering Algorithm}{20}{section.4.2}
-\contentsline {chapter}{\numberline {5}Visual Mappings And Interactive Functionality}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Theme River}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Heat Map}{21}{section.5.2}
-\contentsline {section}{\numberline {5.3}Summary Theme River}{21}{section.5.3}
-\contentsline {chapter}{\numberline {6}Case Studies}{23}{chapter.6}
-\contentsline {section}{\numberline {6.1}Normal Player}{23}{section.6.1}
-\contentsline {section}{\numberline {6.2}Patient}{23}{section.6.2}
-\contentsline {chapter}{\numberline {7}Conclusion}{25}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Example}{27}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Example section}{27}{section.A.1}
-\contentsline {chapter}{Bibliography}{29}{appendix*.21}
+\contentsline {chapter}{\numberline {5}Visual Mappings And Interactive Functionality}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Theme River}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Heat Map}{23}{section.5.2}
+\contentsline {section}{\numberline {5.3}Summary Theme River}{23}{section.5.3}
+\contentsline {chapter}{\numberline {6}Case Studies}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}Normal Player}{25}{section.6.1}
+\contentsline {section}{\numberline {6.2}Patient}{25}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{27}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix Example}{29}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Example section}{29}{section.A.1}
+\contentsline {chapter}{Bibliography}{31}{appendix*.21}

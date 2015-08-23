@@ -14,10 +14,10 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Flow Map\relax }}{12}{figure.caption.11}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Spatio-Temporal Event Visualization\relax }}{12}{figure.caption.12}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Theme River\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Theme River\relax }}{14}{figure.caption.14}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Theme River\relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Car Trajectories clustered by route similarity\relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Presence of cars in Milan in different time period\relax }}{15}{figure.caption.15}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Motion Trail\relax }}{16}{figure.caption.16}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Motion Trail\relax }}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Color Belt depicting gymnast body movement\relax }}{16}{figure.caption.17}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces MotionExplorer interface\relax }}{17}{figure.caption.18}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Some of visualizations developed with D3.js\relax }}{18}{figure.caption.19}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces 3D visualization of world population developed in Three.js\relax }}{18}{figure.caption.20}
@@ -25,22 +25,24 @@
 \contentsline {xchapter}{Data Abstraction}{19}{chapter.4}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Visual Mappings And Interactive Functionality}{23}{chapter.5}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces First visualization version for \ref {t13} and \ref {t14} using Scatter Plot\relax }}{23}{figure.caption.21}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces First visualization version for \ref {t11} and \ref {t12} using Line Chart\relax }}{24}{figure.caption.22}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Stacked Graph with Linear Layout\relax }}{25}{figure.caption.23}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Different Layout of the Stacked Graph representing number of events over x-axis\relax }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces First visualization version for \ref {t13} and \ref {t14} using Scatter Plot\relax }}{23}{figure.caption.22}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces First visualization version for \ref {t11} and \ref {t12} using Line Chart\relax }}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Stacked Graph with Linear Layout\relax }}{25}{figure.caption.24}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Different Layout of the Stacked Graph representing number of events over x-axis\relax }}{26}{figure.caption.25}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Silhouette}}}{26}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Positive}}}{26}{subfigure.4.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Neutral-Negative}}}{26}{subfigure.4.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Positive-Neutral}}}{26}{subfigure.4.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Heatmap\relax }}{27}{figure.caption.25}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Application Interface\relax }}{27}{figure.caption.26}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Application Interface\relax }}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Application Interface\relax }}{28}{figure.caption.28}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Application Interface\relax }}{28}{figure.caption.29}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Heatmap\relax }}{26}{figure.caption.26}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Summary Chart divided by range of x-area\relax }}{28}{figure.caption.27}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Summary Chart divided by range of x-area, clustered with threshold = 4\relax }}{28}{figure.caption.28}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces A section in Summary Visualization\relax }}{28}{figure.caption.29}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Summary Chart divided by number of events\relax }}{29}{figure.caption.30}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Interaction Bar for Summary Visualization\relax }}{30}{figure.caption.31}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Application Interface\relax }}{30}{figure.caption.32}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Case Studies}{29}{chapter.6}
+\contentsline {xchapter}{Case Studies}{31}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{31}{chapter.7}
+\contentsline {xchapter}{Conclusion}{33}{chapter.7}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Appendix Example}{33}{appendix.A}
+\contentsline {xchapter}{Appendix Example}{35}{appendix.A}

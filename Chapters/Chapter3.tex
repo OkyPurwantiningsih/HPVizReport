@@ -63,7 +63,7 @@ There has been numerous method and application developed to analyse movement dat
 \begin{figure}
 \centering
 \includegraphics[width=150mm]{adrienko_clustered.png}
-\caption{Theme River}
+\caption{Car Trajectories clustered by route similarity}
 \end{figure}
 
 Patterns can also be found by introducing aggregation and generalisation technique on spatial or temporal properties of the movement. For example, the movement data can be aggregated spatially into a discrete grid and for each grid, the number of movement (total or average) happened within the grid can be represented with color or objects in different size. Figure 3.7 \cite{adrienko_book} shows the presence of cars in Milan in certain geographical area (generated with Voronoi tessellation \cite{okabe}) during certain time period. The number of cars in the area is represented with a circle in different size which indicate intensity of traffic. As we can see, there are more traffic between 05-06h (left) compared to 22-23h (right). This is understandable since most people leave work around 5  to 6 pm and are already home at 22-23 pm.
@@ -71,7 +71,7 @@ Patterns can also be found by introducing aggregation and generalisation techniq
 \begin{figure}
 \centering
 \includegraphics[width=150mm]{adrienko_milan.png}
-\caption{Theme River}
+\caption{Presence of cars in Milan in different time period}
 \end{figure}
 
 Recognizing and understanding human movement has many benefits in different application domain: arts\cite{heryadi,raptis}, sports\cite{bernard2013}, healthcare\cite{patsadu}, etc. There are numerous research has been done concerning human movement analysis as discussed in  \cite{gavrila} which surveyed different methodologies and approaches. Most of the methodologies discussed focus on identifying a certain type of movement. On the other hand, to my knowledge, there hasn't been many research which focus on human body movement visualization in which user can explore and analyse a certain data set. 
@@ -89,7 +89,7 @@ Another approach to visualize body movement is by using color belt \cite{yuko}. 
 \begin{figure}
 \centering
 \includegraphics[width=150mm]{yuko_belt.png}
-\caption{Motion Trail}
+\caption{Color Belt depicting gymnast body movement}
 \end{figure}
 
 MotionExplorer\cite{bernard2013} introduced human motion exploratory search using hierarchical aggregation. This approach are directed towards the need to explore huge quantity of motion data and be able to identify interesting sequence of movements. Implemented on database which contains various motions in multiple repetitions, first each human pose data is clustered using k-means algorithm. A pose cluster comprises of a large numbers of similar human pose and is represented as a circular glyph with human stick-figure pose as the centroid and set of pose in the cluster as deviating, transparent figures. The cycle around cluster glyph are colored based on color legend and shows similarity among clusters. MotionExplorer provides 4 views (figure 3.10): (i) \textit{Pose hierarchy explorer} (top left) allows user to explore all available pose cluster in the data sets hierarchically. The pose cluster hierarchy is shown as a dendogram and calculated with a divisive clustering algorithm. The aggregation level is adjustable. (ii) \textit{Motion explorer} (top right) shows sequences between pose clusters at current aggregation level. Human poses are represented as nodes while edges represent motion sequences. Two nodes are connected if there is at least one motion sequence which connects both pose clusters. (iii) \textit{Motion search} interface (bottom right) allows user to input query for a specific motion sequence by inputting start pose and end pose. An interactive search result is provided where user can explore each style variations. The interface is divided into 4 parts: start pose field, search result field, end pose field and pose bundle animation. A user can make search query by choosing/dragging a pose cluster to the start and end pose field. The resulting motion sequences are then shown in the search result field on the granularity of a single human pose. (iv) \textit{Pose color mapping} (box on bottom left) is a color legend related to each pose cluster. The color grid is built using SOM algorithm trained with all feature vectors in a vector quantization scheme. By clicking one of the clusters in the color legend, the aggregation level will be adjusted to the granularity level of the selected pose cluster. Each visualization window is linked. When user changes the aggregation level in the pose hierarchy explorer, the motion explorer is automatically adjusted to the new aggregation level. When user clicks on one of the clusters in the color legend, the system automatically adjust the aggregation level to the same granularity of the selected cluster. If a cluster in one of the view is selected, then the same cluster pose is also highlighted in every view. 

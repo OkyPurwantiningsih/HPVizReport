@@ -18,7 +18,7 @@ The goal of Hammer and Planks game is to kill all of the enemies while avoiding 
 \end{enumerate}
 
 Based on the level of impact of each event to the user's boat, we characterize the event by assign it with Positive, Neutral, or Negative as shown in the following table:
-
+\begin{table}[h]
 \begin{center}
     \begin{tabular}{| l | l | l | l |}
     \hline
@@ -28,7 +28,9 @@ Based on the level of impact of each event to the user's boat, we characterize t
     Negative & - & collision & hurt, collision\\
     \hline
     \end{tabular}
+    \caption {Event Type grouping}
 \end{center}
+\end{table}
 
 \subsection{Game World Coordinates}
 Each object and event in the game are assigned with 3D location coordinates. An \textit{x} axis of this coordinate indicate horizontal axis of the screen. However, \textit{y} axis indicate vertical axis in the game world which means -\textit{y} is a location under the sea and +\textit{y} is above the sea. \textit{z} axis indicate vertical axis of the screen. The visualization uses the x axis to represent body movement over horizontal axis and z axis to calculate screen speed as explain in the following sub section.
@@ -44,7 +46,7 @@ In understanding the common evolution of the gameplay among different sessions o
 \begin{algorithm}
   \caption{Hierarchical Clustering}\label{alg:Clustering}
   \begin{algorithmic}[1]
-  \STATE Divide the x-area into slices the size of 1 x-axis unit.
+  \STATE Divide the x-area into slices the size of selected x range.
   \STATE Define the profile for each section. Let a section be Slice $\textit{S}_i$, number of session be $n_{ses}$ and number of section be $n_{sec}$. An $\textit{S}_i$ is an ordered set of triplet $\textit{t}_i$. Each triplet represents dataset of a certain game session of a particular Slice. The triplet consists of the number of negative, neutral and positive events.
 $$\textit{t}_i = (n_{neg}, n_{net}, n_{pos})$$
 $$\textit{S}_i = \{\textit{t}_i(1), \textit{t}_i(2), ..., \textit{t}_i(n_{ses})\}, 1\le i\le n_{sec}$$

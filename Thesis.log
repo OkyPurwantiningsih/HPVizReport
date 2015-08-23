@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.3)  23 AUG 2015 22:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.3)  24 AUG 2015 00:04
 entering extended mode
 **Thesis.tex
 
@@ -1136,24 +1136,24 @@ Chapter 6.
 
 
 
-]) [32]
+] [32]) [33]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Chapters/Chapter7.tex"
-Chapter 7.
-) [33
+ster Thesis - Oky\Chapters/Chapter7.tex" [34
 
 
 
 ]
+Chapter 7.
+) [35]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
-ster Thesis - Oky\Appendices/Appendix1.tex" [34
+ster Thesis - Oky\Appendices/Appendix1.tex" [36
 
 
 
 ]
 Appendix A.
 
-<images/appendix_case1_compare_session_stackedgraph.png, id=781, 825.83531pt x 
+<images/appendix_case1_compare_session_stackedgraph.png, id=811, 825.83531pt x 
 268.00125pt>
 File: images/appendix_case1_compare_session_stackedgraph.png Graphic file (type
  png)
@@ -1162,7 +1162,7 @@ Package pdftex.def Info: images/appendix_case1_compare_session_stackedgraph.png
  used on input line 7.
 (pdftex.def)             Requested size: 398.33858pt x 129.26889pt.
 
-<images/appendix_case1_compare_session_heatmap.png, id=782, 843.15pt x 436.6312
+<images/appendix_case1_compare_session_heatmap.png, id=812, 843.15pt x 436.6312
 6pt>
 File: images/appendix_case1_compare_session_heatmap.png Graphic file (type png)
 
@@ -1171,7 +1171,7 @@ Package pdftex.def Info: images/appendix_case1_compare_session_heatmap.png used
  on input line 14.
 (pdftex.def)             Requested size: 398.33858pt x 206.2827pt.
 
-<images/appendix_case1_compare_session_stackedgraph_enemy.png, id=783, 828.0937
+<images/appendix_case1_compare_session_stackedgraph_enemy.png, id=813, 828.0937
 5pt x 268.75406pt>
 File: images/appendix_case1_compare_session_stackedgraph_enemy.png Graphic file
  (type png)
@@ -1181,7 +1181,7 @@ Package pdftex.def Info: images/appendix_case1_compare_session_stackedgraph_ene
 my.png used on input line 21.
 (pdftex.def)             Requested size: 398.33858pt x 129.28343pt.
 
-<images/appendix_case1_compare_session_heatmap_enemy.png, id=784, 845.40843pt x
+<images/appendix_case1_compare_session_heatmap_enemy.png, id=814, 845.40843pt x
  426.84468pt>
 File: images/appendix_case1_compare_session_heatmap_enemy.png Graphic file (typ
 e png)
@@ -1190,21 +1190,21 @@ Package pdftex.def Info: images/appendix_case1_compare_session_heatmap_enemy.pn
 g used on input line 28.
 (pdftex.def)             Requested size: 398.33858pt x 201.11853pt.
 
-<images/case1_type1.png, id=785, 906.38625pt x 379.4175pt>
+<images/case1_type1.png, id=815, 906.38625pt x 379.4175pt>
 File: images/case1_type1.png Graphic file (type png)
 
 <use images/case1_type1.png>
 Package pdftex.def Info: images/case1_type1.png used on input line 35.
 (pdftex.def)             Requested size: 398.33858pt x 166.74736pt.
 
-<images/case1_type1_select.png, id=786, 898.10532pt x 371.13657pt>
+<images/case1_type1_select.png, id=816, 898.10532pt x 371.13657pt>
 File: images/case1_type1_select.png Graphic file (type png)
 
 <use images/case1_type1_select.png>
 Package pdftex.def Info: images/case1_type1_select.png used on input line 42.
 (pdftex.def)             Requested size: 398.33858pt x 164.60875pt.
 
-<images/case1_type1_select_clustered.png, id=787, 898.85812pt x 373.395pt>
+<images/case1_type1_select_clustered.png, id=817, 898.85812pt x 373.395pt>
 File: images/case1_type1_select_clustered.png Graphic file (type png)
 
 <use images/case1_type1_select_clustered.png>
@@ -1212,49 +1212,49 @@ Package pdftex.def Info: images/case1_type1_select_clustered.png used on input
 line 49.
 (pdftex.def)             Requested size: 398.33858pt x 165.4737pt.
 
-<images/case1_type2.png, id=788, 897.3525pt x 377.91188pt>
+<images/case1_type2.png, id=818, 897.3525pt x 377.91188pt>
 File: images/case1_type2.png Graphic file (type png)
 
 <use images/case1_type2.png>
 Package pdftex.def Info: images/case1_type2.png used on input line 56.
 (pdftex.def)             Requested size: 398.33858pt x 167.75218pt.
 
-<images/case2_stacked.png, id=789, 482.55281pt x 268.75406pt>
+<images/case2_stacked.png, id=819, 482.55281pt x 268.75406pt>
 File: images/case2_stacked.png Graphic file (type png)
 
 <use images/case2_stacked.png>
 Package pdftex.def Info: images/case2_stacked.png used on input line 63.
 (pdftex.def)             Requested size: 398.33858pt x 221.86015pt.
 
-<images/case2_heatmap.png, id=790, 420.06938pt x 423.83344pt>
+<images/case2_heatmap.png, id=820, 420.06938pt x 423.83344pt>
 File: images/case2_heatmap.png Graphic file (type png)
 
 <use images/case2_heatmap.png>
 Package pdftex.def Info: images/case2_heatmap.png used on input line 70.
 (pdftex.def)             Requested size: 284.52756pt x 287.07762pt.
 
-<images/case2_stacked_bonus.png, id=791, 485.56406pt x 272.51813pt>
+<images/case2_stacked_bonus.png, id=821, 485.56406pt x 272.51813pt>
 File: images/case2_stacked_bonus.png Graphic file (type png)
 
 <use images/case2_stacked_bonus.png>
 Package pdftex.def Info: images/case2_stacked_bonus.png used on input line 77.
 (pdftex.def)             Requested size: 398.33858pt x 223.56194pt.
 
-<images/case2_heatmap_bonus.png, id=792, 441.90094pt x 459.21562pt>
+<images/case2_heatmap_bonus.png, id=822, 441.90094pt x 459.21562pt>
 File: images/case2_heatmap_bonus.png Graphic file (type png)
 
 <use images/case2_heatmap_bonus.png>
 Package pdftex.def Info: images/case2_heatmap_bonus.png used on input line 84.
 (pdftex.def)             Requested size: 284.52756pt x 295.6908pt.
 
-<images/case2_summary.png, id=793, 903.375pt x 371.88937pt>
+<images/case2_summary.png, id=823, 903.375pt x 371.88937pt>
 File: images/case2_summary.png Graphic file (type png)
 
 <use images/case2_summary.png>
 Package pdftex.def Info: images/case2_summary.png used on input line 91.
 (pdftex.def)             Requested size: 398.33858pt x 163.98364pt.
 
-<images/case2_summary_neutral.png, id=794, 916.1728pt x 383.93437pt>
+<images/case2_summary_neutral.png, id=824, 916.1728pt x 383.93437pt>
 File: images/case2_summary_neutral.png Graphic file (type png)
 
 <use images/case2_summary_neutral.png>
@@ -1262,7 +1262,7 @@ Package pdftex.def Info: images/case2_summary_neutral.png used on input line 98
 .
 (pdftex.def)             Requested size: 398.33858pt x 166.92809pt.
 
-<images/case2_summary_clustered.png, id=795, 900.36375pt x 380.92313pt>
+<images/case2_summary_clustered.png, id=825, 900.36375pt x 380.92313pt>
 File: images/case2_summary_clustered.png Graphic file (type png)
 
 <use images/case2_summary_clustered.png>
@@ -1270,36 +1270,36 @@ Package pdftex.def Info: images/case2_summary_clustered.png used on input line
 105.
 (pdftex.def)             Requested size: 398.33858pt x 168.53085pt.
 
-<images/case2_summary_type2.png, id=796, 903.375pt x 374.14781pt>
+<images/case2_summary_type2.png, id=826, 903.375pt x 374.14781pt>
 File: images/case2_summary_type2.png Graphic file (type png)
 
 <use images/case2_summary_type2.png>
 Package pdftex.def Info: images/case2_summary_type2.png used on input line 112.
 
 (pdftex.def)             Requested size: 398.33858pt x 164.97949pt.
-) [35 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repo
+) [37 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repo
 rt/Master Thesis - Oky/images/appendix_case1_compare_session_stackedgraph.png>]
- [36 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
+ [38 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
 t/Master Thesis - Oky/images/appendix_case1_compare_session_heatmap.png> <C:/Us
 ers/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report/Master Th
 esis - Oky/images/appendix_case1_compare_session_stackedgraph_enemy.png> <C:/Us
 ers/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report/Master Th
-esis - Oky/images/appendix_case1_compare_session_heatmap_enemy.png>] [37 <C:/Us
+esis - Oky/images/appendix_case1_compare_session_heatmap_enemy.png>] [39 <C:/Us
 ers/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report/Master Th
 esis - Oky/images/case1_type1.png> <C:/Users/Advanse-/Documents/Thesis/all docu
 ments for thesis/_Thesis Report/Master Thesis - Oky/images/case1_type1_select.p
 ng> <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report
-/Master Thesis - Oky/images/case1_type1_select_clustered.png>] [38 <C:/Users/Ad
+/Master Thesis - Oky/images/case1_type1_select_clustered.png>] [40 <C:/Users/Ad
 vanse-/Documents/Thesis/all documents for thesis/_Thesis Report/Master Thesis -
  Oky/images/case1_type2.png> <C:/Users/Advanse-/Documents/Thesis/all documents 
-for thesis/_Thesis Report/Master Thesis - Oky/images/case2_stacked.png>] [39 <C
+for thesis/_Thesis Report/Master Thesis - Oky/images/case2_stacked.png>] [41 <C
 :/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report/Maste
 r Thesis - Oky/images/case2_heatmap.png> <C:/Users/Advanse-/Documents/Thesis/al
 l documents for thesis/_Thesis Report/Master Thesis - Oky/images/case2_stacked_
-bonus.png>] [40 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_T
+bonus.png>] [42 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_T
 hesis Report/Master Thesis - Oky/images/case2_heatmap_bonus.png> <C:/Users/Adva
 nse-/Documents/Thesis/all documents for thesis/_Thesis Report/Master Thesis - O
-ky/images/case2_summary.png>] [41 <C:/Users/Advanse-/Documents/Thesis/all docum
+ky/images/case2_summary.png>] [43 <C:/Users/Advanse-/Documents/Thesis/all docum
 ents for thesis/_Thesis Report/Master Thesis - Oky/images/case2_summary_neutral
 .png> <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repo
 rt/Master Thesis - Oky/images/case2_summary_clustered.png> <C:/Users/Advanse-/D
@@ -1310,10 +1310,10 @@ ster Thesis - Oky\Thesis.bbl"
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
 ster Thesis - Oky\Thesis.brf")
 \tf@brf=\write9
- [42
+ [44
 
 
-] [43])
+] [45])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Thesis.maf file.
@@ -1334,7 +1334,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the Thesis.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
-[44] [45]
+[46] [47]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
 
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\Ma
@@ -1373,8 +1373,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 11430 strings out of 493921
- 177984 string characters out of 3144868
+ 11432 strings out of 493921
+ 177998 string characters out of 3144868
  273195 words of memory out of 3000000
  13926 multiletter control sequences out of 15000+200000
  29693 words of font info for 77 fonts, out of 3000000 for 9000
@@ -1408,9 +1408,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Thesis.pdf (57 pages, 7649735 bytes).
+Output written on Thesis.pdf (59 pages, 7654677 bytes).
 PDF statistics:
- 1588 PDF objects out of 1728 (max. 8388607)
- 218 named destinations out of 1000 (max. 500000)
+ 1619 PDF objects out of 1728 (max. 8388607)
+ 220 named destinations out of 1000 (max. 500000)
  521 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -43,22 +43,22 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Case Studies}{31}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{33}{chapter.7}
+\contentsline {xchapter}{Conclusion}{35}{chapter.7}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Appendix Case Studies}{35}{appendix.A}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20\relax }}{35}{figure.caption.33}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right)\relax }}{36}{figure.caption.34}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20 for Enemy\relax }}{36}{figure.caption.35}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right) for Enemy\relax }}{36}{figure.caption.36}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Summary Visualization by x-range\relax }}{37}{figure.caption.37}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Summary Visualization by x-range, filtered for positive events\relax }}{37}{figure.caption.38}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Summary Visualization by x-range, filtered for positive events and clustered\relax }}{37}{figure.caption.39}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Summary Visualization by number of events, filtered for positive and negative events\relax }}{38}{figure.caption.40}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Stacked Graph of Session 10\relax }}{38}{figure.caption.41}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Heatmap of Session 10\relax }}{39}{figure.caption.42}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Stacked Graph of Session 10, filtered by bonus\relax }}{39}{figure.caption.43}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Heatmap of Session 10, filtered by bonus\relax }}{40}{figure.caption.44}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Summary visualization of Patient 6\relax }}{40}{figure.caption.45}
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Summary visualization of Patient 6, filtered by neutral events\relax }}{41}{figure.caption.46}
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Summary visualization of Patient 6, clustered\relax }}{41}{figure.caption.47}
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Summary visualization of Patient 6 with sections divided by number of events, filtered by positive and negative events\relax }}{41}{figure.caption.48}
+\contentsline {xchapter}{Appendix Case Studies}{37}{appendix.A}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20\relax }}{37}{figure.caption.33}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right)\relax }}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20 for Enemy\relax }}{38}{figure.caption.35}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right) for Enemy\relax }}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Summary Visualization by x-range\relax }}{39}{figure.caption.37}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Summary Visualization by x-range, filtered for positive events\relax }}{39}{figure.caption.38}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Summary Visualization by x-range, filtered for positive events and clustered\relax }}{39}{figure.caption.39}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Summary Visualization by number of events, filtered for positive and negative events\relax }}{40}{figure.caption.40}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Stacked Graph of Session 10\relax }}{40}{figure.caption.41}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Heatmap of Session 10\relax }}{41}{figure.caption.42}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Stacked Graph of Session 10, filtered by bonus\relax }}{41}{figure.caption.43}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Heatmap of Session 10, filtered by bonus\relax }}{42}{figure.caption.44}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Summary visualization of Patient 6\relax }}{42}{figure.caption.45}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Summary visualization of Patient 6, filtered by neutral events\relax }}{43}{figure.caption.46}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Summary visualization of Patient 6, clustered\relax }}{43}{figure.caption.47}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Summary visualization of Patient 6 with sections divided by number of events, filtered by positive and negative events\relax }}{43}{figure.caption.48}

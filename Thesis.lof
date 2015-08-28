@@ -3,62 +3,62 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Hammer and Planks Screenshot \relax }}{2}{figure.caption.6}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Munzner's Visualization Design Model with four nested layers \relax }}{2}{figure.caption.7}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Domain Problem Characterization}{5}{chapter.2}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Hammer and Planks movement type\relax }}{6}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BodyTilt}}}{6}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HandPoint}}}{6}{subfigure.1.2}
+\contentsline {xchapter}{Domain Problem Characterization}{4}{chapter.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Hammer and Planks movement type\relax }}{5}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {BodyTilt}}}{5}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HandPoint}}}{5}{subfigure.1.2}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Related Works}{9}{chapter.3}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualization used in \cite {rahman} depicting the degree of forearm movement overtime\relax }}{10}{figure.caption.9}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualization used in \cite {rahman2} depicting the speed of movement (m/s) of forearm overtime\relax }}{10}{figure.caption.10}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Flow Map\relax }}{12}{figure.caption.11}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Spatio-Temporal Event Visualization\relax }}{12}{figure.caption.12}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Theme River\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Car Trajectories clustered by route similarity\relax }}{14}{figure.caption.14}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Presence of cars in Milan in different time period\relax }}{15}{figure.caption.15}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Motion Trail\relax }}{16}{figure.caption.16}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Color Belt depicting gymnast body movement\relax }}{16}{figure.caption.17}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces MotionExplorer interface\relax }}{17}{figure.caption.18}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Some of visualizations developed with D3.js\relax }}{18}{figure.caption.19}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 3D visualization of world population developed in Three.js\relax }}{18}{figure.caption.20}
+\contentsline {xchapter}{Related Works}{7}{chapter.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualization used in \cite {rahman} depicting the degree of forearm movement overtime\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualization used in \cite {rahman2} depicting the speed of movement (m/s) of forearm overtime\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flow Map\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Spatio-Temporal Event Visualization\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Theme River\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Car Trajectories clustered by route similarity\relax }}{12}{figure.caption.14}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Presence of cars in Milan in different time period\relax }}{13}{figure.caption.15}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Motion Trail\relax }}{14}{figure.caption.16}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Color Belt depicting gymnast body movement\relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces MotionExplorer interface\relax }}{15}{figure.caption.18}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Some of visualizations developed with D3.js\relax }}{16}{figure.caption.19}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 3D visualization of world population developed in Three.js\relax }}{16}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Abstraction}{19}{chapter.4}
+\contentsline {xchapter}{Data Abstraction}{17}{chapter.4}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Visual Mappings And Interactive Functionality}{23}{chapter.5}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces First visualization version for \ref {t13} and \ref {t14} using Scatter Plot\relax }}{23}{figure.caption.22}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces First visualization version for \ref {t11} and \ref {t12} using Line Chart\relax }}{24}{figure.caption.23}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Stacked Graph with Linear Layout\relax }}{25}{figure.caption.24}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Different Layout of the Stacked Graph representing number of events over x-axis\relax }}{26}{figure.caption.25}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Silhouette}}}{26}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Positive}}}{26}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Neutral-Negative}}}{26}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Positive-Neutral}}}{26}{subfigure.4.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Heatmap\relax }}{26}{figure.caption.26}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Summary Chart divided by range of x-area\relax }}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Summary Chart divided by range of x-area, clustered with threshold = 4\relax }}{28}{figure.caption.28}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces A section in Summary Visualization\relax }}{28}{figure.caption.29}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Summary Chart divided by number of events\relax }}{29}{figure.caption.30}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Interaction Bar for Summary Visualization\relax }}{30}{figure.caption.31}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Application Interface\relax }}{30}{figure.caption.32}
+\contentsline {xchapter}{Visual Mappings And Interactive Functionality}{20}{chapter.5}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces First visualization version for \ref {t13} and \ref {t14} using Scatter Plot\relax }}{20}{figure.caption.22}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces First visualization version for \ref {t11} and \ref {t12} using Line Chart\relax }}{21}{figure.caption.23}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Stacked Graph with Linear Layout\relax }}{22}{figure.caption.24}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Different Layout of the Stacked Graph representing number of events over x-axis\relax }}{23}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Silhouette}}}{23}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Positive}}}{23}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Neutral-Negative}}}{23}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Positive-Neutral}}}{23}{subfigure.4.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Heatmap\relax }}{23}{figure.caption.26}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Summary Chart divided by range of x-area\relax }}{25}{figure.caption.27}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Summary Chart divided by range of x-area, clustered with threshold = 4\relax }}{25}{figure.caption.28}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces A section in Summary Visualization\relax }}{25}{figure.caption.29}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Summary Chart divided by number of events\relax }}{26}{figure.caption.30}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Interaction Bar for Summary Visualization\relax }}{27}{figure.caption.31}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Application Interface\relax }}{27}{figure.caption.32}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Case Studies}{31}{chapter.6}
+\contentsline {xchapter}{Case Studies}{28}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{35}{chapter.7}
+\contentsline {xchapter}{Conclusion}{31}{chapter.7}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Appendix Case Studies}{37}{appendix.A}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20\relax }}{37}{figure.caption.33}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right)\relax }}{38}{figure.caption.34}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20 for Enemy\relax }}{38}{figure.caption.35}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right) for Enemy\relax }}{38}{figure.caption.36}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Summary Visualization by x-range\relax }}{39}{figure.caption.37}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Summary Visualization by x-range, filtered for positive events\relax }}{39}{figure.caption.38}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Summary Visualization by x-range, filtered for positive events and clustered\relax }}{39}{figure.caption.39}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Summary Visualization by number of events, filtered for positive and negative events\relax }}{40}{figure.caption.40}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Stacked Graph of Session 10\relax }}{40}{figure.caption.41}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Heatmap of Session 10\relax }}{41}{figure.caption.42}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Stacked Graph of Session 10, filtered by bonus\relax }}{41}{figure.caption.43}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Heatmap of Session 10, filtered by bonus\relax }}{42}{figure.caption.44}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Summary visualization of Patient 6\relax }}{42}{figure.caption.45}
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Summary visualization of Patient 6, filtered by neutral events\relax }}{43}{figure.caption.46}
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Summary visualization of Patient 6, clustered\relax }}{43}{figure.caption.47}
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Summary visualization of Patient 6 with sections divided by number of events, filtered by positive and negative events\relax }}{43}{figure.caption.48}
+\contentsline {xchapter}{Appendix Case Studies}{32}{appendix.A}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20\relax }}{32}{figure.caption.33}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right)\relax }}{33}{figure.caption.34}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20 for Enemy\relax }}{33}{figure.caption.35}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right) for Enemy\relax }}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Summary Visualization by x-range\relax }}{34}{figure.caption.37}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Summary Visualization by x-range, filtered for positive events\relax }}{34}{figure.caption.38}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Summary Visualization by x-range, filtered for positive events and clustered\relax }}{34}{figure.caption.39}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Summary Visualization by number of events, filtered for positive and negative events\relax }}{35}{figure.caption.40}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Stacked Graph of Session 10\relax }}{35}{figure.caption.41}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Heatmap of Session 10\relax }}{36}{figure.caption.42}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Stacked Graph of Session 10, filtered by bonus\relax }}{36}{figure.caption.43}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Heatmap of Session 10, filtered by bonus\relax }}{37}{figure.caption.44}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Summary visualization of Patient 6\relax }}{37}{figure.caption.45}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Summary visualization of Patient 6, filtered by neutral events\relax }}{38}{figure.caption.46}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Summary visualization of Patient 6, clustered\relax }}{38}{figure.caption.47}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Summary visualization of Patient 6 with sections divided by number of events, filtered by positive and negative events\relax }}{38}{figure.caption.48}

@@ -24,7 +24,7 @@ Based on the level of impact of each event to the user's boat, we characterize t
     \hline
     Events & Bonus & Obstacle & Enemy \\ \hline
     Positive & catch & - & kill,hit\\ \hline
-    Neutral & miss & miss & dodge\\ \hline
+    Neutral & miss & dodge & miss\\ \hline
     Negative & - & collision & hurt, collision\\
     \hline
     \end{tabular}
@@ -42,21 +42,36 @@ $$ \upsilon_{scr} = \frac{\theta_{evt}-\theta_{apr}}{\textit{t}_{evt}-\textit{t}
 
 \section{Clustering Algorithm}
 
-In understanding the common evolution of the gameplay among different sessions over x-area, it is interesting to see what the common evolution of different section of x-area\ref{t27}. The idea is to aggregate similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. To achieve this, a clustering algorithm based on hierarchical clustering is introduced:
+In understanding the common evolution of the gameplay among different sessions over x-area, it is interesting to see what the common evolution of different section of x-area\ref{t27}. The idea is to aggregate similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. To achieve this, a clustering algorithm based on hierarchical clustering is introduced(see Algorithm \ref{alg:Clustering}). 
 \begin{algorithm}
   \caption{Hierarchical Clustering}\label{alg:Clustering}
   \begin{algorithmic}[1]
-  \STATE Divide the x-area into slices the size of selected x range.
+  \STATE Divide the x-area into slices the size of minimum x axis unit.
   \STATE Define the profile for each section. Let a section be Slice $\textit{S}_i$, number of session be $n_{ses}$ and number of section be $n_{sec}$. An $\textit{S}_i$ is an ordered set of triplet $\textit{t}_i$. Each triplet represents dataset of a certain game session of a particular Slice. The triplet consists of the number of negative, neutral and positive events.
 $$\textit{t}_i = (n_{neg}, n_{net}, n_{pos})$$
 $$\textit{S}_i = \{\textit{t}_i(1), \textit{t}_i(2), ..., \textit{t}_i(n_{ses})\}, 1\le i\le n_{sec}$$
-  \STATE Normalize each slice by dividing each triplet component with max triplet value \textit{max} of $\textit{S}_i$.
-$$ \textit{N}(\textit{S}_i) = \{(\frac{n_{neg}}{\textit{max}}, \frac{n_{net}}{\textit{max}}, \frac{n_{pos}}{\textit{max}}),...,(\frac{n_{neg}}{\textit{max}}, \frac{n_{net}}{\textit{max}}, \frac{n_{pos}}{\textit{max}})\}$$
-  \STATE Calculate the distance between slice $\textit{S}_i$ and $\textit{S}_{i+1}$ using Euclidean Distance.
-$$ d(\textit{S}_i,\textit{S}_{i+1}) = \displaystyle\sum_{j=1}^{n_{ses}} ED(\textit{t}_i (j), \textit{t}_{i+1} (j))$$
-  \STATE Following the Hierarchical Clustering algorithm\cite{maimon}, merge two consecutive slices if it satisfies the distance threshold specified beforehand. Calculate the distance of the merged slices with the next slice and merge them if the distance is still below the threshold. Repeat the process until there is no distance which satisfies the threshold.
+  \STATE Calculate the distance between slice $\textit{S}_i$ and $\textit{S}_{i+1}$ (explained in Distance Calculation).
+  \STATE Following the Hierarchical Clustering algorithm\cite{maimon}, merge two consecutive slices if it satisfies the distance threshold specified. Calculate the distance of the merged slices with the next slice and merge them if the distance is still below the threshold. Repeat the process until there is no distance which satisfies the threshold.
 
 
   \end{algorithmic}
-\end{algorithm} 
+\end{algorithm}\newline 
+
+\textbf{Distance Calculation}\newline 
+Since the idea was to aggregate consecutive sections with similar movement pattern, there are two types of distance considered: (i)how different both sections in term of event types proportion within each section (ii)how different both sections in term of the evolution of each event type throughout the sessions. Thus, for each pair of consecutive sequences ($\textit{s}_1$,$\textit{s}_2$) of \textit{S}, distance is defined as:
+$$d(\textit{s}_1,\textit{s}_2) = \alpha\textit{f}(\textit{s}_1,\textit{s}_2) + (1 - \alpha)\textit{g}(\textit{s}_1,\textit{s}_2)$$
+$$\text{where } \textit{g}(\textit{s}_1,\textit{s}_2) = \frac{\textit{g}_1(\textit{s}_1,\textit{s}_2) + \textit{g}_2(\textit{s}_1,\textit{s}_2) + \textit{g}_3(\textit{s}_1,\textit{s}_2)}{3}$$
+
+\[\text{and for } i  \in \{0,1,2\}\text{, } g_i(\textit{s}_1,\textit{s}_2) = \left\{
+  \begin{array}{ll}
+    0 & \text{ if } \textit{s}\lbrack j \rbrack\lbrack i \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}|\text{, } \textit{s} \in \{\textit{s}_1,\textit{s}_2\}\\
+    1 & \text{ if } \textit{s}_k\lbrack j \rbrack\lbrack i \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}_k| \text{ and } \exists \textit{s}_p\lbrack j \rbrack\lbrack i \rbrack \neq 0\\
+      & \text{ and } k \in \{1,2\} \text{, } p \in \{1,2\} \text{, } k \neq p\\
+	\frac{\sqrt{\displaystyle\sum_{k=0}^{\lvert\textit{s}_1\lvert} (\textit{s}_1'\lbrack k \rbrack\lbrack i \rbrack - \textit{s}_2'\lbrack k \rbrack\lbrack i \rbrack)^2}}{\sqrt{\lvert\textit{s}_1\rvert}}
+  \end{array}
+\right.
+\]
+
+$$ d(\textit{S}_i,\textit{S}_{i+1}) = \displaystyle\sum_{j=1}^{n_{ses}} ED(\textit{t}_i (j), \textit{t}_{i+1} (j))$$
+
 

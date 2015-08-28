@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.18)  28 AUG 2015 05:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.18)  28 AUG 2015 10:28
 entering extended mode
 **Thesis.tex
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Thesis.tex"
@@ -563,7 +563,32 @@ x")
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Chapters/Chapter7.au
 x")
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Appendices/Appendix1
-.aux"))
+.aux"
+
+LaTeX Warning: Label `fig:case2_stacked' multiply defined.
+
+
+LaTeX Warning: Label `fig:case2_heatmap' multiply defined.
+
+
+LaTeX Warning: Label `fig:case2_stacked_bonus' multiply defined.
+
+
+LaTeX Warning: Label `fig:case2_heatmap_bonus' multiply defined.
+
+
+LaTeX Warning: Label `fig:case2_summary' multiply defined.
+
+
+LaTeX Warning: Label `fig:case2_summary_neutral' multiply defined.
+
+
+LaTeX Warning: Label `fig:case2_summary_clustered' multiply defined.
+
+
+LaTeX Warning: Label `fig:case2_summary_type2' multiply defined.
+
+))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
@@ -830,14 +855,14 @@ l.12 T
 
 
 
-] <images/hp_game.png, id=345, 1084.05pt x 677.53125pt>
+] <images/hp_game.png, id=362, 1084.05pt x 677.53125pt>
 File: images/hp_game.png Graphic file (type png)
 
 <use images/hp_game.png>
 Package pdftex.def Info: images/hp_game.png used on input line 16.
 (pdftex.def)             Requested size: 312.9803pt x 195.61061pt.
 
-<images/munzner_model.png, id=348, 368.1253pt x 108.405pt>
+<images/munzner_model.png, id=365, 368.1253pt x 108.405pt>
 File: images/munzner_model.png Graphic file (type png)
 
 <use images/munzner_model.png>
@@ -849,14 +874,14 @@ el.png>]) [3]
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Chapters/Chapter2.te
 x"
 Chapter 2.
-<images/cedric_bodytilt.jpg, id=360, 230.8625pt x 307.1475pt>
+<images/cedric_bodytilt.jpg, id=377, 230.8625pt x 307.1475pt>
 File: images/cedric_bodytilt.jpg Graphic file (type jpg)
 
 <use images/cedric_bodytilt.jpg>
 Package pdftex.def Info: images/cedric_bodytilt.jpg used on input line 28.
 (pdftex.def)             Requested size: 156.49014pt x 208.20139pt.
 
-<images/mia_handpoint.png, id=361, 173.14688pt x 230.36063pt>
+<images/mia_handpoint.png, id=378, 173.14688pt x 230.36063pt>
 File: images/mia_handpoint.png Graphic file (type png)
 
 <use images/mia_handpoint.png>
@@ -872,14 +897,14 @@ a_handpoint.png>]) [6]
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Chapters/Chapter3.te
 x"
 Chapter 3.
-<images/rahman_viz.png, id=431, 434.37282pt x 324.46219pt>
+<images/rahman_viz.png, id=448, 434.37282pt x 324.46219pt>
 File: images/rahman_viz.png Graphic file (type png)
 
 <use images/rahman_viz.png>
 Package pdftex.def Info: images/rahman_viz.png used on input line 14.
 (pdftex.def)             Requested size: 312.9803pt x 233.80072pt.
 
-<images/rahman2_elbowangle.png, id=434, 712.16063pt x 417.81094pt>
+<images/rahman2_elbowangle.png, id=451, 712.16063pt x 417.81094pt>
 File: images/rahman2_elbowangle.png Graphic file (type png)
 
 <use images/rahman2_elbowangle.png>
@@ -897,14 +922,14 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 20--21
 ] [8 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/rahman_vi
 z.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/rahman2
 _elbowangle.png>]
-<images/aigner_flowmap.jpg, id=459, 336.50719pt x 435.87843pt>
+<images/aigner_flowmap.jpg, id=476, 336.50719pt x 435.87843pt>
 File: images/aigner_flowmap.jpg Graphic file (type jpg)
 
 <use images/aigner_flowmap.jpg>
 Package pdftex.def Info: images/aigner_flowmap.jpg used on input line 36.
 (pdftex.def)             Requested size: 256.0748pt x 331.6967pt.
 
-<images/aigner_spatiotemporaleventviz.png, id=460, 651.18282pt x 365.11406pt>
+<images/aigner_spatiotemporaleventviz.png, id=477, 651.18282pt x 365.11406pt>
 File: images/aigner_spatiotemporaleventviz.png Graphic file (type png)
 
 <use images/aigner_spatiotemporaleventviz.png>
@@ -919,7 +944,7 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 42--43
 [9] [10 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/aigner
 _flowmap.jpg> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/
 aigner_spatiotemporaleventviz.png>]
-<images/havre_themeriver.png, id=477, 533.74406pt x 369.63094pt>
+<images/havre_themeriver.png, id=494, 533.74406pt x 369.63094pt>
 File: images/havre_themeriver.png Graphic file (type png)
 
 <use images/havre_themeriver.png>
@@ -932,7 +957,7 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 52--53
 
 [11 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/havre_them
 eriver.png>]
-<images/adrienko_clustered.png, id=490, 612.78937pt x 456.95718pt>
+<images/adrienko_clustered.png, id=507, 612.78937pt x 456.95718pt>
 File: images/adrienko_clustered.png Graphic file (type png)
 
 <use images/adrienko_clustered.png>
@@ -944,7 +969,7 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 65--66
  []
 
 [12 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/adrienko_c
-lustered.png>] <images/adrienko_milan.png, id=500, 652.68843pt x 450.18187pt>
+lustered.png>] <images/adrienko_milan.png, id=517, 652.68843pt x 450.18187pt>
 File: images/adrienko_milan.png Graphic file (type png)
 
 <use images/adrienko_milan.png>
@@ -960,7 +985,7 @@ Underfull \vbox (badness 1226) has occurred while \output is active []
 
  [13 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/adrienko_
 milan.png>]
-<images/chmelik_trail.png, id=519, 886.81313pt x 279.29344pt>
+<images/chmelik_trail.png, id=536, 886.81313pt x 279.29344pt>
 File: images/chmelik_trail.png Graphic file (type png)
 
 <use images/chmelik_trail.png>
@@ -971,7 +996,7 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
-<images/yuko_belt.png, id=520, 710.655pt x 242.40562pt>
+<images/yuko_belt.png, id=537, 710.655pt x 242.40562pt>
 File: images/yuko_belt.png Graphic file (type png)
 
 <use images/yuko_belt.png>
@@ -985,7 +1010,7 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 91--92
 [14 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/chmelik_tr
 ail.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/yuko_
 belt.png>]
-<images/bernard_motionexplorer.png, id=528, 837.88031pt x 407.27156pt>
+<images/bernard_motionexplorer.png, id=545, 837.88031pt x 407.27156pt>
 File: images/bernard_motionexplorer.png Graphic file (type png)
 
 <use images/bernard_motionexplorer.png>
@@ -998,13 +1023,13 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 99--100
  []
 
 [15 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/bernard_mo
-tionexplorer.png>] <images/d3js.png, id=538, 931.22906pt x 346.29375pt>
+tionexplorer.png>] <images/d3js.png, id=555, 931.22906pt x 346.29375pt>
 File: images/d3js.png Graphic file (type png)
 
 <use images/d3js.png>
 Package pdftex.def Info: images/d3js.png used on input line 111.
 (pdftex.def)             Requested size: 284.52756pt x 105.807pt.
- <images/threejs.png, id=539, 982.42032pt x 494.59781pt>
+ <images/threejs.png, id=556, 982.42032pt x 494.59781pt>
 File: images/threejs.png Graphic file (type png)
 
 <use images/threejs.png>
@@ -1024,39 +1049,38 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 47.
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--59
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-
-Overfull \hbox (124.50035pt too wide) detected at line 73
+[18]
+Overfull \hbox (12.22716pt too wide) detected at line 68
 []\OML/lmm/m/it/10.95 i \OMS/lmsy/m/n/10.95 2 f\OT1/lmr/m/n/10.95 0\OML/lmm/m/i
 t/10.95 ; \OT1/lmr/m/n/10.95 1\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 2\OMS/lm
 sy/m/n/10.95 g[]\OML/lmm/m/it/10.95 g[]\OT1/lmr/m/n/10.95 ([][]\OML/lmm/m/it/10
 .95 ; [][]\OT1/lmr/m/n/10.95 ) = []
  []
 
-[18]) [19]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 73.
+) [19] [20]
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Chapters/Chapter5.te
 x"
 Chapter 5.
-<images/linechart.png, id=592, 407.27156pt x 91.09032pt>
+<images/linechart.png, id=612, 407.27156pt x 91.09032pt>
 File: images/linechart.png Graphic file (type png)
 
 <use images/linechart.png>
 Package pdftex.def Info: images/linechart.png used on input line 9.
 (pdftex.def)             Requested size: 284.52756pt x 63.64046pt.
 
-<images/scatterplot.png, id=597, 483.30562pt x 445.665pt>
+<images/scatterplot.png, id=617, 483.30562pt x 445.665pt>
 File: images/scatterplot.png Graphic file (type png)
 
 <use images/scatterplot.png>
 Package pdftex.def Info: images/scatterplot.png used on input line 15.
 (pdftex.def)             Requested size: 284.52756pt x 262.37564pt.
- [20
+ [21
 
 
 
@@ -1067,15 +1091,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--25
  02 / 23 / movies / 20080223 _ REVENUE _ GRAPHIC . html ? _r =$
  []
 
-[21 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/scatterplo
-t.png>] <images/stackedgraph_linear.png, id=623, 466.74374pt x 193.47281pt>
+[22 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/scatterplo
+t.png>] <images/stackedgraph_linear.png, id=643, 466.74374pt x 193.47281pt>
 File: images/stackedgraph_linear.png Graphic file (type png)
 
 <use images/stackedgraph_linear.png>
 Package pdftex.def Info: images/stackedgraph_linear.png used on input line 36.
 (pdftex.def)             Requested size: 284.52756pt x 117.94443pt.
 
-<images/stackedgraph_silhouette.png, id=624, 392.21532pt x 188.20313pt>
+<images/stackedgraph_silhouette.png, id=644, 392.21532pt x 188.20313pt>
 File: images/stackedgraph_silhouette.png Graphic file (type png)
 
 <use images/stackedgraph_silhouette.png>
@@ -1083,7 +1107,7 @@ Package pdftex.def Info: images/stackedgraph_silhouette.png used on input line
 45.
 (pdftex.def)             Requested size: 169.62154pt x 81.39384pt.
 
-<images/stackedgraph_positive.png, id=625, 395.97937pt x 187.45032pt>
+<images/stackedgraph_positive.png, id=645, 395.97937pt x 187.45032pt>
 File: images/stackedgraph_positive.png Graphic file (type png)
 
 <use images/stackedgraph_positive.png>
@@ -1091,7 +1115,7 @@ Package pdftex.def Info: images/stackedgraph_positive.png used on input line 49
 .
 (pdftex.def)             Requested size: 169.62154pt x 80.296pt.
 
-<images/stackedgraph_neutral_neg.png, id=626, 397.485pt x 182.18062pt>
+<images/stackedgraph_neutral_neg.png, id=646, 397.485pt x 182.18062pt>
 File: images/stackedgraph_neutral_neg.png Graphic file (type png)
 
 <use images/stackedgraph_neutral_neg.png>
@@ -1099,7 +1123,7 @@ Package pdftex.def Info: images/stackedgraph_neutral_neg.png used on input line
  54.
 (pdftex.def)             Requested size: 169.62154pt x 77.74402pt.
 
-<images/stackedgraph_positive_neutral.png, id=627, 392.21532pt x 179.92218pt>
+<images/stackedgraph_positive_neutral.png, id=647, 392.21532pt x 179.92218pt>
 File: images/stackedgraph_positive_neutral.png Graphic file (type png)
 
 <use images/stackedgraph_positive_neutral.png>
@@ -1107,21 +1131,21 @@ Package pdftex.def Info: images/stackedgraph_positive_neutral.png used on input
  line 58.
 (pdftex.def)             Requested size: 169.62154pt x 77.81252pt.
 
-<images/heatmap.png, id=629, 425.33907pt x 435.87843pt>
+<images/heatmap.png, id=649, 425.33907pt x 435.87843pt>
 File: images/heatmap.png Graphic file (type png)
 
 <use images/heatmap.png>
 Package pdftex.def Info: images/heatmap.png used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 291.59142pt.
- [22 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/stackedgr
-aph_linear.png>] [23 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/
+ [23 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/stackedgr
+aph_linear.png>] [24 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/
 images/stackedgraph_silhouette.png> <D:/IT4BI Courses - Semester 4/_Thesis Repo
 rt/HPVizReport/images/stackedgraph_positive.png> <D:/IT4BI Courses - Semester 4
 /_Thesis Report/HPVizReport/images/stackedgraph_neutral_neg.png> <D:/IT4BI Cour
 ses - Semester 4/_Thesis Report/HPVizReport/images/stackedgraph_positive_neutra
 l.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/heatmap
 .png>]
-<images/summary_not_clustered.png, id=672, 905.63344pt x 392.96812pt>
+<images/summary_not_clustered.png, id=693, 905.63344pt x 392.96812pt>
 File: images/summary_not_clustered.png Graphic file (type png)
 
 <use images/summary_not_clustered.png>
@@ -1129,14 +1153,14 @@ Package pdftex.def Info: images/summary_not_clustered.png used on input line 83
 .
 (pdftex.def)             Requested size: 369.88582pt x 160.49435pt.
 
-<images/summary_clustered.png, id=673, 892.08281pt x 368.1253pt>
+<images/summary_clustered.png, id=694, 892.08281pt x 368.1253pt>
 File: images/summary_clustered.png Graphic file (type png)
 
 <use images/summary_clustered.png>
 Package pdftex.def Info: images/summary_clustered.png used on input line 90.
 (pdftex.def)             Requested size: 369.88582pt x 152.63434pt.
 
-<images/section.png, id=674, 402.00188pt x 389.20406pt>
+<images/section.png, id=695, 402.00188pt x 389.20406pt>
 File: images/section.png Graphic file (type png)
 
 <use images/section.png>
@@ -1145,27 +1169,27 @@ Package pdftex.def Info: images/section.png used on input line 97.
 
 Underfull \vbox (badness 2809) has occurred while \output is active []
 
- [24]
-[25 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/summary_no
+ [25]
+[26 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/summary_no
 t_clustered.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/imag
 es/summary_clustered.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizRe
 port/images/section.png>]
-<images/summary_type2.png, id=692, 896.59969pt x 382.42876pt>
+<images/summary_type2.png, id=712, 896.59969pt x 382.42876pt>
 File: images/summary_type2.png Graphic file (type png)
 
 <use images/summary_type2.png>
 Package pdftex.def Info: images/summary_type2.png used on input line 109.
 (pdftex.def)             Requested size: 369.88582pt x 157.76547pt.
- [26 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/summary_t
+ [27 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/summary_t
 ype2.png>]
-<images/interaction_bar.png, id=703, 835.62187pt x 67.0003pt>
+<images/interaction_bar.png, id=723, 835.62187pt x 67.0003pt>
 File: images/interaction_bar.png Graphic file (type png)
 
 <use images/interaction_bar.png>
 Package pdftex.def Info: images/interaction_bar.png used on input line 121.
 (pdftex.def)             Requested size: 369.88582pt x 29.6581pt.
 
-<images/interface_app_compare.png, id=705, 1081.03876pt x 591.71063pt>
+<images/interface_app_compare.png, id=725, 1081.03876pt x 591.71063pt>
 File: images/interface_app_compare.png Graphic file (type png)
 
 <use images/interface_app_compare.png>
@@ -1177,21 +1201,166 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 130--131
  [][] 
  []
 
-) [27 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/interact
+) [28 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/interact
 ion_bar.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/i
 nterface_app_compare.png>]
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Chapters/Chapter6.te
 x"
 Chapter 6.
-[28
+[29
 
 
 
-] [29]) [30]
+]
+<images/appendix_case1_compare_session_stackedgraph.png, id=761, 825.83531pt x 
+268.00125pt>
+File: images/appendix_case1_compare_session_stackedgraph.png Graphic file (type
+ png)
+ <use images/appendix_case1_compare_session_stackedgraph.png>
+Package pdftex.def Info: images/appendix_case1_compare_session_stackedgraph.png
+ used on input line 15.
+(pdftex.def)             Requested size: 398.33858pt x 129.26889pt.
+
+<images/appendix_case1_compare_session_heatmap.png, id=762, 843.15pt x 436.6312
+6pt>
+File: images/appendix_case1_compare_session_heatmap.png Graphic file (type png)
+
+ <use images/appendix_case1_compare_session_heatmap.png>
+Package pdftex.def Info: images/appendix_case1_compare_session_heatmap.png used
+ on input line 22.
+(pdftex.def)             Requested size: 398.33858pt x 206.2827pt.
+
+<images/appendix_case1_compare_session_stackedgraph_enemy.png, id=763, 828.0937
+5pt x 268.75406pt>
+File: images/appendix_case1_compare_session_stackedgraph_enemy.png Graphic file
+ (type png)
+
+<use images/appendix_case1_compare_session_stackedgraph_enemy.png>
+Package pdftex.def Info: images/appendix_case1_compare_session_stackedgraph_ene
+my.png used on input line 29.
+(pdftex.def)             Requested size: 398.33858pt x 129.28343pt.
+
+<images/appendix_case1_compare_session_heatmap_enemy.png, id=764, 845.40843pt x
+ 426.84468pt>
+File: images/appendix_case1_compare_session_heatmap_enemy.png Graphic file (typ
+e png)
+ <use images/appendix_case1_compare_session_heatmap_enemy.png>
+Package pdftex.def Info: images/appendix_case1_compare_session_heatmap_enemy.pn
+g used on input line 36.
+(pdftex.def)             Requested size: 398.33858pt x 201.11853pt.
+
+<images/case1_type1.png, id=765, 906.38625pt x 379.4175pt>
+File: images/case1_type1.png Graphic file (type png)
+
+<use images/case1_type1.png>
+Package pdftex.def Info: images/case1_type1.png used on input line 43.
+(pdftex.def)             Requested size: 398.33858pt x 166.74736pt.
+
+<images/case1_type1_select.png, id=766, 898.10532pt x 371.13657pt>
+File: images/case1_type1_select.png Graphic file (type png)
+
+<use images/case1_type1_select.png>
+Package pdftex.def Info: images/case1_type1_select.png used on input line 50.
+(pdftex.def)             Requested size: 398.33858pt x 164.60875pt.
+
+<images/case1_type1_select_clustered.png, id=767, 898.85812pt x 373.395pt>
+File: images/case1_type1_select_clustered.png Graphic file (type png)
+
+<use images/case1_type1_select_clustered.png>
+Package pdftex.def Info: images/case1_type1_select_clustered.png used on input 
+line 57.
+(pdftex.def)             Requested size: 398.33858pt x 165.4737pt.
+
+<images/case1_type2.png, id=768, 897.3525pt x 377.91188pt>
+File: images/case1_type2.png Graphic file (type png)
+
+<use images/case1_type2.png>
+Package pdftex.def Info: images/case1_type2.png used on input line 64.
+(pdftex.def)             Requested size: 398.33858pt x 167.75218pt.
+ [30 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/appendix_
+case1_compare_session_stackedgraph.png> <D:/IT4BI Courses - Semester 4/_Thesis 
+Report/HPVizReport/images/appendix_case1_compare_session_heatmap.png>] [31 <D:/
+IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/appendix_case1_com
+pare_session_stackedgraph_enemy.png> <D:/IT4BI Courses - Semester 4/_Thesis Rep
+ort/HPVizReport/images/appendix_case1_compare_session_heatmap_enemy.png> <D:/IT
+4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/case1_type1.png>] [3
+2 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/case1_type1_
+select.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/ca
+se1_type1_select_clustered.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/H
+PVizReport/images/case1_type2.png>]
+<images/case2_stacked.png, id=812, 482.55281pt x 268.75406pt>
+File: images/case2_stacked.png Graphic file (type png)
+
+<use images/case2_stacked.png>
+Package pdftex.def Info: images/case2_stacked.png used on input line 80.
+(pdftex.def)             Requested size: 398.33858pt x 221.86015pt.
+
+<images/case2_heatmap.png, id=813, 420.06938pt x 423.83344pt>
+File: images/case2_heatmap.png Graphic file (type png)
+
+<use images/case2_heatmap.png>
+Package pdftex.def Info: images/case2_heatmap.png used on input line 87.
+(pdftex.def)             Requested size: 284.52756pt x 287.07762pt.
+
+<images/case2_stacked_bonus.png, id=814, 485.56406pt x 272.51813pt>
+File: images/case2_stacked_bonus.png Graphic file (type png)
+
+<use images/case2_stacked_bonus.png>
+Package pdftex.def Info: images/case2_stacked_bonus.png used on input line 94.
+(pdftex.def)             Requested size: 398.33858pt x 223.56194pt.
+
+<images/case2_heatmap_bonus.png, id=815, 441.90094pt x 459.21562pt>
+File: images/case2_heatmap_bonus.png Graphic file (type png)
+
+<use images/case2_heatmap_bonus.png>
+Package pdftex.def Info: images/case2_heatmap_bonus.png used on input line 101.
+
+(pdftex.def)             Requested size: 284.52756pt x 295.6908pt.
+
+<images/case2_summary.png, id=816, 903.375pt x 371.88937pt>
+File: images/case2_summary.png Graphic file (type png)
+
+<use images/case2_summary.png>
+Package pdftex.def Info: images/case2_summary.png used on input line 108.
+(pdftex.def)             Requested size: 398.33858pt x 163.98364pt.
+
+<images/case2_summary_neutral.png, id=817, 916.1728pt x 383.93437pt>
+File: images/case2_summary_neutral.png Graphic file (type png)
+
+<use images/case2_summary_neutral.png>
+Package pdftex.def Info: images/case2_summary_neutral.png used on input line 11
+5.
+(pdftex.def)             Requested size: 398.33858pt x 166.92809pt.
+
+<images/case2_summary_clustered.png, id=818, 900.36375pt x 380.92313pt>
+File: images/case2_summary_clustered.png Graphic file (type png)
+
+<use images/case2_summary_clustered.png>
+Package pdftex.def Info: images/case2_summary_clustered.png used on input line 
+122.
+(pdftex.def)             Requested size: 398.33858pt x 168.53085pt.
+
+<images/case2_summary_type2.png, id=819, 903.375pt x 374.14781pt>
+File: images/case2_summary_type2.png Graphic file (type png)
+
+<use images/case2_summary_type2.png>
+Package pdftex.def Info: images/case2_summary_type2.png used on input line 129.
+
+(pdftex.def)             Requested size: 398.33858pt x 164.97949pt.
+) [33] [34 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/cas
+e2_stacked.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/image
+s/case2_heatmap.png>] [35 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizRe
+port/images/case2_stacked_bonus.png> <D:/IT4BI Courses - Semester 4/_Thesis Rep
+ort/HPVizReport/images/case2_heatmap_bonus.png>] [36 <D:/IT4BI Courses - Semest
+er 4/_Thesis Report/HPVizReport/images/case2_summary.png> <D:/IT4BI Courses - S
+emester 4/_Thesis Report/HPVizReport/images/case2_summary_neutral.png> <D:/IT4B
+I Courses - Semester 4/_Thesis Report/HPVizReport/images/case2_summary_clustere
+d.png>] [37 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/ca
+se2_summary_type2.png>]
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Chapters/Chapter7.te
 x"
 Chapter 7.
-) [31
+) [38
 
 
 
@@ -1199,164 +1368,18 @@ Chapter 7.
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Appendices/Appendix1
 .tex"
 Appendix A.
-
-<images/appendix_case1_compare_session_stackedgraph.png, id=777, 825.83531pt x 
-268.00125pt>
-File: images/appendix_case1_compare_session_stackedgraph.png Graphic file (type
- png)
- <use images/appendix_case1_compare_session_stackedgraph.png>
-Package pdftex.def Info: images/appendix_case1_compare_session_stackedgraph.png
- used on input line 7.
-(pdftex.def)             Requested size: 398.33858pt x 129.26889pt.
-
-<images/appendix_case1_compare_session_heatmap.png, id=778, 843.15pt x 436.6312
-6pt>
-File: images/appendix_case1_compare_session_heatmap.png Graphic file (type png)
-
- <use images/appendix_case1_compare_session_heatmap.png>
-Package pdftex.def Info: images/appendix_case1_compare_session_heatmap.png used
- on input line 14.
-(pdftex.def)             Requested size: 398.33858pt x 206.2827pt.
-
-<images/appendix_case1_compare_session_stackedgraph_enemy.png, id=779, 828.0937
-5pt x 268.75406pt>
-File: images/appendix_case1_compare_session_stackedgraph_enemy.png Graphic file
- (type png)
-
-<use images/appendix_case1_compare_session_stackedgraph_enemy.png>
-Package pdftex.def Info: images/appendix_case1_compare_session_stackedgraph_ene
-my.png used on input line 21.
-(pdftex.def)             Requested size: 398.33858pt x 129.28343pt.
-
-<images/appendix_case1_compare_session_heatmap_enemy.png, id=780, 845.40843pt x
- 426.84468pt>
-File: images/appendix_case1_compare_session_heatmap_enemy.png Graphic file (typ
-e png)
- <use images/appendix_case1_compare_session_heatmap_enemy.png>
-Package pdftex.def Info: images/appendix_case1_compare_session_heatmap_enemy.pn
-g used on input line 28.
-(pdftex.def)             Requested size: 398.33858pt x 201.11853pt.
-
-<images/case1_type1.png, id=781, 906.38625pt x 379.4175pt>
-File: images/case1_type1.png Graphic file (type png)
-
-<use images/case1_type1.png>
-Package pdftex.def Info: images/case1_type1.png used on input line 35.
-(pdftex.def)             Requested size: 398.33858pt x 166.74736pt.
-
-<images/case1_type1_select.png, id=782, 898.10532pt x 371.13657pt>
-File: images/case1_type1_select.png Graphic file (type png)
-
-<use images/case1_type1_select.png>
-Package pdftex.def Info: images/case1_type1_select.png used on input line 42.
-(pdftex.def)             Requested size: 398.33858pt x 164.60875pt.
-
-<images/case1_type1_select_clustered.png, id=783, 898.85812pt x 373.395pt>
-File: images/case1_type1_select_clustered.png Graphic file (type png)
-
-<use images/case1_type1_select_clustered.png>
-Package pdftex.def Info: images/case1_type1_select_clustered.png used on input 
-line 49.
-(pdftex.def)             Requested size: 398.33858pt x 165.4737pt.
-
-<images/case1_type2.png, id=784, 897.3525pt x 377.91188pt>
-File: images/case1_type2.png Graphic file (type png)
-
-<use images/case1_type2.png>
-Package pdftex.def Info: images/case1_type2.png used on input line 56.
-(pdftex.def)             Requested size: 398.33858pt x 167.75218pt.
-
-<images/case2_stacked.png, id=785, 482.55281pt x 268.75406pt>
-File: images/case2_stacked.png Graphic file (type png)
-
-<use images/case2_stacked.png>
-Package pdftex.def Info: images/case2_stacked.png used on input line 63.
-(pdftex.def)             Requested size: 398.33858pt x 221.86015pt.
-
-<images/case2_heatmap.png, id=786, 420.06938pt x 423.83344pt>
-File: images/case2_heatmap.png Graphic file (type png)
-
-<use images/case2_heatmap.png>
-Package pdftex.def Info: images/case2_heatmap.png used on input line 70.
-(pdftex.def)             Requested size: 284.52756pt x 287.07762pt.
-
-<images/case2_stacked_bonus.png, id=787, 485.56406pt x 272.51813pt>
-File: images/case2_stacked_bonus.png Graphic file (type png)
-
-<use images/case2_stacked_bonus.png>
-Package pdftex.def Info: images/case2_stacked_bonus.png used on input line 77.
-(pdftex.def)             Requested size: 398.33858pt x 223.56194pt.
-
-<images/case2_heatmap_bonus.png, id=788, 441.90094pt x 459.21562pt>
-File: images/case2_heatmap_bonus.png Graphic file (type png)
-
-<use images/case2_heatmap_bonus.png>
-Package pdftex.def Info: images/case2_heatmap_bonus.png used on input line 84.
-(pdftex.def)             Requested size: 284.52756pt x 295.6908pt.
-
-<images/case2_summary.png, id=789, 903.375pt x 371.88937pt>
-File: images/case2_summary.png Graphic file (type png)
-
-<use images/case2_summary.png>
-Package pdftex.def Info: images/case2_summary.png used on input line 91.
-(pdftex.def)             Requested size: 398.33858pt x 163.98364pt.
-
-<images/case2_summary_neutral.png, id=790, 916.1728pt x 383.93437pt>
-File: images/case2_summary_neutral.png Graphic file (type png)
-
-<use images/case2_summary_neutral.png>
-Package pdftex.def Info: images/case2_summary_neutral.png used on input line 98
-.
-(pdftex.def)             Requested size: 398.33858pt x 166.92809pt.
-
-<images/case2_summary_clustered.png, id=791, 900.36375pt x 380.92313pt>
-File: images/case2_summary_clustered.png Graphic file (type png)
-
-<use images/case2_summary_clustered.png>
-Package pdftex.def Info: images/case2_summary_clustered.png used on input line 
-105.
-(pdftex.def)             Requested size: 398.33858pt x 168.53085pt.
-
-<images/case2_summary_type2.png, id=792, 903.375pt x 374.14781pt>
-File: images/case2_summary_type2.png Graphic file (type png)
-
-<use images/case2_summary_type2.png>
-Package pdftex.def Info: images/case2_summary_type2.png used on input line 112.
-
-(pdftex.def)             Requested size: 398.33858pt x 164.97949pt.
-) [32
+) [39
 
 
 
- <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/appendix_case
-1_compare_session_stackedgraph.png>]
-[33 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/appendix_c
-ase1_compare_session_heatmap.png> <D:/IT4BI Courses - Semester 4/_Thesis Report
-/HPVizReport/images/appendix_case1_compare_session_stackedgraph_enemy.png> <D:/
-IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/appendix_case1_com
-pare_session_heatmap_enemy.png>] [34 <D:/IT4BI Courses - Semester 4/_Thesis Rep
-ort/HPVizReport/images/case1_type1.png> <D:/IT4BI Courses - Semester 4/_Thesis 
-Report/HPVizReport/images/case1_type1_select.png> <D:/IT4BI Courses - Semester 
-4/_Thesis Report/HPVizReport/images/case1_type1_select_clustered.png>] [35 <D:/
-IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/case1_type2.png> <
-D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/case2_stacked.p
-ng>] [36 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/case2
-_heatmap.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/
-case2_stacked_bonus.png>] [37 <D:/IT4BI Courses - Semester 4/_Thesis Report/HPV
-izReport/images/case2_heatmap_bonus.png> <D:/IT4BI Courses - Semester 4/_Thesis
- Report/HPVizReport/images/case2_summary.png>] [38 <D:/IT4BI Courses - Semester
- 4/_Thesis Report/HPVizReport/images/case2_summary_neutral.png> <D:/IT4BI Cours
-es - Semester 4/_Thesis Report/HPVizReport/images/case2_summary_clustered.png> 
-<D:/IT4BI Courses - Semester 4/_Thesis Report/HPVizReport/images/case2_summary_
-type2.png>]
-("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Thesis.bbl"
+] ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Thesis.bbl"
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Thesis.brf")
 \tf@brf=\write9
 
-[39
+[40
 
 
-] [40])
+] [41])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Thesis.maf file.
@@ -1377,7 +1400,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the Thesis.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
-[41]
+[42]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\Thesis.aux"
 ("D:\IT4BI Courses - Semester 4\_Thesis Report\HPVizReport\TitlePage.aux")
@@ -1399,46 +1422,82 @@ x")
 .aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7C4FA4439558D4687BF63C5FFA87DE25;2341.
+
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 82FB2EB77686B17F24A27B62B8C3EAB6;2341
+(rerunfilecheck)             After:  7C4FA4439558D4687BF63C5FFA87DE25;2341.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 14BD1D7FD8583098A7865965F1A742B5;1929.
+(rerunfilecheck)             Checksum: B207DB941C8FC25C84E1258ED5699375;1929.
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 11554 strings out of 493921
- 177576 string characters out of 3144882
- 275417 words of memory out of 3000000
+ 11564 strings out of 493921
+ 177731 string characters out of 3144882
+ 273449 words of memory out of 3000000
  14036 multiletter control sequences out of 15000+200000
  107318 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,13n,49p,2765b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
-s/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
-mmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/symbols/msam10.pfb>
-Output written on Thesis.pdf (48 pages, 7783163 bytes).
+pdfTeX warning (dest): name{figure.caption.56} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.55} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.54} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.53} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.52} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix*.57} has been referenced but does not exis
+t, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/
+enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/l
+m/lm-mathit.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
+/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/lm/lmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/symbols/msam10.pfb>
+Output written on Thesis.pdf (49 pages, 7821295 bytes).
 PDF statistics:
- 1008 PDF objects out of 1200 (max. 8388607)
- 211 named destinations out of 1000 (max. 500000)
+ 1030 PDF objects out of 1200 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
  521 words of extra memory for PDF output out of 10000 (max. 10000000)
 

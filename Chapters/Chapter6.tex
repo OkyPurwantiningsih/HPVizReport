@@ -1,5 +1,5 @@
 \chapter{Case Studies}
-To evaluate the visualization functionality developed in this thesis, two case studies will be presented. There are two types of data collected: log files from healthy person who played the game and log files from patient. The log files from healthy person are gathered in duration of three weeks with each session played in different day. The patients' data are collected by NaturalPad\footnote{\url{http://www.naturalpad.fr/}}. Unfortunately, it is not possible to get information concerning patients' pathology due to confidentiality reason. For figures referred in this chapter, please see Appendix \ref{chap:appendix1}.
+To evaluate the visualization functionality developed in this thesis, two case studies will be presented. There are two types of data collected: log files from healthy person who played the game and log files from patient. The log files from healthy person are gathered in duration of three weeks with each session played in different day. The patients' data are collected by NaturalPad\footnote{\url{http://www.naturalpad.fr/}}. Unfortunately, it is not possible to get information concerning patients' pathology due to confidentiality reason. 
 
 \section{Case Study 1: Normal Player}
 The first case study is based on log files of game played by my colleague over the course of three weeks. In total, there are 20 sessions of BODYTILT game collected. Figure \ref{fig:app1_stacked} presents a comparison between the very first and last session played by the player. It shows that in the first session, there are a lot of events missed (yellow area) on the far right and far left of the screen which indicate that the player doesn't move her body to that extent. From the peak of area between 0-5 x axis, it can be concluded that the player moves more to the right. The green and red area which indicates positive and negative events only appears around -10 to 10 x axis which indicates that player only moves around the middle of the screen\ref{t11}\ref{t12}. It is understandable for first session because usually player needs time to get use to the game and get the feeling of how far he/she should move his/her boy to reach/avoid an object. On the other hand, in session 20, the peak of the area are more spread out and there are even green area at the far right\ref{t11}\ref{t12} which indicates that the player is able to move to that extent. It seems that the player already has the feeling of how to play the game.
@@ -10,6 +10,62 @@ Focusing on events for Enemy as shown in figure \ref{fig:app1_stacked_enemy}, at
 
 The summary of all the session can be seen in figure \ref{fig:case1_type1}. As we can see, the number of positive events are steadily increasing though fluctuate \ref{t21}\ref{t22}. On session 19, there are very small number of negative events on all sections which indicate an improvement in the gameplay. In figure \ref{fig:case1_type1_select}, we can see the evolution of the positive events \ref{t23}. Overall, the number are steady except for a certain session. However, on the right most section there are some positive events can be found which indicates that overtime, the player move more to the right. On the clustered version of the chart (figure \ref{fig:case1_type1_select_c}), three sections in the middle are merged together since it shows similar evolution \ref{t27}. From figure \ref{fig:case1_type2} we can conclude that the movement are more concentrated in the middle area of the screen [\ref{t24}\ref{t25}\ref{t26}].
 
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{appendix_case1_compare_session_stackedgraph.png}
+\caption{Stacked Graph comparison of Session 1 and Session 20}
+\label{fig:app1_stacked}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{appendix_case1_compare_session_heatmap.png}
+\caption{Heatmap comparison of Session 1(left) and Session 20(right)}
+\label{fig:app1_heatmap}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{appendix_case1_compare_session_stackedgraph_enemy.png}
+\caption{Stacked Graph comparison of Session 1 and Session 20 for Enemy}
+\label{fig:app1_stacked_enemy}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{appendix_case1_compare_session_heatmap_enemy.png}
+\caption{Heatmap comparison of Session 1(left) and Session 20(right) for Enemy}
+\label{fig:app1_heatmap_enemy}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case1_type1.png}
+\caption{Summary Visualization by x-range}
+\label{fig:case1_type1}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case1_type1_select.png}
+\caption{Summary Visualization by x-range, filtered for positive events}
+\label{fig:case1_type1_select}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case1_type1_select_clustered.png}
+\caption{Summary Visualization by x-range, filtered for positive events and clustered}
+\label{fig:case1_type1_select_c}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case1_type2.png}
+\caption{Summary Visualization by number of events, filtered for positive and negative events}
+\label{fig:case1_type2}
+\end{figure}
+
 \section{Case Study 2: Patient}
 The second case study is based on log files of game played by Patient 6. There are 15 sessions which are played over the course of three weeks. However, these sessions are of two game type: HANDPOINT (6 sessions) and BODYTILT (9 session). For this case study, only the sessions of HANDPOINT exercise will be discussed. The game for this patient is set to show only obstacles and bonuses.
 
@@ -19,5 +75,60 @@ The summary visualization shown in figure \ref{fig:case2_summary} confirmed that
 
 Movement of person with pathology are highly affected by the type of pathology. On the second case study, throughout all sessions the movements are concentrated to the right side with almost no movement on the left side. Therefore we can assume that the patient has his left side of the body affected. While for normal person, the movement are more spread out on both left and right side with more concentration in the middle.
 
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case2_stacked.png}
+\caption{Stacked Graph of Session 10}
+\label{fig:case2_stacked}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{case2_heatmap.png}
+\caption{Heatmap of Session 10}
+\label{fig:case2_heatmap}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case2_stacked_bonus.png}
+\caption{Stacked Graph of Session 10, filtered by bonus}
+\label{fig:case2_stacked_bonus}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=100mm]{case2_heatmap_bonus.png}
+\caption{Heatmap of Session 10, filtered by bonus}
+\label{fig:case2_heatmap_bonus}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case2_summary.png}
+\caption{Summary visualization of Patient 6}
+\label{fig:case2_summary}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case2_summary_neutral.png}
+\caption{Summary visualization of Patient 6, filtered by neutral events}
+\label{fig:case2_summary_neutral}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case2_summary_clustered.png}
+\caption{Summary visualization of Patient 6, clustered}
+\label{fig:case2_summary_clustered}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=140mm]{case2_summary_type2.png}
+\caption{Summary visualization of Patient 6 with sections divided by number of events, filtered by positive and negative events}
+\label{fig:case2_summary_type2}
+\end{figure}
 
 

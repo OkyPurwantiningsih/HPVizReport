@@ -42,7 +42,33 @@ $$ \upsilon_{scr} = \frac{\theta_{evt}-\theta_{apr}}{\textit{t}_{evt}-\textit{t}
 
 \section{Clustering Algorithm}
 
-In understanding the common evolution of the gameplay among different sessions over x-area, it is interesting to see what the common evolution of different section of x-area\ref{t27}. The idea is to aggregate similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. To achieve this, a clustering algorithm based on hierarchical clustering is introduced(see Algorithm \ref{alg:Clustering}). 
+In understanding the common evolution of the gameplay among different sessions over x-area, it is interesting to see what the common evolution of different section of x-area\ref{t27}. The idea is to aggregate similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. To achieve this, a clustering algorithm based on hierarchical clustering is introduced(see Algorithm \ref{alg:Clustering}). \newline
+
+\textbf{Distance Calculation}\newline 
+Since the idea was to aggregate consecutive sections with similar movement pattern, there are two types of distance considered: (i)how different both sections in term of event types proportion within each section (ii)how different both sections in term of the evolution of each event type throughout the sessions. Thus, for each pair of consecutive sequences ($\textit{s}_1$,$\textit{s}_2$) of \textit{S}, distance is defined as:
+$$d(\textit{s}_1,\textit{s}_2) = \alpha\textit{f}(\textit{s}_1,\textit{s}_2) + (1 - \alpha)\textit{g}(\textit{s}_1,\textit{s}_2)$$
+
+$$\text{where } f(\textit{s}_1,\textit{s}_2) = \frac{\displaystyle\sum_{i=0}^{i < \lvert\textit{s}_1\lvert} \textit{N}ED(\textit{s}_1\lbrack i \rbrack,\textit{s}_2\lbrack i \rbrack)}{ \lvert\textit{s}_1\lvert}$$
+
+$$ \textit{N}ED(\textit{s}_1\lbrack i \rbrack,\textit{s}_2\lbrack i \rbrack) = \frac{\sqrt{\displaystyle\sum_{j \in \{0,1,2\}}(\textit{s}_1'\lbrack i \rbrack\lbrack j \rbrack - \textit{s}_2'\lbrack i \rbrack\lbrack j \rbrack)^2}}{\sqrt{3}}$$
+
+In this first distance function, $\textit{s}_1'$ and $\textit{s}_2'$ represent normalized value of $\textit{s}_1$ and $\textit{s}_2$. Since the first distance is to see the difference of event type proportion in each section, thus the values are normalized by the maximum value of each sessions in each section. In this case, two consecutive sections with different number of events but similar proportion of event type will be merged. To get a value of distance between 0 and 1, each Euclidean distance value is normalized by dividing it with maximum distance $\sqrt{3}$.
+
+$$\text{ and where } \textit{g}(\textit{s}_1,\textit{s}_2) = \frac{\textit{g}_1(\textit{s}_1,\textit{s}_2) + \textit{g}_2(\textit{s}_1,\textit{s}_2) + \textit{g}_3(\textit{s}_1,\textit{s}_2)}{3}$$
+
+\[\text{and for } i  \in \{0,1,2\}\text{, } g_i(\textit{s}_1,\textit{s}_2) = \left\{
+  \begin{array}{ll}
+    0 & \text{ if } \textit{s}\lbrack j \rbrack\lbrack i \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}|\text{, } \textit{s} \in \{\textit{s}_1,\textit{s}_2\}\\
+    1 & \text{ if } \textit{s}_k\lbrack j \rbrack\lbrack i \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}_k| \text{ and } \exists \textit{s}_p\lbrack j \rbrack\lbrack i \rbrack \neq 0\\
+      & \text{ and } k \in \{1,2\} \text{, } p \in \{1,2\} \text{, } k \neq p\\
+      & \\
+	\multicolumn{2}{l}{\frac{\sqrt{\displaystyle\sum_{k=0}^{\lvert\textit{s}_1\lvert} (\textit{s}_1''\lbrack k \rbrack\lbrack i \rbrack - \textit{s}_2''\lbrack k \rbrack\lbrack i \rbrack)^2}}{\sqrt{\lvert\textit{s}_1\rvert}}}
+  \end{array}
+\right.
+\]
+
+In the second distance function, there are three different distance value: (i) if there are no events in both sections, the distance is 0 and thus the sections are merged (ii) if there is at least one event in one section and there are no events in the other section, the distance is 1 (iii) if both sections has any events then the euclidean distance is calculated. Here, $\textit{s}_1''$ and $\textit{s}_2''$ represent normalized value of $\textit{s}_1$ and $\textit{s}_2$. In order to compare the evolution of the same event type between consecutive sections, the values are normalized by dividing it with maximum value of each event type in the section. Therefore, sections with similar event type evolution will be merged. To get a value of distance between 0 and 1, each Euclidean distance value is normalized by dividing it with maximum distance $\sqrt{\lvert\textit{s}_1\rvert}$.
+
 \begin{algorithm}
   \caption{Hierarchical Clustering}\label{alg:Clustering}
   \begin{algorithmic}[1]
@@ -52,26 +78,9 @@ $$\textit{t}_i = (n_{neg}, n_{net}, n_{pos})$$
 $$\textit{S}_i = \{\textit{t}_i(1), \textit{t}_i(2), ..., \textit{t}_i(n_{ses})\}, 1\le i\le n_{sec}$$
   \STATE Calculate the distance between slice $\textit{S}_i$ and $\textit{S}_{i+1}$ (explained in Distance Calculation).
   \STATE Following the Hierarchical Clustering algorithm\cite{maimon}, merge two consecutive slices if it satisfies the distance threshold specified. Calculate the distance of the merged slices with the next slice and merge them if the distance is still below the threshold. Repeat the process until there is no distance which satisfies the threshold.
-
-
   \end{algorithmic}
-\end{algorithm}\newline 
+\end{algorithm}
 
-\textbf{Distance Calculation}\newline 
-Since the idea was to aggregate consecutive sections with similar movement pattern, there are two types of distance considered: (i)how different both sections in term of event types proportion within each section (ii)how different both sections in term of the evolution of each event type throughout the sessions. Thus, for each pair of consecutive sequences ($\textit{s}_1$,$\textit{s}_2$) of \textit{S}, distance is defined as:
-$$d(\textit{s}_1,\textit{s}_2) = \alpha\textit{f}(\textit{s}_1,\textit{s}_2) + (1 - \alpha)\textit{g}(\textit{s}_1,\textit{s}_2)$$
-$$\text{where } \textit{g}(\textit{s}_1,\textit{s}_2) = \frac{\textit{g}_1(\textit{s}_1,\textit{s}_2) + \textit{g}_2(\textit{s}_1,\textit{s}_2) + \textit{g}_3(\textit{s}_1,\textit{s}_2)}{3}$$
 
-\[\text{and for } i  \in \{0,1,2\}\text{, } g_i(\textit{s}_1,\textit{s}_2) = \left\{
-  \begin{array}{ll}
-    0 & \text{ if } \textit{s}\lbrack j \rbrack\lbrack i \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}|\text{, } \textit{s} \in \{\textit{s}_1,\textit{s}_2\}\\
-    1 & \text{ if } \textit{s}_k\lbrack j \rbrack\lbrack i \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}_k| \text{ and } \exists \textit{s}_p\lbrack j \rbrack\lbrack i \rbrack \neq 0\\
-      & \text{ and } k \in \{1,2\} \text{, } p \in \{1,2\} \text{, } k \neq p\\
-	\frac{\sqrt{\displaystyle\sum_{k=0}^{\lvert\textit{s}_1\lvert} (\textit{s}_1'\lbrack k \rbrack\lbrack i \rbrack - \textit{s}_2'\lbrack k \rbrack\lbrack i \rbrack)^2}}{\sqrt{\lvert\textit{s}_1\rvert}}
-  \end{array}
-\right.
-\]
-
-$$ d(\textit{S}_i,\textit{S}_{i+1}) = \displaystyle\sum_{j=1}^{n_{ses}} ED(\textit{t}_i (j), \textit{t}_{i+1} (j))$$
 
 

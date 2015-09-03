@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.3)  3 SEP 2015 11:33
 entering extended mode
 **Thesis.tex
 
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Thesis.tex"
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.18)  2 SEP 2015 17:55
+entering extended mode
+**Thesis.tex
+
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.t
+ex"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +25,13 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\ThesisStyle.cls"
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\ThesisSt
+yle.cls"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Document Class: ThesisStyle 2004/02/16 v1.4f Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk11.clo"
 File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
@@ -119,8 +133,13 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\algorithm.sty"
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\algorith
+m.sty"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Package: algorithm 
 
 Document Style `algorithm' - floating environment
@@ -146,18 +165,92 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+\XKV@depth=\count99
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box29
+)
+\tc@llx=\dimen116
+\tc@lly=\dimen117
+\tc@urx=\dimen118
+\tc@ury=\dimen119
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen120
+\adjbox@Height=\dimen121
+\adjbox@Depth=\dimen122
+\adjbox@Totalheight=\dimen123
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count101
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box30
+\sift@deathcycles=\count102
+\@vwid@loff=\dimen124
+\@vwid@roff=\dimen125
 ))
 \@input{formatAndDefs.aux}
 
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\formatAndDefs.tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\formatAn
+dDefs.tex" ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip51
 
@@ -167,51 +260,51 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks20
-\ex@=\dimen114
+\@emptytoks=\toks22
+\ex@=\dimen126
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen115
+\pmbraise@=\dimen127
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count99
+\inf@bad=\count103
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count100
-\leftroot@=\count101
+\uproot@=\count104
+\leftroot@=\count105
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count102
-\DOTSCASE@=\count103
+\classnum@=\count106
+\DOTSCASE@=\count107
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
-\big@size=\dimen116
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen128
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count104
-\c@MaxMatrixCols=\count105
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
 \dotsspace@=\muskip11
-\c@parentequation=\count106
-\dspbrk@lvl=\count107
-\tag@help=\toks21
-\row@=\count108
-\column@=\count109
-\maxfields@=\count110
-\andhelp@=\toks22
-\eqnshift@=\dimen117
-\alignsep@=\dimen118
-\tagshift@=\dimen119
-\tagwidth@=\dimen120
-\totwidth@=\dimen121
-\lineht@=\dimen122
-\@envbody=\toks23
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
+\tag@help=\toks23
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
+\andhelp@=\toks24
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
+\@envbody=\toks25
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -227,8 +320,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks25
-\inpenc@posthook=\toks26
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
@@ -254,18 +347,18 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count111
-\Gm@cntv=\count112
-\c@Gm@tempcnt=\count113
-\Gm@bindingoffset=\dimen123
-\Gm@wd@mp=\dimen124
-\Gm@odd@mp=\dimen125
-\Gm@even@mp=\dimen126
-\Gm@layoutwidth=\dimen127
-\Gm@layoutheight=\dimen128
-\Gm@layouthoffset=\dimen129
-\Gm@layoutvoffset=\dimen130
-\Gm@dimlist=\toks27
+\Gm@cnth=\count115
+\Gm@cntv=\count116
+\c@Gm@tempcnt=\count117
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks29
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
@@ -292,29 +385,39 @@ Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks28
-\mtc@strutbox=\box31
-\mtc@hstrutbox=\box32
+\mtc@toks=\toks30
+\mtc@strutbox=\box33
+\mtc@hstrutbox=\box34
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
 
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Thesis.mtc0")
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.m
+tc0")
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Package minitoc Info: I0012
 (minitoc)             Long extensions (Unix-like) will be used.
 Package minitoc Info: I0031
 (minitoc)             ==> this version is configured for UNIX-like 
 (minitoc)                 (long extensions) file names.
-\c@mtc=\count114
-\c@minitocdepth=\count115
-\c@ptc=\count116
-\c@parttocdepth=\count117
+\c@mtc=\count118
+\c@minitocdepth=\count119
+\c@ptc=\count120
+\c@parttocdepth=\count121
 \ptcindent=\skip56
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
+<<<<<<< HEAD
 (minitoc)              on input line 4909.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\english.mld"
+=======
+(minitoc)              on input line 4910.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\english.mld"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: english.mld 2006/01/13
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\minitoc\english.mld"
@@ -325,41 +428,13 @@ Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen131
-\nom@tempdim=\dimen132
+\nomlabelwidth=\dimen143
+\nom@tempdim=\dimen144
 \nomitemsep=\skip57
 )
 \@nomenclaturefile=\write4
 
 Writing nomenclature file Thesis.nlo
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count118
-))
-\Gin@req@height=\dimen133
-\Gin@req@width=\dimen134
-)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -412,14 +487,14 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen135
-\Hy@linkcounter=\count119
-\Hy@pagecounter=\count120
+\@linkdim=\dimen145
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count121
+\Hy@SavedSpaceFactor=\count124
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -443,12 +518,12 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count122
+\c@Hy@tempcnt=\count125
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen136
-\Fld@menulength=\count123
-\Field@Width=\dimen137
-\Fld@charsize=\dimen138
+\XeTeXLinkMargin=\dimen146
+\Fld@menulength=\count126
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -458,17 +533,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count124
-\c@Item=\count125
-\c@Hfootnote=\count126
+\Hy@abspage=\count127
+\c@Item=\count128
+\c@Hfootnote=\count129
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count127
-\c@bookmark@seq@number=\count128
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
 \Hy@SectionHShift=\skip58
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
@@ -497,11 +572,11 @@ Package hyperref Warning: Values of option `pdfpagemode':
 Package hyperref Info: Option `pdffitwindow' set `true' on input line 80.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count129
+\c@r@tfl@t=\count132
 \rotFPtop=\skip59
 \rotFPbot=\skip60
-\rot@float@box=\box33
-\rot@mess@toks=\toks29
+\rot@float@box=\box35
+\rot@mess@toks=\toks31
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip61
@@ -516,45 +591,56 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks30
+\everycr=\toks32
 \minrowclearance=\skip70
 )
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\algorithmic.sty"
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\algorith
+mic.sty"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Package: algorithmic 
 
 Document Style `algorithmic' - environment
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count130
-\calc@Bcount=\count131
-\calc@Adimen=\dimen139
-\calc@Bdimen=\dimen140
+\calc@Acount=\count133
+\calc@Bcount=\count134
+\calc@Adimen=\dimen149
+\calc@Bdimen=\dimen150
 \calc@Askip=\skip71
 \calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count132
+\calc@Ccount=\count135
 \calc@Cskip=\skip73
 )
-\c@ALC@line=\count133
-\c@ALC@rem=\count134
+\c@ALC@line=\count136
+\c@ALC@rem=\count137
 \ALC@tlm=\skip74
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen141
+\bigstrutjot=\dimen151
 )
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\slashbox.sty"
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\slashbox
+.sty"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box34
-\@slashboxb=\box35
-\@slashboxc=\box36
-\@slashboxwd=\count135
-\@slashboxht=\count136
-\@slashsepl=\dimen142
-\@slashsepr=\dimen143
+\@slashboxa=\box36
+\@slashboxb=\box37
+\@slashboxc=\box38
+\@slashboxwd=\count138
+\@slashboxht=\count139
+\@slashsepl=\dimen152
+\@slashsepr=\dimen153
 )
+<<<<<<< HEAD
 \c@definition=\count137
 )
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
@@ -594,6 +680,46 @@ LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 18.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+=======
+\c@definition=\count140
+)
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.a
+ux"
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\TitlePag
+e.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter1.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter2.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter3.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter4.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter5.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter6.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter7.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Appendic
+es/Appendix1.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 12.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -602,7 +728,20 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count141
+\scratchdimen=\dimen154
+\scratchbox=\box39
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen155
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks34
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -637,12 +776,12 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@minilofdepth=\count138
-\c@minilotdepth=\count139
-\c@partlofdepth=\count140
-\c@partlotdepth=\count141
-\c@sectlofdepth=\count142
-\c@sectlotdepth=\count143
+\c@minilofdepth=\count147
+\c@minilotdepth=\count148
+\c@partlofdepth=\count149
+\c@partlotdepth=\count150
+\c@sectlofdepth=\count151
+\c@sectlotdepth=\count152
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -670,30 +809,17 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen144
-\scratchbox=\box37
-\nofMPsegments=\count145
-\nofMParguments=\count146
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen145
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
-\everyMPtoPDFconversion=\toks32
-)
-\AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring ON on input line 18.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+\AtBeginShipoutBox=\box40
+Package hyperref Info: Link coloring ON on input line 12.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count150
+\c@section@level=\count153
 )
+<<<<<<< HEAD
 LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
 LaTeX Info: Redefining \nameref on input line 18.
@@ -707,6 +833,20 @@ VizReport\Thesis.out")
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\TitlePage.tex"
 <images/logocs.jpeg, id=143, 315.1775pt x 161.60374pt>
+=======
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
+
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.o
+ut")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.o
+ut")
+\@outlinefile=\write5
+
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\TitlePag
+e.tex" <images/logocs.jpeg, id=151, 315.1775pt x 161.60374pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/logocs.jpeg Graphic file (type jpg)
 
 <use images/logocs.jpeg>
@@ -748,7 +888,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/it4bi_logo.jpg, id=144, 81.2131pt x 58.00937pt>
+<images/it4bi_logo.jpg, id=152, 81.2131pt x 58.00937pt>
 File: images/it4bi_logo.jpg Graphic file (type jpg)
 
 <use images/it4bi_logo.jpg>
@@ -765,32 +905,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 24.
-
-Underfull \hbox (badness 1024) in paragraph at lines 45--45
-[]|\T1/lmr/m/it/12 In col-lab-o-ra-
- []
-
-
-Overfull \hbox (46.94168pt too wide) in paragraph at lines 40--47
- [] 
- []
-
 [1
 
 
 
 
 
+<<<<<<< HEAD
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Advanse-/Documen
 ts/Thesis/all documents for thesis/_Thesis Report/HPVizReport/images/logocs.jpe
 g> <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report/
 HPVizReport/images/it4bi_logo.jpg>])
 Underfull \hbox (badness 10000) in paragraph at lines 32--37
+=======
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/IT4BI Courses - Semest
+er 4/_Thesis Report/New Version/HPVizReport/images/logocs.jpeg> <D:/IT4BI Cours
+es - Semester 4/_Thesis Report/New Version/HPVizReport/images/it4bi_logo.jpg>])
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 
  []
 
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM Thesis.toc on input line 47.
+(minitoc)             PREPARING MINITOCS FROM Thesis.toc on input line 41.
 Package minitoc Info: I0033
 (minitoc)             Writing Thesis.mtc1.
 Package minitoc Info: I0033
@@ -815,6 +953,7 @@ Package minitoc Info: I0033
 ] [2
 
 ]
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Thesis.toc")
 \tf@toc=\write6
@@ -829,12 +968,33 @@ VizReport\Thesis.lof" [4
  [5]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Thesis.lot")
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.t
+oc" [3
+
+])
+\tf@toc=\write6
+ [4]
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.l
+of" [5
+
+])
+\tf@lof=\write7
+ [6]
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.l
+ot")
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 \tf@lot=\write8
- [6
+ [7
 
 ]
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Chapters/Chapter1.tex"
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter1.tex"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Chapter 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 4.
@@ -853,19 +1013,28 @@ l.12 T
 
 
 
+<<<<<<< HEAD
 ] <images/hp_game.png, id=345, 1084.05pt x 677.53125pt>
+=======
+] <images/hp_game.png, id=359, 1084.05pt x 677.53125pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/hp_game.png Graphic file (type png)
 
 <use images/hp_game.png>
 Package pdftex.def Info: images/hp_game.png used on input line 16.
 (pdftex.def)             Requested size: 312.9803pt x 195.61061pt.
 
+<<<<<<< HEAD
 <images/munzner_model.png, id=348, 368.1253pt x 108.405pt>
+=======
+<images/munzner_model.png, id=362, 368.1253pt x 108.405pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/munzner_model.png Graphic file (type png)
 
 <use images/munzner_model.png>
 Package pdftex.def Info: images/munzner_model.png used on input line 27.
 (pdftex.def)             Requested size: 284.52756pt x 83.793pt.
+<<<<<<< HEAD
  [2 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report
 /HPVizReport/images/hp_game.png> <C:/Users/Advanse-/Documents/Thesis/all docume
 nts for thesis/_Thesis Report/HPVizReport/images/munzner_model.png>]) [3]
@@ -874,21 +1043,36 @@ VizReport\Chapters/Chapter2.tex"
 Chapter 2.
 <images/cedric_bodytilt.jpg, id=360, 230.8625pt x 307.1475pt>
 File: images/cedric_bodytilt.jpg Graphic file (type jpg)
+=======
+ [2 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/image
+s/hp_game.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizR
+eport/images/munzner_model.png>]) [3]
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter2.tex"
+Chapter 2.
+<images/mia_bodytilt.png, id=374, 1205.2528pt x 1733.72719pt>
+File: images/mia_bodytilt.png Graphic file (type png)
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 
-<use images/cedric_bodytilt.jpg>
-Package pdftex.def Info: images/cedric_bodytilt.jpg used on input line 28.
-(pdftex.def)             Requested size: 156.49014pt x 208.20139pt.
+<use images/mia_bodytilt.png>
+Package pdftex.def Info: images/mia_bodytilt.png used on input line 28.
+(pdftex.def)             Requested size: 156.49014pt x 225.10144pt.
 
+<<<<<<< HEAD
 <images/mia_handpoint.png, id=361, 173.14688pt x 230.36063pt>
+=======
+<images/mia_handpoint.png, id=375, 1205.2528pt x 1733.72719pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/mia_handpoint.png Graphic file (type png)
 
 <use images/mia_handpoint.png>
 Package pdftex.def Info: images/mia_handpoint.png used on input line 30.
-(pdftex.def)             Requested size: 156.49014pt x 208.2049pt.
+(pdftex.def)             Requested size: 156.49014pt x 225.10144pt.
  [4
 
 
 
+<<<<<<< HEAD
 ] [5 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
 t/HPVizReport/images/cedric_bodytilt.jpg> <C:/Users/Advanse-/Documents/Thesis/a
 ll documents for thesis/_Thesis Report/HPVizReport/images/mia_handpoint.png>]) 
@@ -897,13 +1081,27 @@ ll documents for thesis/_Thesis Report/HPVizReport/images/mia_handpoint.png>])
 VizReport\Chapters/Chapter3.tex"
 Chapter 3.
 <images/rahman_viz.png, id=431, 434.37282pt x 324.46219pt>
+=======
+] [5 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/imag
+es/mia_bodytilt.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/
+HPVizReport/images/mia_handpoint.png>])
+[6]
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter3.tex"
+Chapter 3.
+<images/rahman_viz.png, id=445, 434.37282pt x 324.46219pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/rahman_viz.png Graphic file (type png)
 
 <use images/rahman_viz.png>
 Package pdftex.def Info: images/rahman_viz.png used on input line 14.
 (pdftex.def)             Requested size: 312.9803pt x 233.80072pt.
 
+<<<<<<< HEAD
 <images/rahman2_elbowangle.png, id=434, 712.16063pt x 417.81094pt>
+=======
+<images/rahman2_elbowangle.png, id=448, 712.16063pt x 417.81094pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/rahman2_elbowangle.png Graphic file (type png)
 
 <use images/rahman2_elbowangle.png>
@@ -918,17 +1116,28 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 20--21
 
 
 
+<<<<<<< HEAD
 ] [8 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
 t/HPVizReport/images/rahman_viz.png> <C:/Users/Advanse-/Documents/Thesis/all do
 cuments for thesis/_Thesis Report/HPVizReport/images/rahman2_elbowangle.png>] <
 images/aigner_flowmap.jpg, id=459, 336.50719pt x 435.87843pt>
+=======
+] [8 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/imag
+es/rahman_viz.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HP
+VizReport/images/rahman2_elbowangle.png>]
+<images/aigner_flowmap.jpg, id=473, 336.50719pt x 435.87843pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/aigner_flowmap.jpg Graphic file (type jpg)
 
 <use images/aigner_flowmap.jpg>
 Package pdftex.def Info: images/aigner_flowmap.jpg used on input line 36.
 (pdftex.def)             Requested size: 256.0748pt x 331.6967pt.
 
+<<<<<<< HEAD
 <images/aigner_spatiotemporaleventviz.png, id=460, 651.18282pt x 365.11406pt>
+=======
+<images/aigner_spatiotemporaleventviz.png, id=474, 651.18282pt x 365.11406pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/aigner_spatiotemporaleventviz.png Graphic file (type png)
 
 <use images/aigner_spatiotemporaleventviz.png>
@@ -940,11 +1149,18 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 42--43
  [][] 
  []
 
+<<<<<<< HEAD
 [9] [10 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Re
 port/HPVizReport/images/aigner_flowmap.jpg> <C:/Users/Advanse-/Documents/Thesis
 /all documents for thesis/_Thesis Report/HPVizReport/images/aigner_spatiotempor
 aleventviz.png>]
 <images/havre_themeriver.png, id=477, 533.74406pt x 369.63094pt>
+=======
+[9] [10 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/i
+mages/aigner_flowmap.jpg> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Ver
+sion/HPVizReport/images/aigner_spatiotemporaleventviz.png>]
+<images/havre_themeriver.png, id=491, 533.74406pt x 369.63094pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/havre_themeriver.png Graphic file (type png)
 
 <use images/havre_themeriver.png>
@@ -955,9 +1171,15 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 52--53
  [][] 
  []
 
+<<<<<<< HEAD
 [11 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report
 /HPVizReport/images/havre_themeriver.png>]
 <images/adrienko_clustered.png, id=490, 612.78937pt x 456.95718pt>
+=======
+[11 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/image
+s/havre_themeriver.png>]
+<images/adrienko_clustered.png, id=505, 612.78937pt x 456.95718pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/adrienko_clustered.png Graphic file (type png)
 
 <use images/adrienko_clustered.png>
@@ -968,9 +1190,15 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 65--66
  [][] 
  []
 
+<<<<<<< HEAD
 [12 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report
 /HPVizReport/images/adrienko_clustered.png>]
 <images/adrienko_milan.png, id=500, 652.68843pt x 450.18187pt>
+=======
+[12 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/image
+s/adrienko_clustered.png>]
+<images/adrienko_milan.png, id=514, 652.68843pt x 450.18187pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/adrienko_milan.png Graphic file (type png)
 
 <use images/adrienko_milan.png>
@@ -984,9 +1212,15 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 73--74
 
 Underfull \vbox (badness 1226) has occurred while \output is active []
 
+<<<<<<< HEAD
  [13 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
 t/HPVizReport/images/adrienko_milan.png>]
 <images/chmelik_trail.png, id=519, 886.81313pt x 279.29344pt>
+=======
+ [13 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/imag
+es/adrienko_milan.png>] <images/chmelik_trail.png, id=533, 886.81313pt x 279.29
+344pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/chmelik_trail.png Graphic file (type png)
 
 <use images/chmelik_trail.png>
@@ -997,7 +1231,11 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
+<<<<<<< HEAD
 <images/yuko_belt.png, id=520, 710.655pt x 242.40562pt>
+=======
+<images/yuko_belt.png, id=534, 710.655pt x 242.40562pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/yuko_belt.png Graphic file (type png)
 
 <use images/yuko_belt.png>
@@ -1008,10 +1246,17 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 91--92
  [][] 
  []
 
+<<<<<<< HEAD
 [14 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report
 /HPVizReport/images/chmelik_trail.png> <C:/Users/Advanse-/Documents/Thesis/all 
 documents for thesis/_Thesis Report/HPVizReport/images/yuko_belt.png>]
 <images/bernard_motionexplorer.png, id=528, 837.88031pt x 407.27156pt>
+=======
+[14 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/image
+s/chmelik_trail.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/
+HPVizReport/images/yuko_belt.png>]
+<images/bernard_motionexplorer.png, id=542, 837.88031pt x 407.27156pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/bernard_motionexplorer.png Graphic file (type png)
 
 <use images/bernard_motionexplorer.png>
@@ -1023,25 +1268,43 @@ Overfull \hbox (2.731pt too wide) in paragraph at lines 99--100
  [][] 
  []
 
+<<<<<<< HEAD
 [15 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report
 /HPVizReport/images/bernard_motionexplorer.png>]
 <images/d3js.png, id=538, 931.22906pt x 346.29375pt>
+=======
+[15 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/image
+s/bernard_motionexplorer.png>]
+<images/d3js.png, id=552, 931.22906pt x 346.29375pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/d3js.png Graphic file (type png)
  <use images/d3js.png>
 Package pdftex.def Info: images/d3js.png used on input line 111.
 (pdftex.def)             Requested size: 284.52756pt x 105.807pt.
 
+<<<<<<< HEAD
 <images/threejs.png, id=539, 982.42032pt x 494.59781pt>
+=======
+<images/threejs.png, id=553, 982.42032pt x 494.59781pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/threejs.png Graphic file (type png)
 
 <use images/threejs.png>
 Package pdftex.def Info: images/threejs.png used on input line 117.
 (pdftex.def)             Requested size: 284.52756pt x 143.24101pt.
+<<<<<<< HEAD
 ) [16 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repo
 rt/HPVizReport/images/d3js.png> <C:/Users/Advanse-/Documents/Thesis/all documen
 ts for thesis/_Thesis Report/HPVizReport/images/threejs.png>]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Chapters/Chapter4.tex"
+=======
+) [16 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/ima
+ges/d3js.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizRe
+port/images/threejs.png>]
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter4.tex"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Chapter 4.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1050,19 +1313,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-[18]
-Overfull \hbox (12.22716pt too wide) detected at line 68
-[]\OML/lmm/m/it/10.95 i \OMS/lmsy/m/n/10.95 2 f\OT1/lmr/m/n/10.95 0\OML/lmm/m/i
+] [18] [19]
+Overfull \hbox (17.63713pt too wide) detected at line 111
+[]\OML/lmm/m/it/10.95 j \OMS/lmsy/m/n/10.95 2 f\OT1/lmr/m/n/10.95 0\OML/lmm/m/i
 t/10.95 ; \OT1/lmr/m/n/10.95 1\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 2\OMS/lm
 sy/m/n/10.95 g[]\OML/lmm/m/it/10.95 g[]\OT1/lmr/m/n/10.95 ([][]\OML/lmm/m/it/10
 .95 ; [][]\OT1/lmr/m/n/10.95 ) = []
  []
 
+<<<<<<< HEAD
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 73.
 ) [19] [20]
@@ -1070,13 +1329,24 @@ put line 73.
 VizReport\Chapters/Chapter5.tex"
 Chapter 5.
 <images/linechart.png, id=595, 407.27156pt x 91.09032pt>
+=======
+) [20]
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter5.tex"
+Chapter 5.
+<images/linechart.png, id=607, 407.27156pt x 91.09032pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/linechart.png Graphic file (type png)
 
 <use images/linechart.png>
 Package pdftex.def Info: images/linechart.png used on input line 9.
 (pdftex.def)             Requested size: 284.52756pt x 63.64046pt.
 
+<<<<<<< HEAD
 <images/scatterplot.png, id=600, 483.30562pt x 445.665pt>
+=======
+<images/scatterplot.png, id=612, 483.30562pt x 445.665pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/scatterplot.png Graphic file (type png)
 
 <use images/scatterplot.png>
@@ -1086,60 +1356,92 @@ Package pdftex.def Info: images/scatterplot.png used on input line 15.
 
 
 
+<<<<<<< HEAD
  <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report/HP
 VizReport/images/linechart.png>]
+=======
+ <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/images/l
+inechart.png>]
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
 [][][][][]$\T1/lmtt/m/n/9 http : / / www . nytimes . com / interactive / 2008 /
  02 / 23 / movies / 20080223 _ REVENUE _ GRAPHIC . html ? _r =$
  []
 
+<<<<<<< HEAD
 [22 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report
 /HPVizReport/images/scatterplot.png>]
 <images/stackedgraph_linear.png, id=626, 466.74374pt x 193.47281pt>
+=======
+[22 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/image
+s/scatterplot.png>]
+<images/stackedgraph_linear.png, id=645, 466.74374pt x 193.47281pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/stackedgraph_linear.png Graphic file (type png)
 
 <use images/stackedgraph_linear.png>
 Package pdftex.def Info: images/stackedgraph_linear.png used on input line 36.
 (pdftex.def)             Requested size: 284.52756pt x 117.94443pt.
 
+<<<<<<< HEAD
 <images/stackedgraph_silhouette.png, id=627, 392.21532pt x 188.20313pt>
+=======
+<images/stackedgraph_silhouette.png, id=646, 392.21532pt x 188.20313pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/stackedgraph_silhouette.png Graphic file (type png)
 
 <use images/stackedgraph_silhouette.png>
 Package pdftex.def Info: images/stackedgraph_silhouette.png used on input line 
-45.
+46.
 (pdftex.def)             Requested size: 169.62154pt x 81.39384pt.
 
+<<<<<<< HEAD
 <images/stackedgraph_positive.png, id=628, 395.97937pt x 187.45032pt>
+=======
+<images/stackedgraph_positive.png, id=647, 395.97937pt x 187.45032pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/stackedgraph_positive.png Graphic file (type png)
 
 <use images/stackedgraph_positive.png>
-Package pdftex.def Info: images/stackedgraph_positive.png used on input line 49
+Package pdftex.def Info: images/stackedgraph_positive.png used on input line 50
 .
 (pdftex.def)             Requested size: 169.62154pt x 80.296pt.
 
+<<<<<<< HEAD
 <images/stackedgraph_neutral_neg.png, id=629, 397.485pt x 182.18062pt>
+=======
+<images/stackedgraph_neutral_neg.png, id=648, 397.485pt x 182.18062pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/stackedgraph_neutral_neg.png Graphic file (type png)
 
 <use images/stackedgraph_neutral_neg.png>
 Package pdftex.def Info: images/stackedgraph_neutral_neg.png used on input line
- 54.
+ 55.
 (pdftex.def)             Requested size: 169.62154pt x 77.74402pt.
 
+<<<<<<< HEAD
 <images/stackedgraph_positive_neutral.png, id=630, 392.21532pt x 179.92218pt>
+=======
+<images/stackedgraph_positive_neutral.png, id=649, 392.21532pt x 179.92218pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/stackedgraph_positive_neutral.png Graphic file (type png)
 
 <use images/stackedgraph_positive_neutral.png>
 Package pdftex.def Info: images/stackedgraph_positive_neutral.png used on input
- line 58.
+ line 59.
 (pdftex.def)             Requested size: 169.62154pt x 77.81252pt.
 
+<<<<<<< HEAD
 <images/heatmap.png, id=632, 425.33907pt x 435.87843pt>
+=======
+<images/heatmap.png, id=651, 425.33907pt x 435.87843pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/heatmap.png Graphic file (type png)
 
 <use images/heatmap.png>
-Package pdftex.def Info: images/heatmap.png used on input line 68.
+Package pdftex.def Info: images/heatmap.png used on input line 69.
 (pdftex.def)             Requested size: 284.52756pt x 291.59142pt.
+<<<<<<< HEAD
  [23 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
 t/HPVizReport/images/stackedgraph_linear.png>] [24 <C:/Users/Advanse-/Documents
 /Thesis/all documents for thesis/_Thesis Report/HPVizReport/images/stackedgraph
@@ -1151,26 +1453,46 @@ r thesis/_Thesis Report/HPVizReport/images/stackedgraph_positive_neutral.png> <
 C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report/HPVi
 zReport/images/heatmap.png>]
 <images/summary_not_clustered.png, id=676, 905.63344pt x 392.96812pt>
+=======
+ [23 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/imag
+es/stackedgraph_linear.png>] [24 <D:/IT4BI Courses - Semester 4/_Thesis Report/
+New Version/HPVizReport/images/stackedgraph_silhouette.png> <D:/IT4BI Courses -
+ Semester 4/_Thesis Report/New Version/HPVizReport/images/stackedgraph_positive
+.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/ima
+ges/stackedgraph_neutral_neg.png> <D:/IT4BI Courses - Semester 4/_Thesis Report
+/New Version/HPVizReport/images/stackedgraph_positive_neutral.png> <D:/IT4BI Co
+urses - Semester 4/_Thesis Report/New Version/HPVizReport/images/heatmap.png>]
+<images/summary_not_clustered.png, id=696, 905.63344pt x 392.96812pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/summary_not_clustered.png Graphic file (type png)
 
 <use images/summary_not_clustered.png>
-Package pdftex.def Info: images/summary_not_clustered.png used on input line 83
+Package pdftex.def Info: images/summary_not_clustered.png used on input line 84
 .
 (pdftex.def)             Requested size: 369.88582pt x 160.49435pt.
 
+<<<<<<< HEAD
 <images/summary_clustered.png, id=677, 892.08281pt x 368.1253pt>
+=======
+<images/summary_clustered.png, id=697, 892.08281pt x 368.1253pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/summary_clustered.png Graphic file (type png)
 
 <use images/summary_clustered.png>
-Package pdftex.def Info: images/summary_clustered.png used on input line 90.
+Package pdftex.def Info: images/summary_clustered.png used on input line 91.
 (pdftex.def)             Requested size: 369.88582pt x 152.63434pt.
 
+<<<<<<< HEAD
 <images/section.png, id=678, 402.00188pt x 389.20406pt>
+=======
+<images/section.png, id=698, 402.00188pt x 389.20406pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/section.png Graphic file (type png)
 
 <use images/section.png>
-Package pdftex.def Info: images/section.png used on input line 97.
+Package pdftex.def Info: images/section.png used on input line 98.
 (pdftex.def)             Requested size: 227.62204pt x 220.3758pt.
+<<<<<<< HEAD
 
 Underfull \vbox (badness 2809) has occurred while \output is active []
 
@@ -1181,45 +1503,74 @@ sis/all documents for thesis/_Thesis Report/HPVizReport/images/summary_clustere
 d.png> <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Rep
 ort/HPVizReport/images/section.png>]
 <images/summary_type2.png, id=695, 896.59969pt x 382.42876pt>
+=======
+ [25] [26 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport
+/images/summary_not_clustered.png> <D:/IT4BI Courses - Semester 4/_Thesis Repor
+t/New Version/HPVizReport/images/summary_clustered.png> <D:/IT4BI Courses - Sem
+ester 4/_Thesis Report/New Version/HPVizReport/images/section.png>] <images/sum
+mary_type2.png, id=715, 896.59969pt x 382.42876pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/summary_type2.png Graphic file (type png)
 
 <use images/summary_type2.png>
-Package pdftex.def Info: images/summary_type2.png used on input line 109.
+Package pdftex.def Info: images/summary_type2.png used on input line 110.
 (pdftex.def)             Requested size: 369.88582pt x 157.76547pt.
+<<<<<<< HEAD
  [27 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
 t/HPVizReport/images/summary_type2.png>]
 <images/interaction_bar.png, id=706, 835.62187pt x 67.0003pt>
+=======
+ [27 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/imag
+es/summary_type2.png>]
+<images/interaction_bar.png, id=726, 624.08156pt x 99.37125pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/interaction_bar.png Graphic file (type png)
 
 <use images/interaction_bar.png>
-Package pdftex.def Info: images/interaction_bar.png used on input line 121.
-(pdftex.def)             Requested size: 369.88582pt x 29.6581pt.
+Package pdftex.def Info: images/interaction_bar.png used on input line 122.
+(pdftex.def)             Requested size: 369.88582pt x 58.8969pt.
 
+<<<<<<< HEAD
 <images/interface_app_compare.png, id=708, 1081.03876pt x 591.71063pt>
+=======
+<images/interface_app_compare.png, id=728, 1445.4pt x 813.0375pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/interface_app_compare.png Graphic file (type png)
 
 <use images/interface_app_compare.png>
 Package pdftex.def Info: images/interface_app_compare.png used on input line 13
-0.
-(pdftex.def)             Requested size: 426.79134pt x 233.60124pt.
+1.
+(pdftex.def)             Requested size: 426.79134pt x 240.06729pt.
 
-Overfull \hbox (2.731pt too wide) in paragraph at lines 130--131
+Overfull \hbox (2.731pt too wide) in paragraph at lines 131--132
  [][] 
  []
 
+<<<<<<< HEAD
 ) [28 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repo
 rt/HPVizReport/images/interaction_bar.png> <C:/Users/Advanse-/Documents/Thesis/
 all documents for thesis/_Thesis Report/HPVizReport/images/interface_app_compar
 e.png>]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Chapters/Chapter6.tex"
+=======
+) [28 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/ima
+ges/interaction_bar.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Vers
+ion/HPVizReport/images/interface_app_compare.png>]
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter6.tex"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Chapter 6.
 [29
 
 
 
 ]
+<<<<<<< HEAD
 <images/appendix_case1_compare_session_stackedgraph.png, id=744, 825.83531pt x 
+=======
+<images/appendix_case1_compare_session_stackedgraph.png, id=765, 825.83531pt x 
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 268.00125pt>
 File: images/appendix_case1_compare_session_stackedgraph.png Graphic file (type
  png)
@@ -1228,7 +1579,11 @@ Package pdftex.def Info: images/appendix_case1_compare_session_stackedgraph.png
  used on input line 15.
 (pdftex.def)             Requested size: 398.33858pt x 129.26889pt.
 
+<<<<<<< HEAD
 <images/appendix_case1_compare_session_heatmap.png, id=745, 843.15pt x 436.6312
+=======
+<images/appendix_case1_compare_session_heatmap.png, id=766, 843.15pt x 436.6312
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 6pt>
 File: images/appendix_case1_compare_session_heatmap.png Graphic file (type png)
 
@@ -1237,7 +1592,11 @@ Package pdftex.def Info: images/appendix_case1_compare_session_heatmap.png used
  on input line 22.
 (pdftex.def)             Requested size: 398.33858pt x 206.2827pt.
 
+<<<<<<< HEAD
 <images/appendix_case1_compare_session_stackedgraph_enemy.png, id=746, 828.0937
+=======
+<images/appendix_case1_compare_session_stackedgraph_enemy.png, id=767, 828.0937
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 5pt x 268.75406pt>
 File: images/appendix_case1_compare_session_stackedgraph_enemy.png Graphic file
  (type png)
@@ -1247,7 +1606,11 @@ Package pdftex.def Info: images/appendix_case1_compare_session_stackedgraph_ene
 my.png used on input line 29.
 (pdftex.def)             Requested size: 398.33858pt x 129.28343pt.
 
+<<<<<<< HEAD
 <images/appendix_case1_compare_session_heatmap_enemy.png, id=747, 845.40843pt x
+=======
+<images/appendix_case1_compare_session_heatmap_enemy.png, id=768, 845.40843pt x
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
  426.84468pt>
 File: images/appendix_case1_compare_session_heatmap_enemy.png Graphic file (typ
 e png)
@@ -1256,21 +1619,33 @@ Package pdftex.def Info: images/appendix_case1_compare_session_heatmap_enemy.pn
 g used on input line 36.
 (pdftex.def)             Requested size: 398.33858pt x 201.11853pt.
 
+<<<<<<< HEAD
 <images/case1_type1.png, id=748, 906.38625pt x 379.4175pt>
+=======
+<images/case1_type1.png, id=769, 906.38625pt x 379.4175pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case1_type1.png Graphic file (type png)
 
 <use images/case1_type1.png>
 Package pdftex.def Info: images/case1_type1.png used on input line 43.
 (pdftex.def)             Requested size: 398.33858pt x 166.74736pt.
 
+<<<<<<< HEAD
 <images/case1_type1_select.png, id=749, 898.10532pt x 371.13657pt>
+=======
+<images/case1_type1_select.png, id=770, 898.10532pt x 371.13657pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case1_type1_select.png Graphic file (type png)
 
 <use images/case1_type1_select.png>
 Package pdftex.def Info: images/case1_type1_select.png used on input line 50.
 (pdftex.def)             Requested size: 398.33858pt x 164.60875pt.
 
+<<<<<<< HEAD
 <images/case1_type1_select_clustered.png, id=750, 898.85812pt x 373.395pt>
+=======
+<images/case1_type1_select_clustered.png, id=771, 898.85812pt x 373.395pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case1_type1_select_clustered.png Graphic file (type png)
 
 <use images/case1_type1_select_clustered.png>
@@ -1278,12 +1653,17 @@ Package pdftex.def Info: images/case1_type1_select_clustered.png used on input
 line 57.
 (pdftex.def)             Requested size: 398.33858pt x 165.4737pt.
 
+<<<<<<< HEAD
 <images/case1_type2.png, id=751, 897.3525pt x 377.91188pt>
+=======
+<images/case1_type2.png, id=772, 897.3525pt x 377.91188pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case1_type2.png Graphic file (type png)
 
 <use images/case1_type2.png>
 Package pdftex.def Info: images/case1_type2.png used on input line 64.
 (pdftex.def)             Requested size: 398.33858pt x 167.75218pt.
+<<<<<<< HEAD
  [30 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
 t/HPVizReport/images/appendix_case1_compare_session_stackedgraph.png> <C:/Users
 /Advanse-/Documents/Thesis/all documents for thesis/_Thesis Report/HPVizReport/
@@ -1299,27 +1679,54 @@ ents for thesis/_Thesis Report/HPVizReport/images/case1_type1_select_clustered.
 png> <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis Repor
 t/HPVizReport/images/case1_type2.png>]
 <images/case2_stacked.png, id=795, 482.55281pt x 268.75406pt>
+=======
+ [30 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/imag
+es/appendix_case1_compare_session_stackedgraph.png> <D:/IT4BI Courses - Semeste
+r 4/_Thesis Report/New Version/HPVizReport/images/appendix_case1_compare_sessio
+n_heatmap.png>] [31 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/H
+PVizReport/images/appendix_case1_compare_session_stackedgraph_enemy.png> <D:/IT
+4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/images/appendix
+_case1_compare_session_heatmap_enemy.png> <D:/IT4BI Courses - Semester 4/_Thesi
+s Report/New Version/HPVizReport/images/case1_type1.png>] [32 <D:/IT4BI Courses
+ - Semester 4/_Thesis Report/New Version/HPVizReport/images/case1_type1_select.
+png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/imag
+es/case1_type1_select_clustered.png> <D:/IT4BI Courses - Semester 4/_Thesis Rep
+ort/New Version/HPVizReport/images/case1_type2.png>] <images/case2_stacked.png,
+ id=815, 482.55281pt x 268.75406pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case2_stacked.png Graphic file (type png)
 
 <use images/case2_stacked.png>
 Package pdftex.def Info: images/case2_stacked.png used on input line 80.
 (pdftex.def)             Requested size: 398.33858pt x 221.86015pt.
 
+<<<<<<< HEAD
 <images/case2_heatmap.png, id=796, 420.06938pt x 423.83344pt>
+=======
+<images/case2_heatmap.png, id=816, 420.06938pt x 423.83344pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case2_heatmap.png Graphic file (type png)
 
 <use images/case2_heatmap.png>
 Package pdftex.def Info: images/case2_heatmap.png used on input line 87.
 (pdftex.def)             Requested size: 284.52756pt x 287.07762pt.
 
+<<<<<<< HEAD
 <images/case2_stacked_bonus.png, id=797, 485.56406pt x 272.51813pt>
+=======
+<images/case2_stacked_bonus.png, id=817, 485.56406pt x 272.51813pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case2_stacked_bonus.png Graphic file (type png)
 
 <use images/case2_stacked_bonus.png>
 Package pdftex.def Info: images/case2_stacked_bonus.png used on input line 94.
 (pdftex.def)             Requested size: 398.33858pt x 223.56194pt.
 
+<<<<<<< HEAD
 <images/case2_heatmap_bonus.png, id=798, 441.90094pt x 459.21562pt>
+=======
+<images/case2_heatmap_bonus.png, id=818, 441.90094pt x 459.21562pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case2_heatmap_bonus.png Graphic file (type png)
 
 <use images/case2_heatmap_bonus.png>
@@ -1327,14 +1734,22 @@ Package pdftex.def Info: images/case2_heatmap_bonus.png used on input line 101.
 
 (pdftex.def)             Requested size: 284.52756pt x 295.6908pt.
 
+<<<<<<< HEAD
 <images/case2_summary.png, id=799, 903.375pt x 371.88937pt>
+=======
+<images/case2_summary.png, id=819, 903.375pt x 371.88937pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case2_summary.png Graphic file (type png)
 
 <use images/case2_summary.png>
 Package pdftex.def Info: images/case2_summary.png used on input line 108.
 (pdftex.def)             Requested size: 398.33858pt x 163.98364pt.
 
+<<<<<<< HEAD
 <images/case2_summary_neutral.png, id=800, 916.1728pt x 383.93437pt>
+=======
+<images/case2_summary_neutral.png, id=820, 916.1728pt x 383.93437pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case2_summary_neutral.png Graphic file (type png)
 
 <use images/case2_summary_neutral.png>
@@ -1342,7 +1757,11 @@ Package pdftex.def Info: images/case2_summary_neutral.png used on input line 11
 5.
 (pdftex.def)             Requested size: 398.33858pt x 166.92809pt.
 
+<<<<<<< HEAD
 <images/case2_summary_clustered.png, id=801, 900.36375pt x 380.92313pt>
+=======
+<images/case2_summary_clustered.png, id=821, 900.36375pt x 380.92313pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case2_summary_clustered.png Graphic file (type png)
 
 <use images/case2_summary_clustered.png>
@@ -1350,13 +1769,18 @@ Package pdftex.def Info: images/case2_summary_clustered.png used on input line
 122.
 (pdftex.def)             Requested size: 398.33858pt x 168.53085pt.
 
+<<<<<<< HEAD
 <images/case2_summary_type2.png, id=802, 903.375pt x 374.14781pt>
+=======
+<images/case2_summary_type2.png, id=822, 903.375pt x 374.14781pt>
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 File: images/case2_summary_type2.png Graphic file (type png)
 
 <use images/case2_summary_type2.png>
 Package pdftex.def Info: images/case2_summary_type2.png used on input line 129.
 
 (pdftex.def)             Requested size: 398.33858pt x 164.97949pt.
+<<<<<<< HEAD
 ) [33] [34 <C:/Users/Advanse-/Documents/Thesis/all documents for thesis/_Thesis
  Report/HPVizReport/images/case2_stacked.png> <C:/Users/Advanse-/Documents/Thes
 is/all documents for thesis/_Thesis Report/HPVizReport/images/case2_heatmap.png
@@ -1372,24 +1796,51 @@ se-/Documents/Thesis/all documents for thesis/_Thesis Report/HPVizReport/images
 /case2_summary_type2.png>]
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Chapters/Chapter7.tex"
+=======
+) [33] [34 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVizRepor
+t/images/case2_stacked.png> <D:/IT4BI Courses - Semester 4/_Thesis Report/New V
+ersion/HPVizReport/images/case2_heatmap.png>] [35 <D:/IT4BI Courses - Semester 
+4/_Thesis Report/New Version/HPVizReport/images/case2_stacked_bonus.png> <D:/IT
+4BI Courses - Semester 4/_Thesis Report/New Version/HPVizReport/images/case2_he
+atmap_bonus.png>] [36 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version
+/HPVizReport/images/case2_summary.png> <D:/IT4BI Courses - Semester 4/_Thesis R
+eport/New Version/HPVizReport/images/case2_summary_neutral.png> <D:/IT4BI Cours
+es - Semester 4/_Thesis Report/New Version/HPVizReport/images/case2_summary_clu
+stered.png>] [37 <D:/IT4BI Courses - Semester 4/_Thesis Report/New Version/HPVi
+zReport/images/case2_summary_type2.png>]
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter7.tex"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Chapter 7.
 ) [38
 
 
 
 ]
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Appendices/Appendix1.tex"
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Appendic
+es/Appendix1.tex"
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 Appendix A.
 ) [39
 
 
 
 ]
+<<<<<<< HEAD
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Thesis.bbl"
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
 VizReport\Thesis.brf")
+=======
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.b
+bl"
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.b
+rf")
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 \tf@brf=\write9
  [40
 
@@ -1414,8 +1865,9 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Thesis.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
 [42]
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
 
 ("C:\Users\Advanse-\Documents\Thesis\all documents for thesis\_Thesis Report\HP
@@ -1458,6 +1910,50 @@ Here is how much of TeX's memory you used:
 am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
 s/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
+=======
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Thesis.a
+ux"
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\TitlePag
+e.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter1.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter2.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter3.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter4.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter5.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter6.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Chapters
+/Chapter7.aux")
+("D:\IT4BI Courses - Semester 4\_Thesis Report\New Version\HPVizReport\Appendic
+es/Appendix1.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: CFB3834DAF8350113F95642747788640;2487.
+Package rerunfilecheck Info: File `Thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: B7FCA05743E09D618232682306E18750;1985.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+ ) 
+Here is how much of TeX's memory you used:
+ 12263 strings out of 493921
+ 190050 string characters out of 3144882
+ 289309 words of memory out of 3000000
+ 14713 multiletter control sequences out of 15000+200000
+ 107318 words of font info for 79 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 44i,13n,87p,2765b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/MiKT
+eX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 /lm/lm-mathit.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
 10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Fi
@@ -1476,9 +1972,17 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/lm/lmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb>
+<<<<<<< HEAD
 Output written on Thesis.pdf (49 pages, 7776187 bytes).
 PDF statistics:
  1008 PDF objects out of 1200 (max. 8388607)
  212 named destinations out of 1000 (max. 500000)
  521 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Output written on Thesis.pdf (50 pages, 14230028 bytes).
+PDF statistics:
+ 1029 PDF objects out of 1200 (max. 8388607)
+ 215 named destinations out of 1000 (max. 500000)
+ 537 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 6fca782c20b5833f33d0cc0666c20da0bc69661b
 

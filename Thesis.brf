@@ -1,5 +1,5 @@
-\backcite {rahman}{{iv}{(document)}{Doc-Start}}
-\backcite {rahman2}{{iv}{(document)}{Doc-Start}}
+\backcite {rahman}{{v}{(document)}{Doc-Start}}
+\backcite {rahman2}{{v}{(document)}{Doc-Start}}
 \backcite {rahman,brezinka,green}{{1}{1}{chapter.1}}
 \backcite {diloreto}{{1}{1}{chapter.1}}
 \backcite {diloreto}{{1}{1.1}{section.1.1}}
@@ -33,7 +33,8 @@
 \backcite {bernard2013}{{14}{3.3}{figure.caption.17}}
 \backcite {bostock}{{16}{3.4}{section.3.4}}
 \backcite {diloreto}{{17}{4.1.1}{subsection.4.1.1}}
-\backcite {maimon}{{20}{1}{algorithm.1}}
+\backcite {maimon}{{20}{4.2.2}{subsection.4.2.2}}
 \backcite {havre}{{22}{5.2.1}{subsection.5.2.1}}
 \backcite {byron}{{22}{5.2.1}{subsection.5.2.1}}
+\backcite {alan}{{23}{5.2.1}{subsection.5.2.1}}
 \backcite {friendly}{{23}{5.2.2}{figure.caption.26}}

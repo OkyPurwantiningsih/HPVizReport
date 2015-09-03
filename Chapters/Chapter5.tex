@@ -1,7 +1,7 @@
 \chapter{Visual Mappings And Interactive Functionality}
 This chapter describes different visualizations and interaction methods developed based on the visualization requirements and data abstraction discussed in Chapter 2 and 4. In general, the visualization is divided into two parts: Session visualization which visualize movement in one particular session and Summary visualization which visualize movement over different sessions. Both visualization is organized in an application where user can select player and sessions he has played. At first, the earlier version of visualization will be explained. This earlier version is not used in the final version since it's difficult to get any information intuitively. Then, each type of visualization and its interaction used in the final version will be discuss. In the end, the application which encapsulate both visualization will be presented.
 
-\section{Early version of the Visualization}
+\section{Early version of the Session Visualization}
 The first visualization method chosen to represent \ref{t11} and \ref{t12} is line chart. In this approach, the x area is shown as a horizontal axis and the number of events shown in vertical axis with the line signify the changes of number of events for different x area unit. In the log file, each event is recorded with distinct 3D coordinate location. The x value from this coordinate is a decimal, therefore visualizing each one of this x value will require a lot of space. To solve this, the events are then grouped by the rounded x value. In figure 5.1 below, Negative events are shown in red line and Positive events are shown in blue line. As we can see, it's possible to know which event type happened more in a certain x unit, however it is difficult to see how big a percentage is it compare to total number of events happened in the same x unit.
 
 \begin{figure}
@@ -22,19 +22,20 @@ Visualization method chosen to represent \ref{t13} and \ref{t14} is scatter plot
 The Session Visualization visualizes events within a game session. Basically, the requirement can be split into two: (i) knowing the distribution of events and movements (ii) knowing the distribution of events, movements and screen speed. Therefore, there are two chart developed to meet these requirements: stacked area for (i) and heatmap for (ii), each of which will be explain in details in this section.
 
 \subsection{Stacked Graph}
-Build on layered area graph, Stacked Graph is widely used to visualize evolution of variable over times such as document theme \cite{havre}, box office movie revenue\footnote{\url{http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html?_r=0}}, listening history in Last.fm \cite{byron},etc., Stacked Graph is chosen because its ability to show individual value of a variable, the difference between values of different variables as well as the total of overall value. In my approach, instead of using this metaphor to show evolution over time, it is used to show distribution of events over spatial coordinate \ref{t11}\ref{t12} as shown in figure 5.3. Here, the horizontal axis represents x coordinate and vertical axis represents number of events. Each event type is represented as an area with different color: Red (Negative), Yellow (Neutral), and Green (Positive). To help user understand better the distribution of each event type, different layout of stacked graph is provided: 
+Build on layered area graph, Stacked Graph is widely used to visualize evolution of variable over times such as document theme \cite{havre}, box office movie revenue\footnote{\url{http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html?_r=0}}, listening history in Last.fm \cite{byron},etc., Stacked Graph is chosen because its ability to show individual value of a variable, the difference between values of different variables as well as the total of overall value. In my approach, instead of using this metaphor to show evolution over time, it is used to show distribution of events over spatial coordinate \ref{t11}\ref{t12} as shown in figure \ref{fig:linear}. Here, the horizontal axis represents x coordinate and vertical axis represents number of events. Each event type is represented as an area with different color: Red (Negative), Yellow (Neutral), and Green (Positive). However, with this approach it is difficult to see the trend for each individual events which is not on the base of the chart. \cite{alan} propose an interactive solution to this problem by sinking the selected category to the horizontal axis. Thus, in our visualization, different layout of stacked graph is provided: 
 \begin{enumerate}
-  \item Linear: zero y axis is used as the baseline, with the stack ordered from bottom as negative, neutral, positive.
-  \item Silhouette: the graph is centered as in streamgraphs.
-  \item Positive: zero y axis is located at the top of the chart and is used as the baseline with the stack ordered from top as positive, neutral, negative.
-  \item Neutral-Negaive: zero y axis is located in the middle of the chart. Neutral and Positive event is shown on the positive area of y axis and Negative is shown on the negative area of y axis.
-  \item Positive-Neutral: zero y axis is located in the middle of the chart. Positive event is shown on the positive area of y axis, while Neutral and Negative is shown on the negative area of y axis.
+  \item Linear (figure \ref{fig:linear}): zero y axis is used as the baseline, with the stack ordered from bottom as negative, neutral, positive.
+  \item Silhouette (figure \ref{fig:silhouette}): the graph is centered as in streamgraphs.
+  \item Positive (figure \ref{fig:positive}): zero y axis is located at the top of the chart and is used as the baseline with the stack ordered from top as positive, neutral, negative.
+  \item Neutral-Negative (figure \ref{fig:neutral-negative}): zero y axis is located in the middle of the chart. Neutral and Positive event is shown on the positive area of y axis and Negative is shown on the negative area of y axis.
+  \item Positive-Neutral (figure \ref{fig:positive-neutral}): zero y axis is located in the middle of the chart. Positive event is shown on the positive area of y axis, while Neutral and Negative is shown on the negative area of y axis.
 \end{enumerate}
 
 \begin{figure}
 \centering
 \includegraphics[width=100mm]{stackedgraph_linear.png}
 \caption{Stacked Graph with Linear Layout}
+\label{fig:linear}
 \end{figure}
 
 \begin{figure}[htp] % not h only

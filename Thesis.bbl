@@ -54,6 +54,13 @@ Ines Di~Loreto, Benoit Lange, Antoine Seilles, William Dyce, and Sebastien
 \newblock Game design for all: The example of hammer and planks.
 \newblock {\em Serious Games Development and Applications}, 8101:70--75, 2013.
 
+\bibitem{alan}
+Alan Dix and Geoffrey Ellis.
+\newblock Starting simple: Adding value to static visualisation through simple
+  interaction.
+\newblock In {\em Proceedings of the Working Conference on Advanced Visual
+  Interfaces}, AVI '98, pages 124--134, New York, NY, USA, 1998. ACM.
+
 \bibitem{friendly}
 Michael Friendly.
 \newblock The history of the cluster heat map.

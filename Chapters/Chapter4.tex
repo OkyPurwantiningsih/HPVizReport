@@ -40,46 +40,100 @@ In the game, a big number of positive events indicate a good player's performanc
 
 $$ \upsilon_{scr} = \frac{\theta_{evt}-\theta_{apr}}{\textit{t}_{evt}-\textit{t}_{apr}} $$
 
-\section{Clustering Algorithm}
+\section{Clustering}
 
-In understanding the common evolution of the gameplay among different sessions over x-area, it is interesting to see what the common evolution of different section of x-area\ref{t27}. The idea is to aggregate similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. To achieve this, a clustering algorithm based on hierarchical clustering is introduced(see Algorithm \ref{alg:Clustering}). \newline
+In understanding the evolution of movements among different sessions over x-area, it is interesting to see what the common evolution of different section of the x-area\ref{t27}. The idea is to cluster similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. This section explains how the clustering is done. First, a distance function used to calculate the difference between two consecutive section will be presented. Then, a clustering algorithm based on hierarchical clustering which incorporate this distance function will be explained.
 
-\textbf{Distance Calculation}\newline 
-Since the idea was to aggregate consecutive sections with similar movement pattern, there are two types of distance considered: (i)how different both sections in term of event types proportion within each section (ii)how different both sections in term of the evolution of each event type throughout the sessions. Thus, for each pair of consecutive sequences ($\textit{s}_1$,$\textit{s}_2$) of \textit{S}, distance is defined as:
+\subsection{Distance Calculation}
+Let S be a gameplay data set of $n_{ses}$ sessions. S is an ordered list of sections $s_i, 0 \le i < n_{sec}$. Each section contains events occurred on an x-axis unit among all sessions. More precisely, a  section $s_i$ is a sequence of triplets $s_i\lbrack j \rbrack, 0 \le j < n_{ses}$. Each triplet represents data set of a certain game session of a particular section $s_i$. The triplet consists of the number of negative, neutral and positive events. The profile of each section can be represented by a matrix of $n_{ses}$ x 3 dimensions. For instance, the following matrices represents a gameplay with 2 sessions and 3 sections:
+
+\[
+\textit{s}_1 = \begin{bmatrix}
+  10 & 20 & 6\\
+  20 & 5 & 18
+\end{bmatrix}
+\textit{s}_2 = \begin{bmatrix}
+  20 & 40 & 10\\ 
+  40 & 10 & 30
+\end{bmatrix}
+\textit{s}_3 = \begin{bmatrix}
+  10 & 20 & 5\\
+  16 & 4 & 12 
+\end{bmatrix}
+\]
+
+In this example, we see that on the left part of the x-axis ($s_1$), the player got 10 negative, 20 neutral and 6 positive events for the first session. He then got 20 negative, 5 neutral and 18 positive events for the second session. On the middle part of the x-axis ($s_2$), on the first session he got 20 negative, 40 neutral and 10 positive events, while on the the second session he got 40 negative, 10 neutral, and 30 negative events.
+
+Since the idea was to aggregate consecutive sections with similar movement pattern, a function to quantify the similarity between two sections is needed. In this case, we quantify the similarity by defining a distance function. Thus, distance equals 0 indicates that both sections are similar, while distance equals 1 indicates that both sections are different. We identified that there are two types of distance need to be considered: (i) how different both sections in term of event types proportion within each section (ii) how different both sections in term of the evolution of each event type throughout the sessions. For instance, with the (i) approach, $s_2$ and $s_3$ are similar, because triplets of each sessions are proportional ([20,40,10] is proportional to [10,20,5] and [40,10,30] is proportional to [16,4,12]). With the (ii) approach, $s_1$ and $s_2$ are similar, because the corresponding event types are proportional ([10,20] is proportional to [20,40], [20,5] is proportional to [40,10], and [6,18] is proportional to[10,30]).
+
+Thus, for each pair of consecutive sequences ($\textit{s}_1$,$\textit{s}_2$) of \textit{S}, distance is defined as weighted sum of (i) and (ii), represented as $\textit{f}(\textit{s}_1,\textit{s}_2)$ and $\textit{g}(\textit{s}_1,\textit{s}_2)$ in the following formula:
+
 $$d(\textit{s}_1,\textit{s}_2) = \alpha\textit{f}(\textit{s}_1,\textit{s}_2) + (1 - \alpha)\textit{g}(\textit{s}_1,\textit{s}_2)$$
 
-$$\text{where } f(\textit{s}_1,\textit{s}_2) = \frac{\displaystyle\sum_{i=0}^{i < \lvert\textit{s}_1\lvert} \textit{N}ED(\textit{s}_1\lbrack i \rbrack,\textit{s}_2\lbrack i \rbrack)}{ \lvert\textit{s}_1\lvert}$$
+Distance function $f(\textit{s}_1,\textit{s}_2)$ is based on a normalized euclidean distance between two triplets of the same session between two consecutive sections. The overall distance of both sections is the average euclidean distance of each triplets pair. To get a value of distance between 0 and 1, each Euclidean distance value is normalized by dividing it with maximum distance $\sqrt{3}$.
+
+$$f(\textit{s}_1,\textit{s}_2) = \frac{\displaystyle\sum_{i=0}^{i < \lvert\textit{s}_1\lvert} \textit{N}ED(\textit{s}_1\lbrack i \rbrack,\textit{s}_2\lbrack i \rbrack)}{ \lvert\textit{s}_1\lvert}$$
 
 $$ \textit{N}ED(\textit{s}_1\lbrack i \rbrack,\textit{s}_2\lbrack i \rbrack) = \frac{\sqrt{\displaystyle\sum_{j \in \{0,1,2\}}(\textit{s}_1'\lbrack i \rbrack\lbrack j \rbrack - \textit{s}_2'\lbrack i \rbrack\lbrack j \rbrack)^2}}{\sqrt{3}}$$
 
-In this first distance function, $\textit{s}_1'$ and $\textit{s}_2'$ represent normalized value of $\textit{s}_1$ and $\textit{s}_2$. Since the first distance is to see the difference of event type proportion in each section, thus the values are normalized by the maximum value of each sessions in each section. In this case, two consecutive sections with different number of events but similar proportion of event type will be merged. To get a value of distance between 0 and 1, each Euclidean distance value is normalized by dividing it with maximum distance $\sqrt{3}$.
+In this first distance function, $\textit{s}_1'$ and $\textit{s}_2'$ represent normalized value of $\textit{s}_1$ and $\textit{s}_2$. Since the first distance is to see the difference of event type proportion in each section, thus the values are normalized by the maximum value of each sessions in each section. In this case, two consecutive sections with different number of events but similar proportion of event type will have distance equals 0.  For example, the matrices presented previously can be normalized into the following matrices:
 
-$$\text{ and where } \textit{g}(\textit{s}_1,\textit{s}_2) = \frac{\textit{g}_1(\textit{s}_1,\textit{s}_2) + \textit{g}_2(\textit{s}_1,\textit{s}_2) + \textit{g}_3(\textit{s}_1,\textit{s}_2)}{3}$$
+\[
+s_1' = \begin{bmatrix}
+  \frac{1}{2} & 1 & \frac{6}{20}\\ 
+  1 & \frac{1}{4} & \frac{18}{20}
+\end{bmatrix}
+s_2' = \begin{bmatrix}
+  \frac{1}{2} & 1 & \frac{1}{4}\\
+  1 & \frac{1}{4} & \frac{3}{4} 
+\end{bmatrix}
+s_3' = \begin{bmatrix}
+  \frac{1}{2} & 1 & \frac{1}{4}\\
+  1 & \frac{1}{4} & \frac{3}{4} 
+\end{bmatrix}
+\]
 
-\[\text{and for } i  \in \{0,1,2\}\text{, } g_i(\textit{s}_1,\textit{s}_2) = \left\{
+Thus, distance \textit{f} of $s_1$ and $s_2$ equals 0.06, and distance \textit{f} of $s_2$ and $s_3$ equals 0.
+
+The second distance function $\textit{g}(\textit{s}_1,\textit{s}_2)$ is based on a normalized euclidean distance between the same event type \textit{j} from different section. The overall distance of both sections is the average euclidean distance of each event type pair. For each event type distance, there are three different distance value defined: (i) if there are no events in both event type pairs, the distance is 0 (ii) if there is at least one event in one section and there are no events in the other section, the distance is 1 (iii) if both event type pairs has any events then the euclidean distance is calculated. Distance (i) and (ii) are defined to isolate empty regions. Thus when both sections are empty, it will be considered similar and will be clustered together. On the other hand, when only one section is empty while the other has some events, it will be considered as different session and therefore will not be clustered together. To get a value of distance between 0 and 1, each Euclidean distance value is then normalized by dividing it with maximum distance $\sqrt{\lvert\textit{s}_1\rvert}$.
+
+$$\textit{g}(\textit{s}_1,\textit{s}_2) = \frac{\textit{g}_0(\textit{s}_1,\textit{s}_2) + \textit{g}_1(\textit{s}_1,\textit{s}_2) + \textit{g}_2(\textit{s}_1,\textit{s}_2)}{3}$$
+
+\[\text{and for } j  \in \{0,1,2\}\text{, } g_j(\textit{s}_1,\textit{s}_2) = \left\{
   \begin{array}{ll}
-    0 & \text{ if } \textit{s}\lbrack j \rbrack\lbrack i \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}|\text{, } \textit{s} \in \{\textit{s}_1,\textit{s}_2\}\\
-    1 & \text{ if } \textit{s}_k\lbrack j \rbrack\lbrack i \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}_k| \text{ and } \exists \textit{s}_p\lbrack j \rbrack\lbrack i \rbrack \neq 0\\
-      & \text{ and } k \in \{1,2\} \text{, } p \in \{1,2\} \text{, } k \neq p\\
+    0 & \text{ if } \textit{s}_k\lbrack i \rbrack\lbrack j \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}_k|\text{ and } \textit{k} \in \{1,2\}\\
+    1 & \text{ if } \textit{s}_k\lbrack i \rbrack\lbrack j \rbrack=0 \text{ for each } 0 \leqslant j < |\textit{s}_k| \text{ and } \exists \textit{s}_p\lbrack i \rbrack\lbrack j \rbrack \neq 0,\\
+      & k,p \in \{1,2\} \text{, } k \neq p\\
       & \\
-	\multicolumn{2}{l}{\frac{\sqrt{\displaystyle\sum_{k=0}^{\lvert\textit{s}_1\lvert} (\textit{s}_1''\lbrack k \rbrack\lbrack i \rbrack - \textit{s}_2''\lbrack k \rbrack\lbrack i \rbrack)^2}}{\sqrt{\lvert\textit{s}_1\rvert}}}
+	\multicolumn{2}{l}{\frac{\sqrt{\displaystyle\sum_{i=0}^{\lvert\textit{s}_1\lvert} (\textit{s}_1''\lbrack i \rbrack\lbrack j \rbrack - \textit{s}_2''\lbrack i \rbrack\lbrack j \rbrack)^2}}{\sqrt{\lvert\textit{s}_1\rvert}} \text{ otherwise}} 
   \end{array}
 \right.
 \]
 
-In the second distance function, there are three different distance value: (i) if there are no events in both sections, the distance is 0 and thus the sections are merged (ii) if there is at least one event in one section and there are no events in the other section, the distance is 1 (iii) if both sections has any events then the euclidean distance is calculated. Here, $\textit{s}_1''$ and $\textit{s}_2''$ represent normalized value of $\textit{s}_1$ and $\textit{s}_2$. In order to compare the evolution of the same event type between consecutive sections, the values are normalized by dividing it with maximum value of each event type in the section. Therefore, sections with similar event type evolution will be merged. To get a value of distance between 0 and 1, each Euclidean distance value is normalized by dividing it with maximum distance $\sqrt{\lvert\textit{s}_1\rvert}$.
+Here, $s_1''$ and $s_2''$ represent normalized value of $s_1$ and $s_2$. In order to compare the evolution of the same event type between consecutive sections, the values are normalized by dividing it with maximum value of each event type in the section. Thus, the matrices presented previously can be normalized into the following:
 
-\begin{algorithm}
-  \caption{Hierarchical Clustering}\label{alg:Clustering}
-  \begin{algorithmic}[1]
-  \STATE Divide the x-area into slices the size of minimum x axis unit.
-  \STATE Define the profile for each section. Let a section be Slice $\textit{S}_i$, number of session be $n_{ses}$ and number of section be $n_{sec}$. An $\textit{S}_i$ is an ordered set of triplet $\textit{t}_i$. Each triplet represents dataset of a certain game session of a particular Slice. The triplet consists of the number of negative, neutral and positive events.
-$$\textit{t}_i = (n_{neg}, n_{net}, n_{pos})$$
-$$\textit{S}_i = \{\textit{t}_i(1), \textit{t}_i(2), ..., \textit{t}_i(n_{ses})\}, 1\le i\le n_{sec}$$
-  \STATE Calculate the distance between slice $\textit{S}_i$ and $\textit{S}_{i+1}$ (explained in Distance Calculation).
-  \STATE Following the Hierarchical Clustering algorithm\cite{maimon}, merge two consecutive slices if it satisfies the distance threshold specified. Calculate the distance of the merged slices with the next slice and merge them if the distance is still below the threshold. Repeat the process until there is no distance which satisfies the threshold.
-  \end{algorithmic}
-\end{algorithm}
+\[
+s_1'' = \begin{bmatrix}
+  \frac{1}{2} & 1 & \frac{1}{3}\\ 
+  1 & \frac{1}{4} & 1
+\end{bmatrix}
+s_2'' = \begin{bmatrix}
+  \frac{1}{2} & 1 & \frac{1}{3}\\ 
+  1 & \frac{1}{4} & 1
+\end{bmatrix}
+s_3'' = \begin{bmatrix}
+  \frac{5}{8} & 1 & \frac{5}{12}\\
+  1 & \frac{1}{5} & 1 
+\end{bmatrix}
+\]
+
+Here, distance \textit{g} of $s_1$ and $s_2$ equals 0, and distance \textit{g} of $s_2$ and $s_3$ equals 0.06. 
+
+\subsection{Clustering Algorithm}
+The sections clustering follows Hierarchical Clustering algorithm \cite{maimon} which is a clustering analysis method used to build hierarchy of clusters. In our approach, once distance of each consecutive sections are calculated, two consecutive sections with distance below a specified threshold are then merged. This resulting in a new set of sections. Then, the distance of each consecutive sections of these new set of sections are calculated and again, if the new distance satisfies the threshold, the sections will be merged. This process is repeated until there is no distance falls below the threshold.
+
+
+
 
 
 

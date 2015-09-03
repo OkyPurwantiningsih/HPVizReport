@@ -2,4 +2,6 @@
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.1.1}Event Category}{\reset@font\mtcSSfont 17}{subsection.4.1.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.1.2}Game World Coordinates}{\reset@font\mtcSSfont 17}{subsection.4.1.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.1.3}Screen Speed}{\reset@font\mtcSSfont 18}{subsection.4.1.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Clustering Algorithm}{\reset@font\mtcSfont 18}{section.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Clustering}{\reset@font\mtcSfont 18}{section.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.1}Distance Calculation}{\reset@font\mtcSSfont 18}{subsection.4.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.2}Clustering Algorithm}{\reset@font\mtcSSfont 20}{subsection.4.2.2}}

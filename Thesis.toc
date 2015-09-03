@@ -33,5 +33,4 @@
 \contentsline {section}{\numberline {6.1}Case Study 1: Normal Player}{29}{section.6.1}
 \contentsline {section}{\numberline {6.2}Case Study 2: Patient}{30}{section.6.2}
 \contentsline {chapter}{\numberline {7}Conclusion}{38}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Case Studies}{39}{appendix.A}
-\contentsline {chapter}{Bibliography}{40}{appendix*.49}
+\contentsline {chapter}{Bibliography}{39}{chapter*.50}

@@ -10,7 +10,7 @@
 \BOOKMARK [1][]{section.3.1}{Visualization of Serious Game Result}{chapter.3}% 10
 \BOOKMARK [1][]{section.3.2}{Visualization of Time Series Data}{chapter.3}% 11
 \BOOKMARK [1][]{section.3.3}{Visualization of Movement Data}{chapter.3}% 12
-\BOOKMARK [1][]{section.3.4}{Data Visualization Tool}{chapter.3}% 13
+\BOOKMARK [1][]{section.3.4}{D3.js as Data Visualization Tool}{chapter.3}% 13
 \BOOKMARK [0][]{chapter.4}{Data Abstraction}{}% 14
 \BOOKMARK [1][]{section.4.1}{Game Events Structure}{chapter.4}% 15
 \BOOKMARK [2][]{subsection.4.1.1}{Event Category}{section.4.1}% 16
@@ -20,17 +20,18 @@
 \BOOKMARK [2][]{subsection.4.2.1}{Distance Calculation}{section.4.2}% 20
 \BOOKMARK [2][]{subsection.4.2.2}{Clustering Algorithm}{section.4.2}% 21
 \BOOKMARK [0][]{chapter.5}{Visual Mappings And Interactive Functionality}{}% 22
-\BOOKMARK [1][]{section.5.1}{Early version of the Session Visualization}{chapter.5}% 23
+\BOOKMARK [1][]{section.5.1}{Early version of Session Visualization}{chapter.5}% 23
 \BOOKMARK [1][]{section.5.2}{Session Visualization}{chapter.5}% 24
 \BOOKMARK [2][]{subsection.5.2.1}{Stacked Graph}{section.5.2}% 25
 \BOOKMARK [2][]{subsection.5.2.2}{Heat Map}{section.5.2}% 26
 \BOOKMARK [1][]{section.5.3}{Summary Visualization}{chapter.5}% 27
 \BOOKMARK [2][]{subsection.5.3.1}{Visualization by range of x-area}{section.5.3}% 28
 \BOOKMARK [2][]{subsection.5.3.2}{Visualization by number of events}{section.5.3}% 29
-\BOOKMARK [2][]{subsection.5.3.3}{Interaction Technique}{section.5.3}% 30
-\BOOKMARK [1][]{section.5.4}{General Interface}{chapter.5}% 31
-\BOOKMARK [0][]{chapter.6}{Case Studies}{}% 32
-\BOOKMARK [1][]{section.6.1}{Case Study 1: Normal Player}{chapter.6}% 33
-\BOOKMARK [1][]{section.6.2}{Case Study 2: Patient}{chapter.6}% 34
-\BOOKMARK [0][]{chapter.7}{Conclusion}{}% 35
-\BOOKMARK [0][]{chapter*.50}{Bibliography}{}% 36
+\BOOKMARK [2][]{subsection.5.3.3}{Visualization by clustering}{section.5.3}% 30
+\BOOKMARK [2][]{subsection.5.3.4}{Interaction Technique}{section.5.3}% 31
+\BOOKMARK [1][]{section.5.4}{General Interface}{chapter.5}% 32
+\BOOKMARK [0][]{chapter.6}{Case Studies}{}% 33
+\BOOKMARK [1][]{section.6.1}{Case Study 1: Healthy Player}{chapter.6}% 34
+\BOOKMARK [1][]{section.6.2}{Case Study 2: Patient}{chapter.6}% 35
+\BOOKMARK [0][]{chapter.7}{Conclusion}{}% 36
+\BOOKMARK [0][]{chapter*.51}{Bibliography}{}% 37

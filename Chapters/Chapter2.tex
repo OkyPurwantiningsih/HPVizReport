@@ -15,7 +15,7 @@ Played with Kinect, it is possible to play Hammer and Planks in three different 
   Player lifts one of his/her arm in front of the body and bend the elbow. Moving the elbow up and down will navigate the boat up and down the screen.
 \end{enumerate}
 
-For both the BodyTilt and HandPoint there are three direction available: (i) Horizontal: the screen scrolls from top to bottom and player navigates the ship from left to right (ii) Vertical: the screen scrolls from right to left and player navigates the ship from top to bottom of the screen(iii) Both: the screen scrolls from top to bottom and player navigates the ship from left to right. He/she can also move the boat faster or slower by bending the upper body (BodyTilt) or arm (HandPoint) forward or backward . For ShoulderCGE there is only vertical direction. In this thesis, I only interested in games played using BodyTilt and HandPoint movement for both direction since the information generated are richer, thus harder for the specialist to understand.
+For both the BodyTilt and HandPoint there are three direction available: (i) Horizontal: the screen scrolls from top to bottom and player navigates the ship from left to right (ii) Vertical: the screen scrolls from right to left and player navigates the ship from top to bottom of the screen(iii) Both: the screen scrolls from top to bottom and player navigates the ship from left to right. He/she can also move the boat faster or slower by bending the upper body (BodyTilt) or arm (HandPoint) forward or backward . For ShoulderCGE there is only vertical direction. In this thesis, we only interested in games played using BodyTilt and HandPoint movement for both direction since the information generated are richer, thus harder for the specialist to understand.
 
 %\begin{figure}
 %\centering
@@ -40,7 +40,7 @@ Before each session, the healthcare professionals will set the number of objects
 
 A traditional Hemiplegic therapy routine usually involved the therapist ordering a patient to perform several movement repetitively \cite{rahman}. By the end of the session, the therapist will analyse how the patient has performed based on the quality of movement as well as how the patient has progressed compared to the previous session. Based on this analysis, the therapist will then configure a new routine to further the patient's progress, if needed.
 
-However, by using a game to facilitate the therapy, it is difficult to monitor how often the patient has moved his/her arm, to which direction and to which objects this movement is associated. Based on this reason, I identified 5 types of questions usually inquired:
+However, by using a game to facilitate the therapy, it is difficult to monitor how often the patient has moved his/her arm, to which direction and to which objects this movement is associated. Based on this reason, we identified 5 types of questions usually inquired:
 
 \newcommand{\subscript}[2]{$#1 _ #2$}	
 \begin{enumerate}[label=(\subscript{Q}{\arabic*})]
@@ -53,24 +53,20 @@ However, by using a game to facilitate the therapy, it is difficult to monitor h
 
 \section{Visualization Requirements}
 
-The gameplay of each game session is logged in a json file which contains information of the player, game setting, and every events (i.e. enemy killed, bonus collected, etc.) happened in the game. Based on these information and the question defined in the previous section, the tasks can be grouped into: task related to a session for a particular player (Task 1) and task related to the summary of a player which concerns all sessions (Task 2). The following are the tasks defined for each task group:
+The gameplay of each game session is logged in a json file which contains information of the player, game setting, player movement throughout the game and every events (i.e. enemy killed, bonus collected, etc.) happened in the game. Each event has an event type, which is the type of action performed by a player (represented with a boat in the game) towards an object or the other way around. In the log file it is recorded as Kill, Catch, Dodge, etc. From the log, it is also possible to calculate how fast the player's boat move within the game world when an event happened. For future reference, the pace boat movement will be called screen speed. Based on these information and the question defined in the previous section, the visualization tasks can be grouped into: task related to a session for a particular player (\textit{T}1) and task related to the summary of all sessions for a player (\textit{T}2). The following are the tasks defined for each task group:
 \newcommand{\task}[2]{$#1 #2$}
 \begin{enumerate}[label=\textbf{(\task{T1.}{\arabic*})}]
-\item \label{t11} visualize and compare the number of events of an event type at a given x area \ref{q1}\ref{q2}.
-\item \label{t12} compare the number of events for different event type at a given x area  \ref{q1}\ref{q2}.
-\item \label{t13} visualize and compare the number of events of an event type and its screen speed at a given x area \ref{q1}\ref{q2}\ref{q3}.
-\item \label{t14} compare the number of events for different event type and its screen speed at a given x area \ref{q1}\ref{q2}\ref{q3}.
-\item \label{t15} select and visualize the number of events for a certain object at a given x area \ref{q1}\ref{q2}.
-\item \label{t16} select and visualize the number of events and its screen speed for a certain object at a given x area \ref{q1}\ref{q2}\ref{q3}.
+\item \label{t11} visualize and be able to compare the number of events within the same or among different event type at a given x area \ref{q1}\ref{q2}.
+\item \label{t12} visualize and be able to compare the number of events and its screen speed of the same or among different event type at a given x area \ref{q1}\ref{q2}\ref{q3}.
+\item \label{t13} select and visualize the number of events for a certain object at a given x area \ref{q1}\ref{q2}.
+\item \label{t14} select and visualize the number of events and its screen speed for a certain object at a given x area \ref{q1}\ref{q2}\ref{q3}.
 \end{enumerate}
 
 \newcommand{\test}[2]{$#1 #2$}
 \begin{enumerate}[label=\textbf{(\test{T2.}{\arabic*})}]
-\item \label{t21} visualize and compare the number of events of an event type among each session for one patient \ref{q4}\ref{q5}.
-\item \label{t22} compare and navigate the number of events among different event type in a certain x area among each session for one patient \ref{q4}\ref{q5}.
-\item \label{t23} select and visualize the number of events of a certain event type in a certain x area among each session for one patient \ref{q4}\ref{q5}.
-\item \label{t24} visualize and compare the distribution of certain number of events of an event type over x area among each session for one patient \ref{q4}\ref{q5}.
-\item \label{t25} compare and navigate the distribution of certain number of events among different event type over x area among each session for one patient \ref{q4}\ref{q5}.
-\item \label{t26} select and visualize the distribution of certain number of events over x area for a certain event type among each session for one patient \ref{q4}\ref{q5}.
-\item \label{t27} extract and visualize similar pattern of number of events over a certain x area and sessions for one patient \ref{q4}\ref{q5}.
+\item \label{t21} visualize, navigate and be able to compare the evolution of number of events throughout all sessions within a certain x area.\ref{q4}\ref{q5}.
+\item \label{t22} select and visualize the number of events of a certain event type in a certain x area throughout all sessions \ref{q4}\ref{q5}.
+\item \label{t23} visualize, navigate and be able to compare the distribution of a certain number of events over x area among all sessions\ref{q4}\ref{q5}.
+\item \label{t24} select and visualize the distribution of certain number of events over x area for a certain event type throughout all sessions \ref{q4}\ref{q5}.
+\item \label{t25} extract and visualize similar pattern of number of events evolution throughout all sessions over a certain x area \ref{q4}\ref{q5}.
 \end{enumerate}

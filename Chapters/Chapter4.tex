@@ -14,10 +14,9 @@ The goal of Hammer and Planks game is to kill all of the enemies while avoiding 
 \item Kill: when an enemy is destroyed by player's boat
 \item Hit: when the player's attack hit an enemy
 \item Hurt: when the enemy's attack hit player's boat
-\item Miss: when the enemy's attack missed player's boat
 \end{enumerate}
 
-Based on the level of impact of each event to the user's boat, we characterize the event by assign it with Positive, Neutral, or Negative as shown in the following table:
+Based on the level of impact of each event to the user's boat, we characterize the event by assigning it with Positive, Neutral, or Negative as shown in table \ref{tblEventType}.
 \begin{table}[h]
 \begin{center}
     \begin{tabular}{| l | l | l | l |}
@@ -29,20 +28,21 @@ Based on the level of impact of each event to the user's boat, we characterize t
     \hline
     \end{tabular}
     \caption {Event Type grouping}
+    \label{tblEventType}
 \end{center}
 \end{table}
 
 \subsection{Game World Coordinates}
-Each object and event in the game are assigned with 3D location coordinates. An \textit{x} axis of this coordinate indicate horizontal axis of the screen. However, \textit{y} axis indicate vertical axis in the game world which means -\textit{y} is a location under the sea and +\textit{y} is above the sea. \textit{z} axis indicate vertical axis of the screen. The visualization uses the x axis to represent body movement over horizontal axis and z axis to calculate screen speed as explain in the following sub section.
+The game world is a never ending ocean which is shown on the screen such that players see everything what happened from the sky. Each object and event in the game are assigned with 3D location coordinates (\textit{x},\textit{y},\textit{z}). An \textit{x} axis of this coordinate indicates horizontal axis of the screen. Zero \textit{x} axis is in the middle of the screen. Thus, an event happened on the right half of the screen will have positive \textit{x} value and an event happened on the left half of the screen will have negative \textit{x} value. \textit{y} axis indicates vertical axis in the game world which means -\textit{y} is a location under the ocean and +\textit{y} is above the ocean. \textit{z} axis indicates vertical axis of the screen. Zero \textit{z} axis is in the middle of the height of the screen, thus -\textit{z} is a location on the lower half of the screen and +\textit{z} is a location on the upper half of the screen. The visualization interface uses x coordinate information to represent body movement to the right or left and z axis to calculate screen speed as explained in the following sub section.
 
 \subsection{Screen Speed}
-In the game, a big number of positive events indicate a good player's performance. However, it is important to consider whether the events happened when the player's boat move fast or slowly \ref{t14}\ref{t16}. Getting all the bonuses while moving fast requires precise hand/body movement which indicates improvement in rehabilitation process. Boat speed while navigating the sea is basically the speed in which the screen scroll($\upsilon_{scr}$). This is calculated by identifying the location(apparition z coordinate $\theta_{apr}$) and time (apparition time $\textit{t}_{apr}$) of an object when it first appear on the screen, and location(event z coordinate $\theta_{evt}$) and time(event time $\textit{t}_{evt}$) when an event happened on that object.
+In the game, a big number of positive events indicate a good player's performance. However, it is important to consider whether the events happened when the player's boat move fast or slowly \ref{t12}\ref{t14}. Getting all the bonuses while moving fast requires precise hand/body movement which indicates improvement in rehabilitation process. Boat speed while navigating the sea is basically the speed in which the screen scroll($\upsilon_{scr}$). This is calculated by identifying the location(apparition z coordinate $\theta_{apr}$) and time (apparition time $\textit{t}_{apr}$) of an object when it first appear on the screen, and location(event z coordinate $\theta_{evt}$) and time(event time $\textit{t}_{evt}$) when an event happened on that object.
 
 $$ \upsilon_{scr} = \frac{\theta_{evt}-\theta_{apr}}{\textit{t}_{evt}-\textit{t}_{apr}} $$
 
 \section{Clustering}
 
-In understanding the evolution of movements among different sessions over x-area, it is interesting to see what the common evolution of different section of the x-area\ref{t27}. The idea is to cluster similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. This section explains how the clustering is done. First, a distance function used to calculate the difference between two consecutive section will be presented. Then, a clustering algorithm based on hierarchical clustering which incorporate this distance function will be explained.
+In understanding the evolution of movements among different sessions over x-area, it is interesting to see what the common evolution of different section of the x-area\ref{t25}. The idea is to cluster similar distribution of movements (which is represented by events in the game) so that consecutive section which has similar evolution is represented by a single representation. This section explains how the clustering is done. First, a distance function used to calculate the difference between two consecutive section will be presented. Then, a clustering algorithm based on hierarchical clustering which incorporate this distance function will be explained.
 
 \subsection{Distance Calculation}
 Let S be a gameplay data set of $n_{ses}$ sessions. S is an ordered list of sections $s_i, 0 \le i < n_{sec}$. Each section contains events occurred on an x-axis unit among all sessions. More precisely, a  section $s_i$ is a sequence of triplets $s_i\lbrack j \rbrack, 0 \le j < n_{ses}$. Each triplet represents data set of a certain game session of a particular section $s_i$. The triplet consists of the number of negative, neutral and positive events. The profile of each section can be represented by a matrix of $n_{ses}$ x 3 dimensions. For instance, the following matrices represents a gameplay with 2 sessions and 3 sections:

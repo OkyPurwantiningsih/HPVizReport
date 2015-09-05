@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {3.1}Visualization of Serious Game Result}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Visualization of Time Series Data}{9}{section.3.2}
 \contentsline {section}{\numberline {3.3}Visualization of Movement Data}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}Data Visualization Tool}{15}{section.3.4}
+\contentsline {section}{\numberline {3.4}D3.js as Data Visualization Tool}{15}{section.3.4}
 \contentsline {chapter}{\numberline {4}Data Abstraction}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Game Events Structure}{17}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Event Category}{17}{subsection.4.1.1}
@@ -19,19 +19,19 @@
 \contentsline {section}{\numberline {4.2}Clustering}{18}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Distance Calculation}{18}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Clustering Algorithm}{20}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {5}Visual Mappings And Interactive Functionality}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Early version of the Session Visualization}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Session Visualization}{22}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Stacked Graph}{22}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Heat Map}{23}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Summary Visualization}{25}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Visualization by range of x-area}{25}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Visualization by number of events}{27}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Interaction Technique}{27}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}General Interface}{28}{section.5.4}
-\contentsline {chapter}{\numberline {6}Case Studies}{29}{chapter.6}
-\contentsline {section}{\numberline {6.1}Case Study 1: Normal Player}{29}{section.6.1}
-\contentsline {section}{\numberline {6.2}Case Study 2: Patient}{30}{section.6.2}
-\contentsline {chapter}{\numberline {7}Conclusion}{38}{chapter.7}
-\contentsline {chapter}{\numberline {A}Appendix Case Studies}{39}{appendix.A}
-\contentsline {chapter}{Bibliography}{40}{appendix*.49}
+\contentsline {chapter}{\numberline {5}Visual Mappings And Interactive Functionality}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Early version of Session Visualization}{22}{section.5.1}
+\contentsline {section}{\numberline {5.2}Session Visualization}{23}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Stacked Graph}{23}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Heat Map}{24}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Summary Visualization}{26}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Visualization by range of x-area}{26}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Visualization by number of events}{26}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Visualization by clustering}{28}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Interaction Technique}{28}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}General Interface}{31}{section.5.4}
+\contentsline {chapter}{\numberline {6}Case Studies}{32}{chapter.6}
+\contentsline {section}{\numberline {6.1}Case Study 1: Healthy Player}{32}{section.6.1}
+\contentsline {section}{\numberline {6.2}Case Study 2: Patient}{36}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{41}{chapter.7}
+\contentsline {chapter}{Bibliography}{42}{chapter*.51}

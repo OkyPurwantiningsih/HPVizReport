@@ -1,10 +1,9 @@
 \chapter{Conclusion}
 
-In this thesis we presented ...
-what has been discussed
-  problem and user requirement
-  
-proposed approach and what it can do
+In this thesis we presented a visualization interface to help healthcare professionals analyse gameplay of Hammer and Planks, a serious game which is used to rehabilitate patient with balance disorder. Player movement, represented by events happened in the game world, are visualized in two type of views: (i) \textit{Session Visualization} which allows user to analyse movement in one session. (ii) \textit{Summary Visualization} which allows user to analyse movement evolution over several sessions. In both visualization, events are categorized into Positive, Neutral, and Negative to help user intuitively understand player movement throughout the session. In (i) streamgraph paradigm is used to show player movement over x-axis which in turn provides the information to which direction (left or right) the player moves more. A more detailed view is provided with heatmap showing the pace of the game when each event happened. In (ii), x-axis is divided into sections and each section represent movement evolution throughout all sessions, shown in streamgprah. Here, three types of section division are provided to help user identify interesting movement pattern: by x-range, by number of events, and by clustering. In clustering view, we proposed a clustering method based on hierarchical clustering to aggregate similar movement patterns over consecutive sections. A distance formula which consider events proportion and evolution is presented to quantify the difference of movement pattern between section.
 
-future improvement
+To evaluate the interface functionality, two case studies were discussed: one from healthy person and one from patient. Both discussed case are able to show the effectiveness of the interface in achieving the tasks defined and therefore help the healthcare professionals assessing the progress of rehabilitation.
+
+We identified some limitations in our research that could be improved in future work. First, the distance function used in the clustering algorithm is based on euclidean distance. Although currently this distance function are able to quantify the difference in events proportion and evolution, it will be interesting to investigate other distance function and to see if it can improve the clustering. Another limitation is the data set used in the case studies isn't accompanied with pathology information. It will be interesting to study different type of pathology and it's movement pattern. In the future, these data can be used to improve the game by proposing game setting based on the type and severity of pathology. Lastly, current interface only explore log data related to events. Log data related to skeleton movement of the players throughout the game hasn't been explore. For future work, an interface visualizing the body movement and identifying different kind of movement quality and quantity (repetition, smoothness, accuracy, etc.) can help healthcare professional to improve the quality of rehabilitation process.
+
 

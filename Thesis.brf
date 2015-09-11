@@ -3,9 +3,9 @@
 \backcite {rahman,brezinka,green}{{1}{1}{chapter.1}}
 \backcite {diloreto}{{1}{1}{chapter.1}}
 \backcite {diloreto}{{1}{1.1}{section.1.1}}
-\backcite {adrienko_book}{{2}{1.1}{section.1.1}}
-\backcite {bernard2013}{{2}{1.1}{section.1.1}}
-\backcite {Munzner:2009:NMV:1638611.1639181}{{2}{1.2}{section.1.2}}
+\backcite {adrienko_book}{{3}{1.1}{figure.caption.8}}
+\backcite {bernard2013}{{3}{1.1}{figure.caption.8}}
+\backcite {Munzner:2009:NMV:1638611.1639181}{{3}{1.2}{section.1.2}}
 \backcite {rahman}{{5}{2.2}{section.2.2}}
 \backcite {rahman}{{8}{3.1}{section.3.1}}
 \backcite {green}{{8}{3.1}{figure.caption.12}}
@@ -34,10 +34,10 @@
 \backcite {yuko}{{14}{3.3}{figure.caption.17}}
 \backcite {bernard2013}{{15}{3.3}{figure.caption.19}}
 \backcite {bostock}{{16}{3.4}{section.3.4}}
-\backcite {diloreto}{{18}{4.1.2}{subsection.4.1.2}}
+\backcite {diloreto}{{19}{4.1.2}{subsection.4.1.2}}
 \backcite {maimon}{{22}{4.2.2}{subsection.4.2.2}}
 \backcite {havre}{{24}{5.2.1}{subsection.5.2.1}}
 \backcite {byron}{{24}{5.2.1}{subsection.5.2.1}}
 \backcite {alan}{{25}{5.2.1}{subsection.5.2.1}}
-\backcite {friendly}{{25}{5.2.2}{figure.caption.28}}
+\backcite {friendly}{{25}{5.2.2}{figure.caption.27}}
 \backcite {huron}{{27}{5.3.1}{subsection.5.3.1}}

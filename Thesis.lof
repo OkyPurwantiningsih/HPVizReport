@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction}{1}{chapter.1}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Hammer and Planks Screenshot \relax }}{2}{figure.caption.7}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Current visualization used in the game to show movements over horizontal and vertical axis \relax }}{3}{figure.caption.8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Current visualization used in the game to show movements over horizontal and vertical axis \relax }}{2}{figure.caption.8}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Munzner's Visualization Design Model with four nested layers \relax }}{3}{figure.caption.9}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Domain Problem Characterization}{5}{chapter.2}
@@ -12,9 +12,9 @@
 \contentsline {xchapter}{Related Works}{8}{chapter.3}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Visualization used in \cite {rahman} depicting the degree of forearm movement overtime\relax }}{9}{figure.caption.11}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Visualization used in \cite {rahman2} depicting the speed of movement (m/s) of forearm overtime\relax }}{9}{figure.caption.12}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Flow Map\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flow Map depicting photographers movement between cities in Germany\relax }}{11}{figure.caption.13}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Spatio-Temporal Event Visualization\relax }}{11}{figure.caption.14}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Theme River\relax }}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Theme River showing evolution of theme in document collection in 1990\relax }}{12}{figure.caption.15}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Car Trajectories clustered by route similarity\relax }}{13}{figure.caption.16}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Presence of cars in Milan in different time period\relax }}{14}{figure.caption.17}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Motion Trail\relax }}{15}{figure.caption.18}
@@ -23,46 +23,45 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Some of visualizations developed with D3.js\relax }}{17}{figure.caption.21}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Data Abstraction}{18}{chapter.4}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 3D Game World Coordinate \relax }}{19}{figure.caption.23}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Visual Mappings And Interactive Functionalities}{23}{chapter.5}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces First visualization version for \ref {t11} using Line Chart\relax }}{23}{figure.caption.24}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces First visualization version for \ref {t12} using Scatter Plot\relax }}{24}{figure.caption.25}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Stacked Graph with Linear Layout\relax }}{25}{figure.caption.26}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Different Layout of the Stacked Graph representing number of events over x-axis\relax }}{26}{figure.caption.27}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces First visualization version for \ref {t11} using Line Chart\relax }}{23}{figure.caption.23}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces First visualization version for \ref {t12} using Scatter Plot\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Stacked Graph with Linear Layout\relax }}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Different Layout of the Stacked Graph representing number of events over x-axis\relax }}{26}{figure.caption.26}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Silhouette}}}{26}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Positive}}}{26}{subfigure.4.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Neutral-Negative}}}{26}{subfigure.4.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Positive-Neutral}}}{26}{subfigure.4.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Heatmap\relax }}{26}{figure.caption.28}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Summary Visualization divided by range of x-area\relax }}{28}{figure.caption.29}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces A section in Summary Visualization\relax }}{28}{figure.caption.30}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Summary Visualization divided by number of events\relax }}{28}{figure.caption.31}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Summary Visualization divided by movement evolution similarity, clustered with threshold = 0\relax }}{29}{figure.caption.32}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Summary Visualization divided by movement evolution similarity, clustered with threshold = 0.24\relax }}{30}{figure.caption.33}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Interaction Bar for Summary Visualization\relax }}{30}{figure.caption.34}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Navigating section line to highlight pattern\relax }}{31}{figure.caption.35}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Application Interface\relax }}{31}{figure.caption.36}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Heatmap showing movement distribution over x-axis and screen speed\relax }}{26}{figure.caption.27}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Summary Visualization divided by range of x-area\relax }}{28}{figure.caption.28}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces A section in Summary Visualization\relax }}{28}{figure.caption.29}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Summary Visualization divided by number of events\relax }}{28}{figure.caption.30}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Summary Visualization divided by movement evolution similarity, clustered with threshold = 0\relax }}{29}{figure.caption.31}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Summary Visualization divided by movement evolution similarity, clustered with threshold = 0.24\relax }}{30}{figure.caption.32}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Interaction Bar for Summary Visualization\relax }}{30}{figure.caption.33}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Navigating section line to highlight pattern\relax }}{31}{figure.caption.34}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Application Interface\relax }}{31}{figure.caption.35}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Case Studies}{33}{chapter.6}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20 played by healthy player\relax }}{33}{figure.caption.37}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right) played by healthy player\relax }}{34}{figure.caption.38}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20 for Enemy played by healthy player\relax }}{34}{figure.caption.39}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right) for Enemy played by healthy player\relax }}{35}{figure.caption.40}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Summary Visualization by x-range, played by healthy player\relax }}{35}{figure.caption.41}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Summary Visualization by x-range, filtered for positive events, played by healthy player\relax }}{36}{figure.caption.42}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Summary Visualization by number of events, filtered for positive and negative events, played by healthy player\relax }}{36}{figure.caption.42}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Summary Visualization by clustering, played by healthy player\relax }}{37}{figure.caption.43}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20 played by healthy player\relax }}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right) played by healthy player\relax }}{34}{figure.caption.37}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Stacked Graph comparison of Session 1 and Session 20 for Enemy played by healthy player\relax }}{34}{figure.caption.38}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Heatmap comparison of Session 1(left) and Session 20(right) for Enemy played by healthy player\relax }}{35}{figure.caption.39}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Summary Visualization by x-range, played by healthy player\relax }}{35}{figure.caption.40}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Summary Visualization by x-range, filtered for positive events, played by healthy player\relax }}{36}{figure.caption.41}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Summary Visualization by number of events, filtered for positive and negative events, played by healthy player\relax }}{36}{figure.caption.41}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Summary Visualization by clustering, played by healthy player\relax }}{37}{figure.caption.42}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {4 sections merged, threshold 0.22}}}{37}{subfigure.8.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {3 sections merged, threshold 0.26}}}{37}{subfigure.8.2}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Stacked Graph of Patient 6 on second session\relax }}{38}{figure.caption.44}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Heatmap of Patient 6 on second session\relax }}{38}{figure.caption.44}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Stacked Graph of Patient 6 on second session, filtered by bonus\relax }}{39}{figure.caption.45}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Heatmap of Patient 6 on second session, filtered by bonus\relax }}{39}{figure.caption.45}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Summary visualization of Patient 6\relax }}{40}{figure.caption.46}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Summary visualization of Patient 6, filtered by neutral events\relax }}{40}{figure.caption.46}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Summary visualization of Patient 6, clustered\relax }}{41}{figure.caption.47}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Summary visualization of Patient 6 with sections divided by number of events, filtered by positive and negative events\relax }}{41}{figure.caption.47}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Stacked Graph of Patient 6 on second session\relax }}{38}{figure.caption.43}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Heatmap of Patient 6 on second session\relax }}{38}{figure.caption.43}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Stacked Graph of Patient 6 on second session, filtered by bonus\relax }}{39}{figure.caption.44}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Heatmap of Patient 6 on second session, filtered by bonus\relax }}{39}{figure.caption.44}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Summary visualization of Patient 6\relax }}{40}{figure.caption.45}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Summary visualization of Patient 6, filtered by neutral events\relax }}{40}{figure.caption.45}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Summary visualization of Patient 6, clustered\relax }}{41}{figure.caption.46}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Summary visualization of Patient 6 with sections divided by number of events, filtered by positive and negative events\relax }}{41}{figure.caption.46}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2 sections merged, threshold 0.05}}}{41}{subfigure.15.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {4 sections merged, threshold 0.09}}}{41}{subfigure.15.2}
 \addvspace {10\p@ }

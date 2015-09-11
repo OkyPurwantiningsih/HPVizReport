@@ -1,10 +1,14 @@
 \chapter{Data Abstraction}
 
-In this chapter I discuss the design of data structure and clustering technique used to support the visual requirement. First, an overview of the input data generated from the game will be explained. Then a description on how this data is extracted to be the input of the visualization interface will be given. Finally, a clustering algorithm selected to be used in the visualization will be discussed.
+In this chapter we discuss the design of data structure and clustering technique used to support the visual requirement. First, an overview of the input data generated from the game will be explained. Then a description on how this data is extracted to be the input of the visualization interface will be given. Finally, a clustering algorithm proposed to be used in the visualization will be discussed.
 
 \section{Game Events Structure}
+\subsection{Log Data Overview}
+The log of each game session is stored in MongoDB database in JSON format. Each log file contains information of game setting (movement type, game direction, game duration and repetition), objects apparition, events happened during the game, as well as player's body joint position. For object apparition, the record contains object id, apparition location, object type (Reef, Planks, etc.), and timestamp. For events, the record contains object id, event location, event type, and timestamp. For body joint position, the record contains the position of 20 body joints (head, neck, left elbow, left wrist, etc.) and the time when this exact body joint position is captured. For this thesis, we didn't explore the body joint position data. Each location data is recorded in (\textit{x},\textit{y},\textit{z}) coordinates.
+
+Considering the size of the data and to have an acceptable application response time when user perform an interaction on the visualization, the log data is first extracted to reduce it's size. Since we only interested to events data, we process the log data so that in the input of the visualization we have records which consist of game setting information and events data. For each event record, we extracted event type, event location on x axis, time, and screen speed. This input is used for \textit{T}1.x. For \textit{T}2.x, another extraction is performed by combining the data from all sessions and adding the session information for each event record.
 \subsection{Event Category}
-The goal of Hammer and Planks game is to kill all of the enemies while avoiding any attack from the enemies and obstacles\cite{diloreto}. Along the way, player can also catch bonuses to increase their score. Based on these, I identify three different objects within the game: Enemy, Bonus, and Obstacle. For each of these object, there are certain events associated. Each event which happened during the gameplay is recorded in the log file with the following information: event type, timestamp, object id, and location. In total, there are 8 event types:
+The goal of Hammer and Planks game is to kill all of the enemies while avoiding any attack from the enemies and obstacles\cite{diloreto}. Along the way, player can also catch bonuses to increase their score. Based on these, we identified three different objects within the game: Enemy, Bonus, and Obstacle. For each of these object, there are certain events associated. Each event has an event type. In total, there are 8 event types:
 \newcommand{\events}[2]{$#1 _ #2$}	
 \begin{enumerate}[label=({\arabic*})]
 \item Catch: when a bonus is catched
@@ -16,15 +20,15 @@ The goal of Hammer and Planks game is to kill all of the enemies while avoiding 
 \item Hurt: when the enemy's attack hit player's boat
 \end{enumerate}
 
-Based on the level of impact of each event to the user's boat, we characterize the event by assigning it with Positive, Neutral, or Negative as shown in table \ref{tblEventType}.
+Based on the level of impact of each event to the user's boat, we characterize the event by assigning it with Positive, Neutral, or Negative as shown in Table \ref{tblEventType}.
 \begin{table}[h]
 \begin{center}
     \begin{tabular}{| l | l | l | l |}
     \hline
-    Events & Bonus & Obstacle & Enemy \\ \hline
-    Positive & catch & - & kill,hit\\ \hline
-    Neutral & miss & dodge & miss\\ \hline
-    Negative & - & collision & hurt, collision\\
+    Event Type & Bonus & Obstacle & Enemy \\ \hline\hline
+    \textbf{Positive} & catch & - & kill,hit\\ \hline
+    \textbf{Neutral} & miss & dodge & miss\\ \hline
+    \textbf{Negative} & - & collision & hurt, collision\\
     \hline
     \end{tabular}
     \caption {Event Type grouping}
@@ -33,10 +37,15 @@ Based on the level of impact of each event to the user's boat, we characterize t
 \end{table}
 
 \subsection{Game World Coordinates}
-The game world is a never ending ocean which is shown on the screen such that players see everything what happened from the sky. Each object and event in the game are assigned with 3D location coordinates (\textit{x},\textit{y},\textit{z}). An \textit{x} axis of this coordinate indicates horizontal axis of the screen. Zero \textit{x} axis is in the middle of the screen. Thus, an event happened on the right half of the screen will have positive \textit{x} value and an event happened on the left half of the screen will have negative \textit{x} value. \textit{y} axis indicates vertical axis in the game world which means -\textit{y} is a location under the ocean and +\textit{y} is above the ocean. \textit{z} axis indicates vertical axis of the screen. Zero \textit{z} axis is in the middle of the height of the screen, thus -\textit{z} is a location on the lower half of the screen and +\textit{z} is a location on the upper half of the screen. The visualization interface uses x coordinate information to represent body movement to the right or left and z axis to calculate screen speed as explained in the following sub section.
+\begin{figure}[b]
+\centering
+\includegraphics[width=130mm]{gameworld_coordinate.png}
+\caption{3D Game World Coordinate \label{game_coordinate}}
+\end{figure}
+The game world is a never ending ocean which is shown on the screen such that players see everything what happened from the sky. Each object and event in the game are assigned with 3D location coordinates (\textit{x},\textit{y},\textit{z})(Figure \ref{game_coordinate}). An \textit{x} axis of this coordinate indicates horizontal axis of the screen. Zero \textit{x} axis is in the middle of the screen. Thus, an event happened on the right half of the screen will have positive \textit{x} value and an event happened on the left half of the screen will have negative \textit{x} value. \textit{y} axis indicates vertical axis in the game world which means -\textit{y} is a location under the ocean and +\textit{y} is above the ocean. \textit{z} axis indicates vertical axis of the screen. Zero \textit{z} axis is in the middle of the height of the screen, thus -\textit{z} is a location on the lower half of the screen and +\textit{z} is a location on the upper half of the screen. The visualization interface uses x coordinate information to represent body movement to the right or left and z axis to calculate screen speed as explained in the following sub section.
 
 \subsection{Screen Speed}
-In the game, a big number of positive events indicate a good player's performance. However, it is important to consider whether the events happened when the player's boat move fast or slowly \ref{t12}\ref{t14}. Getting all the bonuses while moving fast requires precise hand/body movement which indicates improvement in rehabilitation process. Boat speed while navigating the sea is basically the speed in which the screen scroll($\upsilon_{scr}$). This is calculated by identifying the location(apparition z coordinate $\theta_{apr}$) and time (apparition time $\textit{t}_{apr}$) of an object when it first appear on the screen, and location(event z coordinate $\theta_{evt}$) and time(event time $\textit{t}_{evt}$) when an event happened on that object.
+In the game, a big number of positive events indicate a good player's performance. However, it is important to consider whether the events happened when the player's boat move fast or slowly \ref{t12}\ref{t14}. Getting all the bonuses while moving fast requires precise hand/body movement which indicates improvement in rehabilitation process. Boat speed while navigating the sea is basically the speed in which the screen scroll. This is calculated by identifying the location(apparition z coordinate $\theta_{apr}$) and time (apparition time $\textit{t}_{apr}$) of an object when it first appear on the screen, and location(event z coordinate $\theta_{evt}$) and time(event time $\textit{t}_{evt}$) when an event happened on that object. Screen speed($\upsilon_{scr}$) is distance between apparition location and event location divided by duration between apparition time and event time.
 
 $$ \upsilon_{scr} = \frac{\theta_{evt}-\theta_{apr}}{\textit{t}_{evt}-\textit{t}_{apr}} $$
 
@@ -130,7 +139,7 @@ s_3'' = \begin{bmatrix}
 Here, distance \textit{g} of $s_1$ and $s_2$ equals 0, and distance \textit{g} of $s_2$ and $s_3$ equals 0.06. 
 
 \subsection{Clustering Algorithm}
-The sections clustering follows Hierarchical Clustering algorithm \cite{maimon} which is a clustering analysis method used to build hierarchy of clusters. In our approach, once distance of each consecutive sections are calculated, two consecutive sections with distance below a specified threshold are then merged. This resulting in a new set of sections. Then, the distance of each consecutive sections of these new set of sections are calculated and again, if the new distance satisfies the threshold, the sections will be merged. This process is repeated until there is no distance falls below the threshold.
+The clustering algorithm follows Hierarchical Clustering algorithm \cite{maimon} which is a clustering analysis method used to build hierarchy of clusters. Overall, the clustering is done as follows: Initially, the data set is divided into sections the size of x-axis unit. Then, distance of consecutive sections are calculated. Two consecutive sections with distance below a specified threshold are then merged. This resulting in a new set of sections. Then, the distance of each consecutive sections of this new set of sections are calculated and again, if the new distance satisfies the threshold, the sections will be merged. This process is repeated until there is no distance falls below the threshold.
 
 
 
